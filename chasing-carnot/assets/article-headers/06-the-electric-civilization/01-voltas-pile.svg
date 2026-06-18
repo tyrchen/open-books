@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="74" viewBox="0 0 540 74">
+  <rect x="8" y="16" width="4" height="42" rx="2" fill="#888"/>
+  <text x="24" y="54" font-family="'Hiragino Sans GB', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="34" font-weight="800" fill="#1a1a1a">6.1 伏打堆</text>
+  <line x1="24" y1="66" x2="400" y2="66" stroke="#e0e0e0" stroke-width="0.6"/>
+</svg>

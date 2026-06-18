@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#0c0810"/>
+      <stop offset="45%" stop-color="#1a1008"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5c97a"/>
+      <stop offset="60%" stop-color="#e8a857"/>
+      <stop offset="100%" stop-color="#b07a32"/>
+    </linearGradient>
+    <radialGradient id="forgeGlow" cx="0.5" cy="1" r="0.7">
+      <stop offset="0%" stop-color="#ff6b35" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="blueprint" width="40" height="40" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="40" y2="0" stroke="#3a4a52" stroke-width="0.5" opacity="0.25"/>
+      <line x1="0" y1="0" x2="0" y2="40" stroke="#3a4a52" stroke-width="0.5" opacity="0.25"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <rect width="800" height="1120" fill="url(#bg)"/>
+  <rect width="800" height="1120" fill="url(#blueprint)"/>
+  <rect width="800" height="1120" fill="url(#forgeGlow)"/>
+  <rect x="30" y="30" width="740" height="1060" fill="none" stroke="#3a3220" stroke-width="0.5" opacity="0.5" rx="2"/>
+  <rect x="112" y="0" width="3" height="1120" fill="#e8a857"/>
+
+  <!-- Faded background equation -->
+  <text x="200" y="700" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="38" fill="#e8a857" opacity="0.07"
+        transform="rotate(-12, 400, 700)">d = ½ g t²</text>
+
+  <!-- ===== UPPER: GALILEO'S INCLINED PLANE + FALLING BALL TRAJECTORIES ===== -->
+  <g opacity="0.85">
+    <!-- Inclined plane (long ruler) -->
+    <line x1="220" y1="120" x2="700" y2="290" stroke="#e8a857" stroke-width="2.4" opacity="0.5"/>
+    <!-- Plane surface markings (regular intervals) -->
+    <g stroke="#e8a857" stroke-width="1" opacity="0.4">
+      <line x1="260" y1="135" x2="265" y2="124"/>
+      <line x1="320" y1="156" x2="325" y2="145"/>
+      <line x1="400" y1="184" x2="405" y2="173"/>
+      <line x1="500" y1="220" x2="505" y2="209"/>
+      <line x1="600" y1="255" x2="605" y2="244"/>
+    </g>
+    <!-- Distance labels (Galileo's ratios 1:3:5:7) -->
+    <g font-family="'SF Mono', monospace" font-size="10" fill="#e8a857" opacity="0.5">
+      <text x="290" y="118">1</text>
+      <text x="350" y="139">3</text>
+      <text x="430" y="167">5</text>
+      <text x="530" y="203">7</text>
+    </g>
+    <!-- Ball at multiple positions (showing acceleration) -->
+    <circle cx="260" cy="138" r="6" fill="url(#brass)" opacity="0.85"/>
+    <circle cx="335" cy="164" r="6" fill="url(#brass)" opacity="0.7"/>
+    <circle cx="430" cy="197" r="6" fill="url(#brass)" opacity="0.55"/>
+    <circle cx="555" cy="241" r="6" fill="url(#brass)" opacity="0.4"/>
+    <circle cx="700" cy="293" r="6" fill="url(#brass)" opacity="0.3"/>
+    <!-- Motion blur lines -->
+    <line x1="266" y1="138" x2="280" y2="143" stroke="#e8a857" stroke-width="0.6" opacity="0.4"/>
+    <line x1="341" y1="164" x2="365" y2="172" stroke="#e8a857" stroke-width="0.6" opacity="0.4"/>
+    <line x1="436" y1="197" x2="475" y2="211" stroke="#e8a857" stroke-width="0.6" opacity="0.4"/>
+    <line x1="561" y1="241" x2="615" y2="261" stroke="#e8a857" stroke-width="0.6" opacity="0.4"/>
+
+    <!-- Support / triangle base -->
+    <line x1="220" y1="120" x2="220" y2="320" stroke="#e8a857" stroke-width="1" opacity="0.3"/>
+    <line x1="220" y1="320" x2="700" y2="320" stroke="#e8a857" stroke-width="1" opacity="0.3"/>
+    <line x1="700" y1="290" x2="700" y2="320" stroke="#e8a857" stroke-width="1" opacity="0.3"/>
+
+    <!-- Angle indicator -->
+    <path d="M 280 320 A 60 60 0 0 0 270 300" fill="none" stroke="#e8a857" stroke-width="0.8" opacity="0.4"/>
+    <text x="284" y="312" font-family="'SF Mono', monospace" font-size="9" fill="#e8a857" opacity="0.5">θ</text>
+
+    <!-- Pendulum (Galileo also studied this) -->
+    <line x1="180" y1="80" x2="155" y2="220" stroke="#e8a857" stroke-width="0.7" opacity="0.4" stroke-dasharray="2 3"/>
+    <line x1="180" y1="80" x2="180" y2="225" stroke="#e8a857" stroke-width="1" opacity="0.6"/>
+    <circle cx="180" cy="225" r="5" fill="url(#brass)" opacity="0.7"/>
+    <line x1="180" y1="80" x2="205" y2="220" stroke="#e8a857" stroke-width="0.7" opacity="0.4" stroke-dasharray="2 3"/>
+  </g>
+
+  <!-- ===== TITLE ZONE ===== -->
+  <text x="140" y="380" font-family="'SF Mono', monospace" font-size="36" fill="#e8a857" letter-spacing="6">PART 1</text>
+  <text x="140" y="446" font-family="'Inter', sans-serif" font-size="48" fill="#f0e6d2" font-weight="bold">How We Know</text>
+  <text x="140" y="488" font-family="'Inter', sans-serif" font-size="17" fill="#9b8c75" letter-spacing="2">Galileo, Pascal, Newton — the toolkit before the tools</text>
+  <line x1="140" y1="516" x2="320" y2="516" stroke="#e8a857" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- ===== LOWER: NEWTON'S APPLE + GRAVITATIONAL FIELD + DIMENSIONAL ANALYSIS ===== -->
+  <!-- Earth + apple -->
+  <g transform="translate(220 760)" opacity="0.85">
+    <!-- Earth circle -->
+    <circle cx="0" cy="60" r="80" fill="none" stroke="#e8a857" stroke-width="1.4" opacity="0.6"/>
+    <circle cx="0" cy="60" r="80" fill="#e8a857" opacity="0.05"/>
+    <!-- Latitude lines -->
+    <ellipse cx="0" cy="60" rx="80" ry="20" fill="none" stroke="#e8a857" stroke-width="0.5" opacity="0.3"/>
+    <ellipse cx="0" cy="60" rx="80" ry="40" fill="none" stroke="#e8a857" stroke-width="0.5" opacity="0.3"/>
+    <ellipse cx="0" cy="60" rx="80" ry="60" fill="none" stroke="#e8a857" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- Falling apple at successive heights -->
+    <circle cx="0" cy="-100" r="6" fill="#ff6b35" opacity="0.4"/>
+    <circle cx="0" cy="-60" r="6" fill="#ff6b35" opacity="0.6"/>
+    <circle cx="0" cy="-15" r="6" fill="#ff6b35" opacity="0.85" filter="url(#glow)"/>
+    <line x1="0" y1="-94" x2="0" y2="-66" stroke="#ff6b35" stroke-width="0.5" opacity="0.5"/>
+    <line x1="0" y1="-54" x2="0" y2="-21" stroke="#ff6b35" stroke-width="0.6" opacity="0.6"/>
+
+    <!-- Field lines (gravitational, radial inward) -->
+    <g stroke="#e8a857" stroke-width="0.6" opacity="0.3">
+      <line x1="-110" y1="60" x2="-82" y2="60"/>
+      <line x1="110" y1="60" x2="82" y2="60"/>
+      <line x1="-90" y1="-15" x2="-65" y2="20"/>
+      <line x1="90" y1="-15" x2="65" y2="20"/>
+      <line x1="-90" y1="135" x2="-65" y2="100"/>
+      <line x1="90" y1="135" x2="65" y2="100"/>
+      <line x1="0" y1="160" x2="0" y2="142"/>
+    </g>
+    <text x="-100" y="-95" font-family="'SF Mono', monospace" font-size="11" fill="#e8a857" opacity="0.6">F = G m₁m₂ / r²</text>
+  </g>
+
+  <!-- Right: dimensional analysis grid (Buckingham Π) -->
+  <g transform="translate(560 760)" opacity="0.7">
+    <text x="0" y="-120" font-family="'SF Mono', monospace" font-size="11" fill="#e8a857" opacity="0.6">DIMENSIONS</text>
+    <line x1="-20" y1="-110" x2="170" y2="-110" stroke="#e8a857" stroke-width="0.5" opacity="0.4"/>
+    <g font-family="'SF Mono', monospace" font-size="13" fill="#e8a857" opacity="0.7">
+      <text x="0" y="-80">[L]    metre</text>
+      <text x="0" y="-55">[M]    kilogram</text>
+      <text x="0" y="-30">[T]    second</text>
+      <text x="0" y="-5">[Θ]    kelvin</text>
+      <text x="0" y="20">[I]    ampere</text>
+    </g>
+    <line x1="-20" y1="40" x2="170" y2="40" stroke="#e8a857" stroke-width="0.5" opacity="0.4"/>
+    <text x="0" y="68" font-family="'SF Mono', monospace" font-size="11" fill="#ff8a4a" opacity="0.7">T = 2π √(L/g)</text>
+    <text x="0" y="92" font-family="'SF Mono', monospace" font-size="11" fill="#ff8a4a" opacity="0.6">[T] = √([L]/[L T⁻²]) = [T]</text>
+    <text x="0" y="116" font-family="'SF Mono', monospace" font-size="11" fill="#ff8a4a" opacity="0.5">✓ dimensionally sound</text>
+  </g>
+
+  <!-- ===== TIMELINE STRIP ===== -->
+  <g font-family="'SF Mono', monospace" font-size="9" fill="#9b8c75" opacity="0.55" letter-spacing="1.5">
+    <text x="140" y="1020">1604 · GALILEO   1648 · PASCAL   1687 · NEWTON   1914 · BUCKINGHAM</text>
+  </g>
+</svg>

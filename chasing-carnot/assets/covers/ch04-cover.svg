@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#0c0810"/>
+      <stop offset="45%" stop-color="#1a1008"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5c97a"/>
+      <stop offset="60%" stop-color="#e8a857"/>
+      <stop offset="100%" stop-color="#b07a32"/>
+    </linearGradient>
+    <linearGradient id="ember" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff8a4a"/>
+      <stop offset="100%" stop-color="#d83a1a"/>
+    </linearGradient>
+    <radialGradient id="forgeGlow" cx="0.5" cy="1" r="0.7">
+      <stop offset="0%" stop-color="#ff6b35" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="blueprint" width="40" height="40" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="40" y2="0" stroke="#3a4a52" stroke-width="0.5" opacity="0.25"/>
+      <line x1="0" y1="0" x2="0" y2="40" stroke="#3a4a52" stroke-width="0.5" opacity="0.25"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="bigGlow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="800" height="1120" fill="url(#bg)"/>
+  <rect width="800" height="1120" fill="url(#blueprint)"/>
+  <rect width="800" height="1120" fill="url(#forgeGlow)"/>
+  <rect x="30" y="30" width="740" height="1060" fill="none" stroke="#3a3220" stroke-width="0.5" opacity="0.5" rx="2"/>
+  <rect x="112" y="0" width="3" height="1120" fill="#ff6b35"/>
+
+  <text x="200" y="700" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="32" fill="#ff6b35" opacity="0.06"
+        transform="rotate(-12, 400, 700)">η_Otto = 1 − r^(1−γ)</text>
+
+  <!-- Combustion glow -->
+  <ellipse cx="540" cy="200" rx="120" ry="80" fill="#ff6b35" opacity="0.2" filter="url(#bigGlow)"/>
+
+  <!-- ===== UPPER: 4-STROKE PISTON CROSS-SECTION ===== -->
+  <g transform="translate(540 110)" opacity="0.95">
+    <!-- Cylinder body -->
+    <rect x="-60" y="0" width="120" height="200" fill="none" stroke="#e8a857" stroke-width="1.6"/>
+    <!-- Cooling fins (on outside) -->
+    <g stroke="#e8a857" stroke-width="0.8" opacity="0.5">
+      <line x1="-72" y1="20" x2="-60" y2="20"/>
+      <line x1="-72" y1="40" x2="-60" y2="40"/>
+      <line x1="-72" y1="60" x2="-60" y2="60"/>
+      <line x1="-72" y1="80" x2="-60" y2="80"/>
+      <line x1="-72" y1="100" x2="-60" y2="100"/>
+      <line x1="-72" y1="120" x2="-60" y2="120"/>
+      <line x1="60" y1="20" x2="72" y2="20"/>
+      <line x1="60" y1="40" x2="72" y2="40"/>
+      <line x1="60" y1="60" x2="72" y2="60"/>
+      <line x1="60" y1="80" x2="72" y2="80"/>
+      <line x1="60" y1="100" x2="72" y2="100"/>
+      <line x1="60" y1="120" x2="72" y2="120"/>
+    </g>
+    <!-- Top: cylinder head with valves and spark plug -->
+    <line x1="-65" y1="0" x2="65" y2="0" stroke="#e8a857" stroke-width="1.6"/>
+    <!-- Intake valve (left, closed) -->
+    <line x1="-30" y1="0" x2="-30" y2="-22" stroke="#e8a857" stroke-width="1.4"/>
+    <polygon points="-30 -22 -42 -34 -18 -34" fill="none" stroke="#e8a857" stroke-width="1.2"/>
+    <!-- Exhaust valve (right) -->
+    <line x1="30" y1="0" x2="30" y2="-22" stroke="#e8a857" stroke-width="1.4"/>
+    <polygon points="30 -22 18 -34 42 -34" fill="none" stroke="#e8a857" stroke-width="1.2"/>
+    <!-- Spark plug -->
+    <line x1="0" y1="-2" x2="0" y2="-30" stroke="#e8a857" stroke-width="2"/>
+    <rect x="-4" y="-50" width="8" height="20" fill="url(#brass)" opacity="0.8"/>
+    <!-- Spark glow -->
+    <circle cx="0" cy="6" r="8" fill="#ff8a4a" opacity="0.9" filter="url(#glow)"/>
+    <circle cx="0" cy="6" r="3" fill="#fffaa0" filter="url(#glow)"/>
+
+    <!-- Combustion gas glow inside cylinder -->
+    <rect x="-58" y="6" width="116" height="40" fill="url(#ember)" opacity="0.5"/>
+    <!-- Tiny combustion particles -->
+    <circle cx="-30" cy="20" r="1.4" fill="#fffaa0" opacity="0.8"/>
+    <circle cx="-12" cy="32" r="1.2" fill="#fffaa0" opacity="0.7"/>
+    <circle cx="20" cy="18" r="1.4" fill="#fffaa0" opacity="0.8"/>
+    <circle cx="36" cy="36" r="1.2" fill="#fffaa0" opacity="0.7"/>
+
+    <!-- Piston -->
+    <rect x="-56" y="60" width="112" height="36" fill="url(#brass)" opacity="0.5" stroke="#e8a857" stroke-width="1.6"/>
+    <!-- Piston rings -->
+    <line x1="-56" y1="68" x2="56" y2="68" stroke="#e8a857" stroke-width="0.8"/>
+    <line x1="-56" y1="76" x2="56" y2="76" stroke="#e8a857" stroke-width="0.8"/>
+    <line x1="-56" y1="84" x2="56" y2="84" stroke="#e8a857" stroke-width="0.8"/>
+
+    <!-- Connecting rod -->
+    <line x1="0" y1="96" x2="0" y2="170" stroke="#e8a857" stroke-width="3"/>
+    <!-- Crank circle -->
+    <circle cx="0" cy="200" r="36" fill="none" stroke="#e8a857" stroke-width="1.4"/>
+    <circle cx="0" cy="200" r="6" fill="#e8a857"/>
+    <!-- Crank arm -->
+    <line x1="0" y1="200" x2="0" y2="170" stroke="#e8a857" stroke-width="2"/>
+    <circle cx="0" cy="170" r="4" fill="#e8a857"/>
+
+    <!-- Motion arrow (downward stroke) -->
+    <line x1="80" y1="50" x2="80" y2="100" stroke="#ff6b35" stroke-width="2"/>
+    <polygon points="76 96 80 108 84 96" fill="#ff6b35"/>
+    <text x="86" y="80" font-family="'SF Mono', monospace" font-size="10" fill="#ff6b35">power</text>
+  </g>
+
+  <!-- ===== TITLE ZONE ===== -->
+  <text x="140" y="430" font-family="'SF Mono', monospace" font-size="36" fill="#ff8a4a" letter-spacing="6">PART 4</text>
+  <text x="140" y="496" font-family="'Inter', sans-serif" font-size="44" fill="#f0e6d2" font-weight="bold">Fire in the Cylinder</text>
+  <text x="140" y="538" font-family="'Inter', sans-serif" font-size="17" fill="#9b8c75" letter-spacing="2">Otto, Diesel, Bertha — putting the fire inside</text>
+  <line x1="140" y1="566" x2="320" y2="566" stroke="#ff6b35" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- ===== LOWER: OTTO + DIESEL CYCLE PV PLOTS SIDE BY SIDE ===== -->
+  <!-- Otto cycle (left) -->
+  <g transform="translate(180 660)" opacity="0.9">
+    <line x1="0" y1="0" x2="0" y2="220" stroke="#e8a857" stroke-width="1.4"/>
+    <line x1="0" y1="220" x2="240" y2="220" stroke="#e8a857" stroke-width="1.4"/>
+    <text x="-22" y="6" font-family="'SF Mono', monospace" font-size="12" fill="#e8a857">P</text>
+    <text x="246" y="234" font-family="'SF Mono', monospace" font-size="12" fill="#e8a857">V</text>
+
+    <!-- Otto cycle: two adiabats + two isochores (vertical) -->
+    <!-- 1->2 compression adiabat -->
+    <path d="M 200 195 C 140 165 80 100 30 50" fill="none" stroke="#ff8a4a" stroke-width="2"/>
+    <!-- 2->3 isochoric heat addition (vertical up) -->
+    <line x1="30" y1="50" x2="30" y2="20" stroke="#ff6b35" stroke-width="2"/>
+    <!-- 3->4 expansion adiabat -->
+    <path d="M 30 20 C 80 65 140 130 200 165" fill="none" stroke="#ff8a4a" stroke-width="2"/>
+    <!-- 4->1 isochoric heat rejection (vertical down) -->
+    <line x1="200" y1="165" x2="200" y2="195" stroke="#5ed8ff" stroke-width="2"/>
+
+    <circle cx="200" cy="195" r="3.5" fill="#5ed8ff"/>
+    <circle cx="30" cy="50" r="3.5" fill="#e8a857"/>
+    <circle cx="30" cy="20" r="3.5" fill="#ff6b35"/>
+    <circle cx="200" cy="165" r="3.5" fill="#ff6b35"/>
+
+    <text x="60" y="120" font-family="'Inter', sans-serif" font-size="20" fill="#f5c97a" opacity="0.85">Otto</text>
+    <text x="20" y="260" font-family="'SF Mono', monospace" font-size="10" fill="#9b8c75" opacity="0.7">spark ignition · η ~14-41%</text>
+  </g>
+
+  <!-- Diesel cycle (right) -->
+  <g transform="translate(480 660)" opacity="0.9">
+    <line x1="0" y1="0" x2="0" y2="220" stroke="#e8a857" stroke-width="1.4"/>
+    <line x1="0" y1="220" x2="240" y2="220" stroke="#e8a857" stroke-width="1.4"/>
+    <text x="-22" y="6" font-family="'SF Mono', monospace" font-size="12" fill="#e8a857">P</text>
+    <text x="246" y="234" font-family="'SF Mono', monospace" font-size="12" fill="#e8a857">V</text>
+
+    <!-- Diesel cycle: adiabat compression + isobaric heat add + adiabat expansion + isochoric heat reject -->
+    <!-- 1->2 compression adiabat -->
+    <path d="M 200 195 C 140 160 80 90 20 30" fill="none" stroke="#ff8a4a" stroke-width="2"/>
+    <!-- 2->3 isobaric heat addition (horizontal at top) -->
+    <line x1="20" y1="30" x2="80" y2="30" stroke="#ff6b35" stroke-width="2"/>
+    <!-- 3->4 expansion adiabat -->
+    <path d="M 80 30 C 130 70 180 130 200 165" fill="none" stroke="#ff8a4a" stroke-width="2"/>
+    <!-- 4->1 isochoric heat rejection -->
+    <line x1="200" y1="165" x2="200" y2="195" stroke="#5ed8ff" stroke-width="2"/>
+
+    <circle cx="200" cy="195" r="3.5" fill="#5ed8ff"/>
+    <circle cx="20" cy="30" r="3.5" fill="#e8a857"/>
+    <circle cx="80" cy="30" r="3.5" fill="#ff6b35"/>
+    <circle cx="200" cy="165" r="3.5" fill="#ff6b35"/>
+
+    <text x="80" y="130" font-family="'Inter', sans-serif" font-size="20" fill="#f5c97a" opacity="0.85">Diesel</text>
+    <text x="20" y="260" font-family="'SF Mono', monospace" font-size="10" fill="#9b8c75" opacity="0.7">autoignition · η ~26-45%</text>
+  </g>
+
+  <!-- ===== TIMELINE STRIP ===== -->
+  <g font-family="'SF Mono', monospace" font-size="9" fill="#9b8c75" opacity="0.55" letter-spacing="1.5">
+    <text x="140" y="1020">1876 · OTTO   1886 · BENZ   1888 · BERTHA   1897 · DIESEL   2018 · ATKINSON HYBRID</text>
+  </g>
+</svg>

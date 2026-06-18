@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#0c0810"/>
+      <stop offset="45%" stop-color="#10141c"/>
+      <stop offset="100%" stop-color="#06101a"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5c97a"/>
+      <stop offset="60%" stop-color="#e8a857"/>
+      <stop offset="100%" stop-color="#b07a32"/>
+    </linearGradient>
+    <linearGradient id="electric" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a0e8ff"/>
+      <stop offset="100%" stop-color="#3aa8d4"/>
+    </linearGradient>
+    <radialGradient id="electricGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#5ed8ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="blueprint" width="40" height="40" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="40" y2="0" stroke="#3a4a52" stroke-width="0.5" opacity="0.25"/>
+      <line x1="0" y1="0" x2="0" y2="40" stroke="#3a4a52" stroke-width="0.5" opacity="0.25"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="bigGlow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="800" height="1120" fill="url(#bg)"/>
+  <rect width="800" height="1120" fill="url(#blueprint)"/>
+  <circle cx="400" cy="240" r="280" fill="url(#electricGlow)"/>
+  <rect x="30" y="30" width="740" height="1060" fill="none" stroke="#3a3220" stroke-width="0.5" opacity="0.5" rx="2"/>
+  <rect x="112" y="0" width="3" height="1120" fill="#5ed8ff"/>
+
+  <text x="200" y="700" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="34" fill="#5ed8ff" opacity="0.06"
+        transform="rotate(-12, 400, 700)">P_loss = I² R    ε = −dΦ/dt</text>
+
+  <!-- ===== UPPER: TRANSFORMER WITH AC SINE WAVES + COILS ===== -->
+  <g transform="translate(400 220)" opacity="0.95">
+    <!-- Iron core (rectangular ring) -->
+    <rect x="-180" y="-90" width="360" height="180" fill="none" stroke="#9b8c75" stroke-width="3" opacity="0.6"/>
+    <rect x="-150" y="-60" width="300" height="120" fill="none" stroke="#9b8c75" stroke-width="3" opacity="0.6"/>
+    <!-- Hatching for iron core (laminations) -->
+    <g stroke="#9b8c75" stroke-width="0.5" opacity="0.3">
+      <line x1="-180" y1="-85" x2="-150" y2="-85"/>
+      <line x1="-180" y1="-75" x2="-150" y2="-75"/>
+      <line x1="-180" y1="-65" x2="-150" y2="-65"/>
+      <line x1="-180" y1="65" x2="-150" y2="65"/>
+      <line x1="-180" y1="75" x2="-150" y2="75"/>
+      <line x1="-180" y1="85" x2="-150" y2="85"/>
+      <line x1="150" y1="-85" x2="180" y2="-85"/>
+      <line x1="150" y1="-75" x2="180" y2="-75"/>
+      <line x1="150" y1="-65" x2="180" y2="-65"/>
+      <line x1="150" y1="65" x2="180" y2="65"/>
+      <line x1="150" y1="75" x2="180" y2="75"/>
+      <line x1="150" y1="85" x2="180" y2="85"/>
+    </g>
+
+    <!-- Primary coil (left side, fewer turns) -->
+    <g stroke="#5ed8ff" stroke-width="1.6" fill="none" opacity="0.85">
+      <ellipse cx="-130" cy="-40" rx="22" ry="6"/>
+      <ellipse cx="-130" cy="-20" rx="22" ry="6"/>
+      <ellipse cx="-130" cy="0" rx="22" ry="6"/>
+      <ellipse cx="-130" cy="20" rx="22" ry="6"/>
+      <ellipse cx="-130" cy="40" rx="22" ry="6"/>
+    </g>
+    <!-- Primary leads -->
+    <line x1="-152" y1="-40" x2="-200" y2="-40" stroke="#5ed8ff" stroke-width="1.6"/>
+    <line x1="-152" y1="40" x2="-200" y2="40" stroke="#5ed8ff" stroke-width="1.6"/>
+
+    <!-- Secondary coil (right side, more turns) -->
+    <g stroke="#e8a857" stroke-width="1.6" fill="none" opacity="0.9">
+      <ellipse cx="130" cy="-50" rx="22" ry="5"/>
+      <ellipse cx="130" cy="-36" rx="22" ry="5"/>
+      <ellipse cx="130" cy="-22" rx="22" ry="5"/>
+      <ellipse cx="130" cy="-8" rx="22" ry="5"/>
+      <ellipse cx="130" cy="6" rx="22" ry="5"/>
+      <ellipse cx="130" cy="20" rx="22" ry="5"/>
+      <ellipse cx="130" cy="34" rx="22" ry="5"/>
+      <ellipse cx="130" cy="48" rx="22" ry="5"/>
+    </g>
+    <!-- Secondary leads -->
+    <line x1="152" y1="-50" x2="200" y2="-50" stroke="#e8a857" stroke-width="1.6"/>
+    <line x1="152" y1="48" x2="200" y2="48" stroke="#e8a857" stroke-width="1.6"/>
+
+    <!-- Flux loop indicator -->
+    <g fill="none" stroke="#5ed8ff" stroke-width="1" opacity="0.5">
+      <path d="M -100 -75 C -50 -75 50 -75 100 -75" stroke-dasharray="4 3"/>
+      <path d="M 100 -75 C 100 -25 100 25 100 75" stroke-dasharray="4 3"/>
+      <path d="M -100 -75 C -100 -25 -100 25 -100 75" stroke-dasharray="4 3"/>
+      <path d="M -100 75 C -50 75 50 75 100 75" stroke-dasharray="4 3"/>
+    </g>
+    <text x="0" y="-80" font-family="'SF Mono', monospace" font-size="10" fill="#5ed8ff" text-anchor="middle" opacity="0.7">Φ</text>
+
+    <!-- Voltage labels -->
+    <text x="-205" y="-50" font-family="'SF Mono', monospace" font-size="11" fill="#5ed8ff" text-anchor="end">V₁</text>
+    <text x="205" y="-58" font-family="'SF Mono', monospace" font-size="11" fill="#e8a857">V₂</text>
+    <text x="-100" y="100" font-family="'SF Mono', monospace" font-size="9" fill="#5ed8ff" opacity="0.7" text-anchor="middle">N₁ turns</text>
+    <text x="100" y="100" font-family="'SF Mono', monospace" font-size="9" fill="#e8a857" opacity="0.7" text-anchor="middle">N₂ turns</text>
+  </g>
+
+  <!-- AC Sine waves on either side of transformer -->
+  <g transform="translate(60 220)" opacity="0.85">
+    <line x1="0" y1="0" x2="120" y2="0" stroke="#5ed8ff" stroke-width="0.5" opacity="0.4"/>
+    <path d="M 0 0 Q 15 -30 30 0 T 60 0 T 90 0 T 120 0" fill="none" stroke="#5ed8ff" stroke-width="2" filter="url(#glow)"/>
+    <text x="0" y="40" font-family="'SF Mono', monospace" font-size="9" fill="#5ed8ff" opacity="0.7">primary AC</text>
+  </g>
+  <g transform="translate(620 220)" opacity="0.85">
+    <line x1="0" y1="0" x2="120" y2="0" stroke="#e8a857" stroke-width="0.5" opacity="0.4"/>
+    <path d="M 0 0 Q 5 -50 10 0 T 20 0 Q 25 -50 30 0 T 40 0 Q 45 -50 50 0 T 60 0 Q 65 -50 70 0 T 80 0 Q 85 -50 90 0 T 100 0 Q 105 -50 110 0 T 120 0"
+          fill="none" stroke="#e8a857" stroke-width="2" filter="url(#glow)"/>
+    <text x="0" y="40" font-family="'SF Mono', monospace" font-size="9" fill="#e8a857" opacity="0.7">stepped-up</text>
+  </g>
+
+  <!-- ===== TITLE ZONE ===== -->
+  <text x="140" y="430" font-family="'SF Mono', monospace" font-size="36" fill="#5ed8ff" letter-spacing="6">PART 6</text>
+  <text x="140" y="496" font-family="'Inter', sans-serif" font-size="38" fill="#f0e6d2" font-weight="bold">The Electric Civilization</text>
+  <text x="140" y="538" font-family="'Inter', sans-serif" font-size="17" fill="#9b8c75" letter-spacing="2">A waterfall in Niagara becomes a kettle in Buffalo</text>
+  <line x1="140" y1="566" x2="320" y2="566" stroke="#5ed8ff" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- ===== LOWER: THREE-PHASE TRANSMISSION + ROTATING FIELD ===== -->
+
+  <!-- Three-phase sine waves (left) -->
+  <g transform="translate(160 770)" opacity="0.9">
+    <line x1="-10" y1="0" x2="280" y2="0" stroke="#9b8c75" stroke-width="0.5" opacity="0.4"/>
+    <!-- Phase A -->
+    <path d="M 0 0 C 20 -50 40 -50 60 0 C 80 50 100 50 120 0 C 140 -50 160 -50 180 0 C 200 50 220 50 240 0 C 260 -50 280 -50 300 0"
+          fill="none" stroke="#ff6b35" stroke-width="1.8" filter="url(#glow)"/>
+    <!-- Phase B (shifted 120°) -->
+    <path d="M 0 25 C 20 50 40 50 60 25 C 80 -25 100 -50 120 -25 C 140 25 160 50 180 25 C 200 -25 220 -50 240 -25 C 260 25 280 50 300 25"
+          fill="none" stroke="#e8a857" stroke-width="1.8" filter="url(#glow)" opacity="0.85"/>
+    <!-- Phase C (shifted 240°) -->
+    <path d="M 0 -25 C 20 25 40 50 60 25 C 80 50 100 25 120 -25 C 140 -50 160 -25 180 25 C 200 50 220 25 240 -25 C 260 -50 280 -25 300 25"
+          fill="none" stroke="#5ed8ff" stroke-width="1.8" filter="url(#glow)" opacity="0.85"/>
+
+    <text x="-20" y="6" font-family="'SF Mono', monospace" font-size="10" fill="#ff6b35">A</text>
+    <text x="-20" y="22" font-family="'SF Mono', monospace" font-size="10" fill="#e8a857">B</text>
+    <text x="-20" y="-18" font-family="'SF Mono', monospace" font-size="10" fill="#5ed8ff">C</text>
+    <text x="0" y="80" font-family="'SF Mono', monospace" font-size="10" fill="#9b8c75" opacity="0.65">3-φ AC · 60 Hz</text>
+    <text x="0" y="96" font-family="'SF Mono', monospace" font-size="10" fill="#9b8c75" opacity="0.55">120° apart</text>
+  </g>
+
+  <!-- Power transmission tower silhouette (middle-bottom) -->
+  <g transform="translate(540 760)" opacity="0.65">
+    <!-- Tower structure -->
+    <line x1="0" y1="-10" x2="-25" y2="120" stroke="#9b8c75" stroke-width="1.2"/>
+    <line x1="0" y1="-10" x2="25" y2="120" stroke="#9b8c75" stroke-width="1.2"/>
+    <line x1="-12" y1="50" x2="12" y2="50" stroke="#9b8c75" stroke-width="0.8"/>
+    <line x1="-18" y1="80" x2="18" y2="80" stroke="#9b8c75" stroke-width="0.8"/>
+    <line x1="-22" y1="105" x2="22" y2="105" stroke="#9b8c75" stroke-width="0.8"/>
+    <line x1="-15" y1="40" x2="-8" y2="80" stroke="#9b8c75" stroke-width="0.6"/>
+    <line x1="15" y1="40" x2="8" y2="80" stroke="#9b8c75" stroke-width="0.6"/>
+    <line x1="-8" y1="80" x2="-12" y2="105" stroke="#9b8c75" stroke-width="0.6"/>
+    <line x1="8" y1="80" x2="12" y2="105" stroke="#9b8c75" stroke-width="0.6"/>
+    <!-- Cross-arms -->
+    <line x1="-50" y1="-10" x2="50" y2="-10" stroke="#9b8c75" stroke-width="1.6"/>
+    <line x1="-40" y1="20" x2="40" y2="20" stroke="#9b8c75" stroke-width="1.4"/>
+    <!-- Insulators (dots at line ends) -->
+    <circle cx="-50" cy="-10" r="2.5" fill="#5ed8ff"/>
+    <circle cx="0" cy="-10" r="2.5" fill="#ff6b35"/>
+    <circle cx="50" cy="-10" r="2.5" fill="#e8a857"/>
+    <!-- Power lines extending out -->
+    <path d="M -200 -2 Q -100 8 -50 -10" fill="none" stroke="#5ed8ff" stroke-width="1" opacity="0.7"/>
+    <path d="M -200 -8 Q -100 0 0 -10" fill="none" stroke="#ff6b35" stroke-width="1" opacity="0.7"/>
+    <path d="M -200 -14 Q -100 -8 50 -10" fill="none" stroke="#e8a857" stroke-width="1" opacity="0.7"/>
+    <path d="M 50 -10 Q 100 -2 200 0" fill="none" stroke="#e8a857" stroke-width="1" opacity="0.7"/>
+    <path d="M 0 -10 Q 100 -8 200 -6" fill="none" stroke="#ff6b35" stroke-width="1" opacity="0.7"/>
+    <path d="M -50 -10 Q 100 -14 200 -12" fill="none" stroke="#5ed8ff" stroke-width="1" opacity="0.7"/>
+
+    <text x="0" y="155" font-family="'SF Mono', monospace" font-size="10" fill="#9b8c75" opacity="0.7" text-anchor="middle">765 kV</text>
+  </g>
+
+  <!-- ===== TIMELINE STRIP ===== -->
+  <g font-family="'SF Mono', monospace" font-size="9" fill="#9b8c75" opacity="0.55" letter-spacing="1.5">
+    <text x="140" y="1020">1800 · VOLTA   1831 · FARADAY   1888 · TESLA   1896 · NIAGARA</text>
+  </g>
+</svg>
