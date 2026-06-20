@@ -13,7 +13,8 @@
   <a href="#书目">书目</a> ·
   <a href="#构建">构建</a> ·
   <a href="#目录结构">目录结构</a> ·
-  <a href="#发布">发布</a>
+  <a href="#发布">发布</a> ·
+  <a href="#许可协议">许可协议</a>
 </p>
 
 <br>
@@ -32,8 +33,8 @@
 
 | 书名 | 主题 | 最新 PDF |
 | --- | --- | --- |
-| **《追赶卡诺》**<br>给青少年的物理与工程文明史 | 从伽利略的斜面、托里拆利的真空、瓦特的蒸汽机一路讲到内燃机、电网、核能、光伏与火箭，把工业文明背后的能量转换逻辑重新串成一条可计算的线。 | [下载 PDF](https://github.com/tyrchen/open-books/releases/download/chasing-carnot-v0.1.0/chasing-carnot.pdf) |
-| **《追逐泛化》**<br>写给软件工程师的机器学习入门 | 以软件工程师的视角进入机器学习：从样本、特征、损失、优化和评估出发，走向线性模型、树模型、神经网络、RAG 与生产反馈闭环。 | [下载 PDF](https://github.com/tyrchen/open-books/releases/download/ml-fundamentals-v0.4.0/ml-fundamentals-v0.4.0.pdf) |
+| **《追赶卡诺》**<br>给青少年的物理与工程文明史 | 从伽利略的斜面、托里拆利的真空、瓦特的蒸汽机一路讲到内燃机、电网、核能、光伏与火箭，把工业文明背后的能量转换逻辑重新串成一条可计算的线。 | [下载 PDF](https://github.com/tyrchen/open-books/releases/download/chasing-carnot-v0.1.1/chasing-carnot-v0.1.1.pdf) |
+| **《追逐泛化》**<br>写给软件工程师的机器学习入门 | 以软件工程师的视角进入机器学习：从样本、特征、损失、优化和评估出发，走向线性模型、树模型、神经网络、RAG 与生产反馈闭环。 | [下载 PDF](https://github.com/tyrchen/open-books/releases/download/ml-fundamentals-v0.4.1/ml-fundamentals-v0.4.1.pdf) |
 
 ## 为什么是这个仓库
 
@@ -112,6 +113,12 @@ git push origin chasing-carnot-v0.1.0
 ```
 
 GitHub Actions 会只构建对应的书，并把 `<book-name>-v<version>.pdf` 发布到该 tag 的 GitHub Release。
+
+## 许可协议
+
+除非文件中另有明确说明，本仓库中的全部书稿、代码、排版模板、图片资产与其他资料均由陈天以 [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/)（CC BY-NC-ND 4.0）许可协议发布。
+
+你可以在非商业目的下复制和分享本仓库内容，但必须保留署名和许可声明，不得发布演绎作品。完整协议文本见 [LICENSE](LICENSE)。
 
 ## 构建方法
 
