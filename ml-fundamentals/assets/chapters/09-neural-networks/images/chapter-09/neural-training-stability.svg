@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/></marker>
+<marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d7a64a"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">训练神经网络的稳定性</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">缩放、学习率、正则化和早停，都是让反馈信号可靠传递的工程纪律</text>
+<rect x="210" y="245" width="940" height="450" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<line x1="290" y1="305.0" x2="1080" y2="305.0" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<line x1="290" y1="370.0" x2="1080" y2="370.0" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<line x1="290" y1="435.0" x2="1080" y2="435.0" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<line x1="290" y1="500.0" x2="1080" y2="500.0" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<line x1="290" y1="565.0" x2="1080" y2="565.0" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<line x1="290" y1="630.0" x2="1080" y2="630.0" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<polyline points="290.00,352.85 331.58,383.01 373.16,409.62 414.74,433.10 456.32,453.83 497.89,472.11 539.47,488.25 581.05,502.50 622.63,515.07 664.21,526.16 705.79,535.95 747.37,544.59 788.95,552.21 830.53,558.94 872.11,564.88 913.68,570.12 955.26,574.74 996.84,578.82 1038.42,582.43 1080.00,585.60" fill="none" stroke="#5cc8a7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="290.00,368.94 331.58,413.41 373.16,491.71 414.74,480.53 456.32,404.47 497.89,395.26 539.47,473.14 581.05,513.29 622.63,453.12 664.21,396.17 705.79,440.31 747.37,515.25 788.95,499.31 830.53,421.40 872.11,413.08 913.68,490.17 955.26,526.52 996.84,463.43 1038.42,407.13 1080.00,452.43" fill="none" stroke="#e06c75" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="290.00,343.71 331.58,389.40 373.16,426.81 414.74,457.44 456.32,482.52 497.89,503.05 539.47,519.86 581.05,533.63 622.63,544.89 664.21,554.12 705.79,555.52 747.37,555.54 788.95,554.45 830.53,552.43 872.11,549.67 913.68,546.29 955.26,542.41 996.84,538.11 1038.42,533.48 1080.00,528.57" fill="none" stroke="#d7a64a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="290" y1="630" x2="1080" y2="630" stroke="#9aa8b7" stroke-width="2" opacity="1"/>
+<line x1="290" y1="305" x2="290" y2="630" stroke="#9aa8b7" stroke-width="2" opacity="1"/>
+<text x="685.0" y="673" fill="#9aa8b7" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">训练轮次</text>
+<text x="245" y="315" fill="#9aa8b7" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">loss</text>
+<rect x="1210" y="315" width="270" height="180" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<line x1="1240" y1="360" x2="1305" y2="360" stroke="#5cc8a7" stroke-width="5" opacity="1"/>
+<text x="1325" y="368" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">稳定下降</text>
+<line x1="1240" y1="415" x2="1305" y2="415" stroke="#e06c75" stroke-width="5" opacity="1"/>
+<text x="1325" y="423" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">学习率过大</text>
+<line x1="1240" y1="470" x2="1305" y2="470" stroke="#d7a64a" stroke-width="5" opacity="1"/>
+<text x="1325" y="478" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">验证损失回升</text>
+<text x="210" y="805" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">损失不动先查缩放和标签；损失震荡先降学习率；验证回升再谈正则化和早停。</text>
+</svg>

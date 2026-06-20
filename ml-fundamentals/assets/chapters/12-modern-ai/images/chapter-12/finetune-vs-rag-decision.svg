@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/></marker>
+<marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d7a64a"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">先分清知识问题和行为问题</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">会变化的事实优先放外部系统，稳定行为才考虑训练或模型优化</text>
+<rect x="150" y="230" width="1300" height="505" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<rect x="235" y="300" width="1110" height="64" rx="8" fill="#111d2a" stroke="#5cc8a7" stroke-width="2.2" opacity="1"/>
+<text x="285" y="341" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">资料找不到？</text>
+<text x="590" y="341" fill="#9aa8b7" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">补文档、chunk、检索</text>
+<text x="1190" y="341" fill="#5cc8a7" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">RAG</text>
+<rect x="235" y="392" width="1110" height="64" rx="8" fill="#111d2a" stroke="#5ec8d8" stroke-width="2.2" opacity="1"/>
+<text x="285" y="433" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">引用不可靠？</text>
+<text x="590" y="433" fill="#9aa8b7" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">改引用生成和校验</text>
+<text x="1190" y="433" fill="#5ec8d8" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">系统规则</text>
+<rect x="235" y="484" width="1110" height="64" rx="8" fill="#111d2a" stroke="#d7a64a" stroke-width="2.2" opacity="1"/>
+<text x="285" y="525" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">格式不稳定？</text>
+<text x="590" y="525" fill="#9aa8b7" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">schema、校验、重试</text>
+<text x="1190" y="525" fill="#d7a64a" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">结构化输出</text>
+<rect x="235" y="576" width="1110" height="64" rx="8" fill="#111d2a" stroke="#b48cff" stroke-width="2.2" opacity="1"/>
+<text x="285" y="617" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">行为仍不稳？</text>
+<text x="590" y="617" fill="#9aa8b7" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">高质量样例和 eval</text>
+<text x="1190" y="617" fill="#b48cff" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">再考虑微调</text>
+<text x="190" y="805" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">微调不是第一反应。没有 eval 集，任何优化都只是一次昂贵的主观试验。</text>
+</svg>

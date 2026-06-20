@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/></marker>
+<marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d7a64a"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">神经网络是层层组合的可调函数</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">线性变换负责重新混合输入，激活函数负责制造非线性</text>
+<rect x="145" y="235" width="1310" height="500" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<circle cx="230" cy="350" r="21" fill="#6ea8fe" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="230" cy="432" r="21" fill="#6ea8fe" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="230" cy="514" r="21" fill="#6ea8fe" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="230" cy="596" r="21" fill="#6ea8fe" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<text x="230" y="290" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">输入特征</text>
+<line x1="253" y1="350" x2="497" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="350" x2="497" y2="408" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="350" x2="497" y2="466" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="350" x2="497" y2="524" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="350" x2="497" y2="582" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="350" x2="497" y2="640" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="432" x2="497" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="432" x2="497" y2="408" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="432" x2="497" y2="466" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="432" x2="497" y2="524" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="432" x2="497" y2="582" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="432" x2="497" y2="640" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="514" x2="497" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="514" x2="497" y2="408" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="514" x2="497" y2="466" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="514" x2="497" y2="524" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="514" x2="497" y2="582" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="514" x2="497" y2="640" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="596" x2="497" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="596" x2="497" y2="408" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="596" x2="497" y2="466" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="596" x2="497" y2="524" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="596" x2="497" y2="582" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="253" y1="596" x2="497" y2="640" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<circle cx="520" cy="350" r="21" fill="#5cc8a7" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="520" cy="408" r="21" fill="#5cc8a7" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="520" cy="466" r="21" fill="#5cc8a7" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="520" cy="524" r="21" fill="#5cc8a7" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="520" cy="582" r="21" fill="#5cc8a7" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="520" cy="640" r="21" fill="#5cc8a7" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<text x="520" y="290" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">隐藏层 1</text>
+<line x1="543" y1="350" x2="747" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="350" x2="747" y2="408" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="350" x2="747" y2="466" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="350" x2="747" y2="524" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="350" x2="747" y2="582" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="350" x2="747" y2="640" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="408" x2="747" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="408" x2="747" y2="408" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="408" x2="747" y2="466" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="408" x2="747" y2="524" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="408" x2="747" y2="582" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="408" x2="747" y2="640" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="466" x2="747" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="466" x2="747" y2="408" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="466" x2="747" y2="466" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="466" x2="747" y2="524" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="466" x2="747" y2="582" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="466" x2="747" y2="640" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="524" x2="747" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="524" x2="747" y2="408" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="524" x2="747" y2="466" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="524" x2="747" y2="524" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="524" x2="747" y2="582" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="524" x2="747" y2="640" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="582" x2="747" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="582" x2="747" y2="408" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="582" x2="747" y2="466" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="582" x2="747" y2="524" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="582" x2="747" y2="582" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="582" x2="747" y2="640" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="640" x2="747" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="640" x2="747" y2="408" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="640" x2="747" y2="466" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="640" x2="747" y2="524" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="640" x2="747" y2="582" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="543" y1="640" x2="747" y2="640" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<circle cx="770" cy="350" r="21" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="770" cy="408" r="21" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="770" cy="466" r="21" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="770" cy="524" r="21" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="770" cy="582" r="21" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="770" cy="640" r="21" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<text x="770" y="290" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">ReLU</text>
+<line x1="793" y1="350" x2="997" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="350" x2="997" y2="432" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="350" x2="997" y2="514" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="350" x2="997" y2="596" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="408" x2="997" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="408" x2="997" y2="432" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="408" x2="997" y2="514" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="408" x2="997" y2="596" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="466" x2="997" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="466" x2="997" y2="432" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="466" x2="997" y2="514" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="466" x2="997" y2="596" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="524" x2="997" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="524" x2="997" y2="432" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="524" x2="997" y2="514" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="524" x2="997" y2="596" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="582" x2="997" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="582" x2="997" y2="432" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="582" x2="997" y2="514" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="582" x2="997" y2="596" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="640" x2="997" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="640" x2="997" y2="432" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="640" x2="997" y2="514" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="793" y1="640" x2="997" y2="596" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<circle cx="1020" cy="350" r="21" fill="#5cc8a7" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="1020" cy="432" r="21" fill="#5cc8a7" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="1020" cy="514" r="21" fill="#5cc8a7" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="1020" cy="596" r="21" fill="#5cc8a7" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<text x="1020" y="290" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">隐藏层 2</text>
+<line x1="1043" y1="350" x2="1277" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="1043" y1="350" x2="1277" y2="432" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="1043" y1="432" x2="1277" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="1043" y1="432" x2="1277" y2="432" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="1043" y1="514" x2="1277" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="1043" y1="514" x2="1277" y2="432" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="1043" y1="596" x2="1277" y2="350" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<line x1="1043" y1="596" x2="1277" y2="432" stroke="#5b6877" stroke-width="1.2" opacity="0.28"/>
+<circle cx="1300" cy="350" r="21" fill="#b48cff" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<circle cx="1300" cy="432" r="21" fill="#b48cff" stroke="#ffffff" stroke-width="2" opacity="0.92"/>
+<text x="1300" y="290" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">输出</text>
+<text x="190" y="800" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">没有激活函数，多层线性变换仍可合并成一层；非线性才让边界弯起来。</text>
+</svg>

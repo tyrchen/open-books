@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">共享单车实验里的 U 形曲线</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">适中模型验证误差最低；复杂模型把训练集背下来，却不能预测未来</text>
+<rect x="140" y="230" width="1040" height="500" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<line x1="220" y1="660" x2="1110" y2="660" stroke="#7d8b99" stroke-width="3" opacity="1"/>
+<line x1="220" y1="660" x2="220" y2="300" stroke="#7d8b99" stroke-width="3" opacity="1"/>
+<text x="1110" y="705" fill="#9aa8b7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="end" opacity="1"></text>
+<text x="192" y="282" fill="#9aa8b7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="end" opacity="1">MAE</text>
+<line x1="220" y1="660.0" x2="1110" y2="660.0" stroke="#263545" stroke-width="1" opacity="0.45"/>
+<text x="202" y="667.0" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">0</text>
+<line x1="220" y1="564.0" x2="1110" y2="564.0" stroke="#263545" stroke-width="1" opacity="0.45"/>
+<text x="202" y="571.0" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">20</text>
+<line x1="220" y1="468.0" x2="1110" y2="468.0" stroke="#263545" stroke-width="1" opacity="0.45"/>
+<text x="202" y="475.0" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">40</text>
+<line x1="220" y1="372.0" x2="1110" y2="372.0" stroke="#263545" stroke-width="1" opacity="0.45"/>
+<text x="202" y="379.0" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">60</text>
+<text x="220.0" y="694" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">1-simple</text>
+<text x="665.0" y="694" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">2-moderate</text>
+<text x="1110.0" y="694" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">3-complex</text>
+<text x="665.0" y="736" fill="#9aa8b7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">模型复杂度</text>
+<polyline points="220.00,439.59 665.00,615.68 1110.00,659.67" fill="none" stroke="#6ea8fe" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<circle cx="220.0" cy="439.5942643050969" r="8" fill="#6ea8fe" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<text x="178.0" y="463.5942643050969" fill="#6ea8fe" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">45.9</text>
+<circle cx="665.0" cy="615.6783175512029" r="8" fill="#6ea8fe" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<text x="623.0" y="639.6783175512029" fill="#6ea8fe" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">9.2</text>
+<circle cx="1110.0" cy="659.6679532481653" r="8" fill="#6ea8fe" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<text x="1076.0" y="641.6679532481653" fill="#6ea8fe" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">0.1</text>
+<polyline points="220.00,339.68 665.00,611.81 1110.00,333.06" fill="none" stroke="#5cc8a7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<circle cx="220.0" cy="339.6800150603148" r="8" fill="#5cc8a7" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<text x="214.0" y="305.6800150603148" fill="#5cc8a7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">66.7</text>
+<circle cx="665.0" cy="611.814517770216" r="8" fill="#5cc8a7" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<text x="659.0" y="577.814517770216" fill="#5cc8a7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">10.0</text>
+<circle cx="1110.0" cy="333.06470800441866" r="8" fill="#5cc8a7" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<text x="1104.0" y="299.06470800441866" fill="#5cc8a7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">68.1</text>
+<polyline points="220.00,329.33 665.00,613.08 1110.00,335.14" fill="none" stroke="#d7a64a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<circle cx="220.0" cy="329.3348768137418" r="8" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<text x="258.0" y="323.3348768137418" fill="#d7a64a" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">68.9</text>
+<circle cx="665.0" cy="613.0830728143653" r="8" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<text x="703.0" y="607.0830728143653" fill="#d7a64a" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">9.8</text>
+<circle cx="1110.0" cy="335.1364876624996" r="8" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<text x="1148.0" y="329.1364876624996" fill="#d7a64a" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">67.7</text>
+<rect x="1225" y="285" width="285" height="235" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<line x1="1255" y1="332" x2="1315" y2="332" stroke="#6ea8fe" stroke-width="6" opacity="1"/>
+<text x="1335" y="340" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">训练 MAE</text>
+<line x1="1255" y1="392" x2="1315" y2="392" stroke="#5cc8a7" stroke-width="6" opacity="1"/>
+<text x="1335" y="400" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">验证 MAE</text>
+<line x1="1255" y1="452" x2="1315" y2="452" stroke="#d7a64a" stroke-width="6" opacity="1"/>
+<text x="1335" y="460" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">测试 MAE</text>
+<text x="1215" y="605" fill="#5cc8a7" font-size="27" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">验证集选择：2-moderate</text>
+<text x="1215" y="655" fill="#9aa8b7" font-size="25" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">复杂模型训练 MAE 接近 0，</text>
+<text x="1215" y="695" fill="#9aa8b7" font-size="25" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">但验证和测试误差反弹。</text>
+</svg>

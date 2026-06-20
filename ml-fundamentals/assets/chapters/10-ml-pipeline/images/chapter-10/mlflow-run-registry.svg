@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/></marker>
+<marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d7a64a"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">MLflow 把训练实验变成可比较记录</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">Tracking 记录 run，Registry 记录可服务的模型版本</text>
+<rect x="130" y="225" width="600" height="470" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="185" y="285" fill="#e9eef4" font-size="28" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">Experiment: ticket-p1</text>
+<rect x="190" y="325" width="440" height="62" rx="8" fill="#111d2a" stroke="#9aa8b7" stroke-width="2" opacity="1"/>
+<text x="220" y="367" fill="#e9eef4" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">run A</text>
+<text x="355" y="367" fill="#9aa8b7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">C=0.2</text>
+<text x="505" y="367" fill="#9aa8b7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">F1=0.79</text>
+<rect x="190" y="420" width="440" height="62" rx="8" fill="#111d2a" stroke="#5cc8a7" stroke-width="2" opacity="1"/>
+<text x="220" y="462" fill="#e9eef4" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">run B</text>
+<text x="355" y="462" fill="#9aa8b7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">C=0.8</text>
+<text x="505" y="462" fill="#5cc8a7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">F1=0.92</text>
+<rect x="190" y="515" width="440" height="62" rx="8" fill="#111d2a" stroke="#d7a64a" stroke-width="2" opacity="1"/>
+<text x="220" y="557" fill="#e9eef4" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">run C</text>
+<text x="355" y="557" fill="#9aa8b7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">C=1.4</text>
+<text x="505" y="557" fill="#d7a64a" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">F1=0.86</text>
+<line x1="735" y1="455" x2="875" y2="455" stroke="#d7a64a" stroke-width="5" marker-end="url(#arrow-amber)"/>
+<rect x="875" y="270" width="585" height="360" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="930" y="330" fill="#e9eef4" font-size="31" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">Model Registry</text>
+<circle cx="940" cy="388" r="10" fill="#9aa8b7" stroke="none" stroke-width="0" opacity="1"/>
+<text x="970" y="395" fill="#e9eef4" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">version 7</text>
+<text x="1190" y="395" fill="#9aa8b7" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">archived</text>
+<circle cx="940" cy="458" r="10" fill="#d7a64a" stroke="none" stroke-width="0" opacity="1"/>
+<text x="970" y="465" fill="#e9eef4" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">version 8</text>
+<text x="1190" y="465" fill="#d7a64a" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">candidate</text>
+<circle cx="940" cy="528" r="10" fill="#5cc8a7" stroke="none" stroke-width="0" opacity="1"/>
+<text x="970" y="535" fill="#e9eef4" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">version 9</text>
+<text x="1190" y="535" fill="#5cc8a7" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">alias: champion</text>
+<text x="925" y="590" fill="#9aa8b7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">上线不是复制 best.pkl，而是让 alias 指向通过检查的版本。</text>
+<text x="190" y="800" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">跟踪系统记录证据，注册系统管理版本；两者都不替团队决定业务代价。</text>
+</svg>

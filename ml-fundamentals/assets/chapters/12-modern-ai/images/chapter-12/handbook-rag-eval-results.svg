@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/></marker>
+<marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d7a64a"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">公司手册 RAG 练习要能被验收</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">离线 eval 证明改动可回归，生产反馈和人工复核暴露真实退化</text>
+<rect x="145" y="235" width="1310" height="500" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<rect x="210" y="300" width="185" height="128" rx="8" fill="#111d2a" stroke="#6ea8fe" stroke-width="2.5" opacity="1"/>
+<text x="302" y="345" fill="#9aa8b7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">chunks</text>
+<text x="302" y="398" fill="#6ea8fe" font-size="32" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">17</text>
+<rect x="460" y="300" width="185" height="128" rx="8" fill="#111d2a" stroke="#d7a64a" stroke-width="2.5" opacity="1"/>
+<text x="552" y="345" fill="#9aa8b7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">cases</text>
+<text x="552" y="398" fill="#d7a64a" font-size="32" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">23</text>
+<rect x="710" y="300" width="185" height="128" rx="8" fill="#111d2a" stroke="#5cc8a7" stroke-width="2.5" opacity="1"/>
+<text x="802" y="345" fill="#9aa8b7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">retrieval</text>
+<text x="802" y="398" fill="#5cc8a7" font-size="32" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">23/23</text>
+<rect x="960" y="300" width="185" height="128" rx="8" fill="#111d2a" stroke="#5cc8a7" stroke-width="2.5" opacity="1"/>
+<text x="1052" y="345" fill="#9aa8b7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">answer</text>
+<text x="1052" y="398" fill="#5cc8a7" font-size="32" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">23/23</text>
+<rect x="1210" y="300" width="185" height="128" rx="8" fill="#111d2a" stroke="#5ec8d8" stroke-width="2.5" opacity="1"/>
+<text x="1302" y="345" fill="#9aa8b7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">refusal</text>
+<text x="1302" y="398" fill="#5ec8d8" font-size="32" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">9/9</text>
+<rect x="225" y="485" width="1150" height="170" rx="8" fill="#101722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="275" y="535" fill="#e9eef4" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">production days: 14    queries: 4655</text>
+<text x="275" y="580" fill="#d7a64a" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">top alert: 2026-06-09 reimbursement_update</text>
+<text x="275" y="618" fill="#9aa8b7" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">accept 0.60 / rewrite 0.27</text>
+<text x="275" y="675" fill="#9aa8b7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">manual review: 581 accepted 0.76 rewrite 0.17</text>
+<text x="275" y="715" fill="#9aa8b7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">review samples: 14 rewrite 0.57 reject 0.21</text>
+<text x="800" y="760" fill="#9aa8b7" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">eval 覆盖：fact / permission / customer_scope / injection</text>
+<text x="190" y="805" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">合格不是演示时答对一题，而是离线回归和生产反馈都能定位失败归因。</text>
+</svg>

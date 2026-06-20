@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/>
+</marker>
+</defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">测试集预测结果</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">错例不是噪声，它是下一轮问题定位的入口</text>
+<rect x="90" y="235" width="1050" height="370" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="170.0" y="287" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">面积</text>
+<text x="320.0" y="287" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">房龄</text>
+<text x="465.0" y="287" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">近地铁</text>
+<text x="655.0" y="287" fill="#d7a64a" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">真实标签</text>
+<text x="885.0" y="287" fill="#5cc8a7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">模型预测</text>
+<text x="1070.0" y="287" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">结果</text>
+<line x1="90" y1="313" x2="1140" y2="313" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="170.0" y="360" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">58</text>
+<text x="320.0" y="360" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">7</text>
+<text x="465.0" y="360" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">否</text>
+<text x="655.0" y="360" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">快速售出</text>
+<text x="885.0" y="360" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">快速售出</text>
+<text x="1070.0" y="360" fill="#5cc8a7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">正确</text>
+<line x1="90" y1="387" x2="1140" y2="387" stroke="#34475e" stroke-width="1" opacity="0.55"/>
+<text x="170.0" y="432" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">100</text>
+<text x="320.0" y="432" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">22</text>
+<text x="465.0" y="432" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">否</text>
+<text x="655.0" y="432" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">未快速售出</text>
+<text x="885.0" y="432" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">未快速售出</text>
+<text x="1070.0" y="432" fill="#5cc8a7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">正确</text>
+<line x1="90" y1="459" x2="1140" y2="459" stroke="#34475e" stroke-width="1" opacity="0.55"/>
+<rect x="98" y="465" width="1034" height="60" rx="5" fill="#3a1f2a" stroke="#e06c75" stroke-width="2" opacity="0.95"/>
+<text x="170.0" y="504" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">70</text>
+<text x="320.0" y="504" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">10</text>
+<text x="465.0" y="504" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">否</text>
+<text x="655.0" y="504" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">未快速售出</text>
+<text x="885.0" y="504" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">快速售出</text>
+<text x="1070.0" y="504" fill="#e06c75" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">错误</text>
+<line x1="90" y1="531" x2="1140" y2="531" stroke="#34475e" stroke-width="1" opacity="0.55"/>
+<text x="170.0" y="576" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">115</text>
+<text x="320.0" y="576" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">14</text>
+<text x="465.0" y="576" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">是</text>
+<text x="655.0" y="576" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">未快速售出</text>
+<text x="885.0" y="576" fill="#e9eef4" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">未快速售出</text>
+<text x="1070.0" y="576" fill="#5cc8a7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">正确</text>
+<rect x="250" y="690" width="300" height="70" rx="8" fill="#182433" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="400" y="735" fill="#9aa8b7" font-size="25" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">模型看不到价格</text>
+<rect x="640" y="690" width="300" height="70" rx="8" fill="#182433" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="790" y="735" fill="#9aa8b7" font-size="25" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">模型看不到学区</text>
+<rect x="1030" y="690" width="300" height="70" rx="8" fill="#182433" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="1180" y="735" fill="#9aa8b7" font-size="25" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">模型看不到卖家动机</text>
+<text x="1180" y="825" fill="#e06c75" font-size="26" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">第 3 行是唯一错例。</text>
+</svg>

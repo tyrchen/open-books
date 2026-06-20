@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.78"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">三种损失会重新加权错例</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">同一批送达预测，在不同损失规则下，最刺眼的订单会发生变化</text>
+<rect x="100" y="250" width="400" height="460" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="300" y="305" fill="#e9eef4" font-size="30" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">绝对误差</text>
+<rect x="135" y="622.0" width="26" height="18.0" rx="4" fill="#5cc8a7" stroke="#5cc8a7" stroke-width="2" opacity="0.55"/>
+<text x="148" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">01</text>
+<rect x="179" y="604.0" width="26" height="36.0" rx="4" fill="#5cc8a7" stroke="#5cc8a7" stroke-width="2" opacity="0.55"/>
+<text x="192" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">02</text>
+<rect x="223" y="604.0" width="26" height="36.0" rx="4" fill="#5cc8a7" stroke="#5cc8a7" stroke-width="2" opacity="0.55"/>
+<text x="236" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">03</text>
+<rect x="267" y="460.0" width="26" height="180.0" rx="4" fill="#5cc8a7" stroke="#5cc8a7" stroke-width="2" opacity="0.95"/>
+<text x="280" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">04</text>
+<rect x="311" y="631.0" width="26" height="9.0" rx="4" fill="#5cc8a7" stroke="#5cc8a7" stroke-width="2" opacity="0.55"/>
+<text x="324" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">05</text>
+<rect x="355" y="370.0" width="26" height="270.0" rx="4" fill="#5cc8a7" stroke="#5cc8a7" stroke-width="2" opacity="0.95"/>
+<text x="368" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">06</text>
+<rect x="399" y="478.0" width="26" height="162.0" rx="4" fill="#5cc8a7" stroke="#5cc8a7" stroke-width="2" opacity="0.55"/>
+<text x="412" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">07</text>
+<rect x="443" y="613.0" width="26" height="27.0" rx="4" fill="#5cc8a7" stroke="#5cc8a7" stroke-width="2" opacity="0.55"/>
+<text x="456" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">08</text>
+<text x="465" y="355" fill="#9aa8b7" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">最大：30</text>
+<text x="300" y="745" fill="#5cc8a7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">Top 1: O006</text>
+<rect x="580" y="250" width="400" height="460" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="780" y="305" fill="#e9eef4" font-size="30" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">迟到加权</text>
+<rect x="615" y="613.0" width="26" height="27.0" rx="4" fill="#d7a64a" stroke="#d7a64a" stroke-width="2" opacity="0.55"/>
+<text x="628" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">01</text>
+<rect x="659" y="586.0" width="26" height="54.0" rx="4" fill="#d7a64a" stroke="#d7a64a" stroke-width="2" opacity="0.55"/>
+<text x="672" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">02</text>
+<rect x="703" y="613.0" width="26" height="27.0" rx="4" fill="#d7a64a" stroke="#d7a64a" stroke-width="2" opacity="0.55"/>
+<text x="716" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">03</text>
+<rect x="747" y="370.0" width="26" height="270.0" rx="4" fill="#d7a64a" stroke="#d7a64a" stroke-width="2" opacity="0.95"/>
+<text x="760" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">04</text>
+<rect x="791" y="633.25" width="26" height="6.75" rx="4" fill="#d7a64a" stroke="#d7a64a" stroke-width="2" opacity="0.55"/>
+<text x="804" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">05</text>
+<rect x="835" y="437.5" width="26" height="202.5" rx="4" fill="#d7a64a" stroke="#d7a64a" stroke-width="2" opacity="0.55"/>
+<text x="848" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">06</text>
+<rect x="879" y="397.0" width="26" height="243.0" rx="4" fill="#d7a64a" stroke="#d7a64a" stroke-width="2" opacity="0.95"/>
+<text x="892" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">07</text>
+<rect x="923" y="599.5" width="26" height="40.5" rx="4" fill="#d7a64a" stroke="#d7a64a" stroke-width="2" opacity="0.55"/>
+<text x="936" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">08</text>
+<text x="945" y="355" fill="#9aa8b7" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">最大：40</text>
+<text x="780" y="745" fill="#d7a64a" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">Top 1: O004</text>
+<rect x="1060" y="250" width="400" height="460" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="1260" y="305" fill="#e9eef4" font-size="30" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">平方误差</text>
+<rect x="1095" y="636" width="26" height="4" rx="4" fill="#e06c75" stroke="#e06c75" stroke-width="2" opacity="0.55"/>
+<text x="1108" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">01</text>
+<rect x="1139" y="635.2" width="26" height="4.8" rx="4" fill="#e06c75" stroke="#e06c75" stroke-width="2" opacity="0.55"/>
+<text x="1152" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">02</text>
+<rect x="1183" y="635.2" width="26" height="4.8" rx="4" fill="#e06c75" stroke="#e06c75" stroke-width="2" opacity="0.55"/>
+<text x="1196" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">03</text>
+<rect x="1227" y="520.0" width="26" height="120.0" rx="4" fill="#e06c75" stroke="#e06c75" stroke-width="2" opacity="0.95"/>
+<text x="1240" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">04</text>
+<rect x="1271" y="636" width="26" height="4" rx="4" fill="#e06c75" stroke="#e06c75" stroke-width="2" opacity="0.55"/>
+<text x="1284" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">05</text>
+<rect x="1315" y="370.0" width="26" height="270.0" rx="4" fill="#e06c75" stroke="#e06c75" stroke-width="2" opacity="0.95"/>
+<text x="1328" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">06</text>
+<rect x="1359" y="542.8" width="26" height="97.2" rx="4" fill="#e06c75" stroke="#e06c75" stroke-width="2" opacity="0.55"/>
+<text x="1372" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">07</text>
+<rect x="1403" y="636" width="26" height="4" rx="4" fill="#e06c75" stroke="#e06c75" stroke-width="2" opacity="0.55"/>
+<text x="1416" y="668" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">08</text>
+<text x="1425" y="355" fill="#9aa8b7" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">最大：900</text>
+<text x="1260" y="745" fill="#e06c75" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">Top 1: O006</text>
+<text x="105" y="800" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">O006 高估 30 分钟，是最大绝对错误；O004/O007 低估严重，迟到加权会把它们推到前面。</text>
+</svg>

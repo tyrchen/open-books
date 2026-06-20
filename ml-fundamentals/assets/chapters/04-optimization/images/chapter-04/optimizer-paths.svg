@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/>
+</marker>
+</defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.78"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">优化器改变训练路径</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">动量保留稳定方向，Adam 给不同参数方向调节有效步长</text>
+<rect x="145" y="230" width="880" height="520" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<line x1="215" y1="690" x2="970" y2="690" stroke="#9aa8b7" stroke-width="3" opacity="1"/>
+<line x1="215" y1="690" x2="215" y2="285" stroke="#9aa8b7" stroke-width="3" opacity="1"/>
+<text x="970" y="728" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="end" opacity="1">参数 1</text>
+<text x="197" y="267" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="end" opacity="1">参数 2</text>
+<polyline points="250.0,581.4 295.0,576.8 340.0,581.4" fill="none" stroke="#34475e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.45"/>
+<polyline points="326.0,573.0 371.0,581.0 416.0,573.0" fill="none" stroke="#34475e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.45"/>
+<polyline points="402.0,564.6 447.0,585.2 492.0,564.6" fill="none" stroke="#34475e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.45"/>
+<polyline points="478.0,556.2 523.0,589.4 568.0,556.2" fill="none" stroke="#34475e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.45"/>
+<polyline points="554.0,547.8 599.0,593.6 644.0,547.8" fill="none" stroke="#34475e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.45"/>
+<polyline points="630.0,539.4 675.0,597.8 720.0,539.4" fill="none" stroke="#34475e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.45"/>
+<polyline points="706.0,531.0 751.0,602.0 796.0,531.0" fill="none" stroke="#34475e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.45"/>
+<polyline points="782.0,522.6 827.0,606.2 872.0,522.6" fill="none" stroke="#34475e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.45"/>
+<polyline points="260.0,650.0 335.0,390.0 430.0,620.0 515.0,370.0 625.0,575.0 720.0,360.0 820.0,500.0 925.0,430.0" fill="none" stroke="#e06c75" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<polyline points="260.0,650.0 350.0,555.0 460.0,490.0 580.0,450.0 710.0,425.0 850.0,410.0 945.0,405.0" fill="none" stroke="#d7a64a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<polyline points="260.0,650.0 370.0,585.0 500.0,535.0 650.0,485.0 800.0,445.0 945.0,405.0" fill="none" stroke="#5cc8a7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<circle cx="260" cy="650" r="6" fill="#e06c75" stroke="none" stroke-width="0"/>
+<circle cx="430" cy="620" r="6" fill="#e06c75" stroke="none" stroke-width="0"/>
+<circle cx="625" cy="575" r="6" fill="#e06c75" stroke="none" stroke-width="0"/>
+<circle cx="820" cy="500" r="6" fill="#e06c75" stroke="none" stroke-width="0"/>
+<circle cx="260" cy="650" r="6" fill="#d7a64a" stroke="none" stroke-width="0"/>
+<circle cx="460" cy="490" r="6" fill="#d7a64a" stroke="none" stroke-width="0"/>
+<circle cx="710" cy="425" r="6" fill="#d7a64a" stroke="none" stroke-width="0"/>
+<circle cx="945" cy="405" r="6" fill="#d7a64a" stroke="none" stroke-width="0"/>
+<circle cx="260" cy="650" r="6" fill="#5cc8a7" stroke="none" stroke-width="0"/>
+<circle cx="500" cy="535" r="6" fill="#5cc8a7" stroke="none" stroke-width="0"/>
+<circle cx="800" cy="445" r="6" fill="#5cc8a7" stroke="none" stroke-width="0"/>
+<circle cx="945" cy="405" r="11" fill="#6ea8fe" stroke="#e9eef4" stroke-width="2"/>
+<text x="965" y="398" fill="#6ea8fe" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">低处</text>
+<rect x="1085" y="275" width="365" height="285" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<line x1="1119" y1="322" x2="1179" y2="322" stroke="#e06c75" stroke-width="5" opacity="1"/>
+<text x="1195" y="330" fill="#e9eef4" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">SGD</text>
+<text x="1195" y="360" fill="#9aa8b7" font-size="19" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">只看当前 batch，路径容易抖</text>
+<line x1="1119" y1="400" x2="1179" y2="400" stroke="#d7a64a" stroke-width="5" opacity="1"/>
+<text x="1195" y="408" fill="#e9eef4" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">Momentum</text>
+<text x="1195" y="438" fill="#9aa8b7" font-size="19" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">保留历史方向，少走回头路</text>
+<line x1="1119" y1="478" x2="1179" y2="478" stroke="#5cc8a7" stroke-width="5" opacity="1"/>
+<text x="1195" y="486" fill="#e9eef4" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">Adam</text>
+<text x="1195" y="516" fill="#9aa8b7" font-size="19" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">按梯度历史调有效步长</text>
+<text x="1088" y="645" fill="#e9eef4" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">换优化器之前，先保留学习率、batch、随机种子。</text>
+<text x="1088" y="682" fill="#e9eef4" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">再用训练曲线和验证曲线判断路径是否真的变稳。</text>
+</svg>

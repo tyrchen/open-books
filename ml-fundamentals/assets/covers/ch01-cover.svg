@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0.18" y2="1">
+    <stop offset="0%" stop-color="#080914"/>
+    <stop offset="42%" stop-color="#11161d"/>
+    <stop offset="100%" stop-color="#08090e"/>
+  </linearGradient>
+  <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f6d08a"/>
+    <stop offset="58%" stop-color="#d79a46"/>
+    <stop offset="100%" stop-color="#7c5427"/>
+  </linearGradient>
+  <radialGradient id="horizon" cx="0.62" cy="0.58" r="0.58">
+    <stop offset="0%" stop-color="#d79a46" stop-opacity="0.13"/>
+    <stop offset="48%" stop-color="#334155" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bluehaze" cx="0.26" cy="0.78" r="0.55">
+    <stop offset="0%" stop-color="#5da7ff" stop-opacity="0.11"/>
+    <stop offset="58%" stop-color="#2dd4bf" stop-opacity="0.035"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#334155" stroke-width="0.45" opacity="0.18"/>
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#334155" stroke-width="0.45" opacity="0.18"/>
+  </pattern>
+  <filter id="blur22" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d79a46" opacity="0.58"/></marker>
+</defs>
+<rect width="800" height="1120" fill="url(#bg)"/>
+<rect width="800" height="1120" fill="url(#grid)"/>
+<rect width="800" height="1120" fill="url(#horizon)"/>
+<rect width="800" height="1120" fill="url(#bluehaze)"/>
+<rect x="30" y="30" width="740" height="1060" fill="none" stroke="#2b3545" stroke-width="0.55" opacity="0.48" rx="2"/>
+<g stroke="#d79a46" stroke-width="0.9" opacity="0.45">
+  <path d="M 54 62 L 54 88 M 54 62 L 80 62"/>
+  <path d="M 746 62 L 746 88 M 746 62 L 720 62"/>
+  <path d="M 54 1058 L 54 1032 M 54 1058 L 80 1058"/>
+  <path d="M 746 1058 L 746 1032 M 746 1058 L 720 1058"/>
+</g>
+<rect x="112" y="0" width="3" height="1120" fill="url(#brass)" opacity="0.95"/>
+<text x="150" y="700" font-family="'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC', serif" font-size="30" fill="#d79a46" opacity="0.045" transform="rotate(-12,400,700)">learning is what remains after rules become too numerous.</text>
+<g transform="translate(180 118)" opacity="0.48" stroke="#d79a46" fill="none" stroke-width="1">
+  <text x="0" y="0" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" opacity="0.78">rules, before learning</text>
+  <rect x="10" y="28" width="110" height="34" rx="5"/>
+  <line x1="65" y1="62" x2="16" y2="112"/><line x1="65" y1="62" x2="130" y2="112"/>
+  <rect x="-24" y="112" width="78" height="30" rx="5" opacity="0.75"/>
+  <rect x="96" y="112" width="78" height="30" rx="5" opacity="0.75"/>
+  <path d="M 130 112 C 170 88, 206 95, 238 72" stroke-dasharray="4 6" opacity="0.5"/>
+</g>
+<g opacity="0.58"><line x1="491.5" y1="167.0" x2="491.5" y2="167.0" stroke="#5da7ff" stroke-width="0.7" opacity="0.32"/><line x1="527.6" y1="145.6" x2="568.6" y2="162.0" stroke="#5da7ff" stroke-width="0.7" opacity="0.32"/><line x1="512.8" y1="213.7" x2="558.7" y2="219.4" stroke="#5da7ff" stroke-width="0.7" opacity="0.32"/><line x1="568.6" y1="162.0" x2="558.7" y2="219.4" stroke="#5da7ff" stroke-width="0.7" opacity="0.32"/><line x1="491.5" y1="167.0" x2="512.8" y2="213.7" stroke="#5da7ff" stroke-width="0.7" opacity="0.32"/><circle cx="491.5" cy="167.0" r="3.3" fill="#d79a46" opacity="0.72"/><circle cx="527.6" cy="145.6" r="2.5" fill="#5da7ff" opacity="0.72"/><circle cx="568.6" cy="162.0" r="2.5" fill="#5da7ff" opacity="0.72"/><circle cx="606.3" cy="134.2" r="3.3" fill="#d79a46" opacity="0.72"/><circle cx="637.4" cy="170.2" r="2.5" fill="#5da7ff" opacity="0.72"/><circle cx="512.8" cy="213.7" r="2.5" fill="#5da7ff" opacity="0.72"/><circle cx="558.7" cy="219.4" r="3.3" fill="#d79a46" opacity="0.72"/><circle cx="599.7" cy="201.4" r="2.5" fill="#5da7ff" opacity="0.72"/><circle cx="642.4" cy="226.0" r="2.5" fill="#5da7ff" opacity="0.72"/></g>
+<path d="M 390 176 C 430 168, 462 166, 500 174" fill="none" stroke="#d79a46" stroke-width="0.9" marker-end="url(#arrow)" opacity="0.33"/>
+<g id="title">
+  <rect x="105" y="372" width="620" height="235" fill="#08090e" opacity="0.25" filter="url(#blur22)"/>
+  <text x="148" y="428" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="36" fill="#d79a46" letter-spacing="6">第 01 章</text>
+  <text x="148" y="506" font-family="'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC', serif" font-size="64" fill="#f8fafc" font-weight="800">让机器从例子中学习</text>
+  <text x="150" y="552" font-family="'Noto Sans CJK SC', 'Source Han Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Inter', sans-serif" font-size="19" fill="#aebcd0" letter-spacing="1.2">样本、标签、训练、预测</text>
+  <line x1="150" y1="584" x2="340" y2="584" stroke="#d79a46" stroke-width="1.4" opacity="0.58"/>
+</g>
+<g opacity="0.30">
+  <path d="M 178 740 C 250 680, 342 690, 420 648 C 505 604, 575 592, 642 620" fill="none" stroke="#d79a46" stroke-width="1.2"/>
+  <path d="M 198 777 C 280 725, 356 736, 438 706 C 510 680, 586 672, 650 694" fill="none" stroke="#5da7ff" stroke-width="1"/>
+</g>
+<g transform="translate(176 724)" opacity="0.42">
+  <text x="0" y="-20" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8">a new point asks the past for advice</text>
+  <circle cx="96" cy="66" r="44" fill="none" stroke="#d79a46" stroke-width="0.9" stroke-dasharray="5 5"/>
+  <circle cx="64" cy="84" r="4" fill="#5da7ff"/><circle cx="92" cy="54" r="4" fill="#5da7ff"/><circle cx="124" cy="82" r="4" fill="#d79a46"/><circle cx="96" cy="66" r="6" fill="#f6d08a" filter="url(#soft)"/>
+  <line x1="96" y1="66" x2="92" y2="54" stroke="#d79a46" stroke-width="0.8" opacity="0.6"/>
+  <line x1="96" y1="66" x2="64" y2="84" stroke="#d79a46" stroke-width="0.8" opacity="0.35"/>
+</g>
+<g transform="translate(520 772)" opacity="0.35" stroke="#d79a46" fill="none" stroke-width="1">
+  <circle cx="0" cy="0" r="16"/><path d="M 72 -16 L 102 0 L 72 16 Z"/><line x1="16" y1="0" x2="72" y2="0" marker-end="url(#arrow)"/>
+  <text x="-22" y="50" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8">examples become behavior</text>
+</g>
+<text x="150" y="1018" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#9fb2c8" opacity="0.58" letter-spacing="1.5">规则退场 · 样本出现 · 第一个模型</text>
+</svg>

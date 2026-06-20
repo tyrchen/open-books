@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0.18" y2="1">
+    <stop offset="0%" stop-color="#080914"/>
+    <stop offset="42%" stop-color="#11161d"/>
+    <stop offset="100%" stop-color="#08090e"/>
+  </linearGradient>
+  <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f6d08a"/>
+    <stop offset="58%" stop-color="#d79a46"/>
+    <stop offset="100%" stop-color="#7c5427"/>
+  </linearGradient>
+  <radialGradient id="horizon" cx="0.62" cy="0.58" r="0.58">
+    <stop offset="0%" stop-color="#d79a46" stop-opacity="0.13"/>
+    <stop offset="48%" stop-color="#334155" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bluehaze" cx="0.26" cy="0.78" r="0.55">
+    <stop offset="0%" stop-color="#5da7ff" stop-opacity="0.11"/>
+    <stop offset="58%" stop-color="#2dd4bf" stop-opacity="0.035"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#334155" stroke-width="0.45" opacity="0.18"/>
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#334155" stroke-width="0.45" opacity="0.18"/>
+  </pattern>
+  <filter id="blur22" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d79a46" opacity="0.58"/></marker>
+</defs>
+<rect width="800" height="1120" fill="url(#bg)"/>
+<rect width="800" height="1120" fill="url(#grid)"/>
+<rect width="800" height="1120" fill="url(#horizon)"/>
+<rect width="800" height="1120" fill="url(#bluehaze)"/>
+<rect x="30" y="30" width="740" height="1060" fill="none" stroke="#2b3545" stroke-width="0.55" opacity="0.48" rx="2"/>
+<g stroke="#d79a46" stroke-width="0.9" opacity="0.45">
+  <path d="M 54 62 L 54 88 M 54 62 L 80 62"/>
+  <path d="M 746 62 L 746 88 M 746 62 L 720 62"/>
+  <path d="M 54 1058 L 54 1032 M 54 1058 L 80 1058"/>
+  <path d="M 746 1058 L 746 1032 M 746 1058 L 720 1058"/>
+</g>
+<rect x="112" y="0" width="3" height="1120" fill="url(#brass)" opacity="0.95"/>
+<text x="150" y="700" font-family="'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC', serif" font-size="30" fill="#d79a46" opacity="0.045" transform="rotate(-12,400,700)">bigger models still need boundaries</text>
+<g><rect x="160.0" y="120.0" width="46" height="30" rx="3" fill="none" stroke="#5da7ff" opacity="0.24"/><rect x="238.73176787846316" y="116.32241844694512" width="46" height="30" rx="3" fill="none" stroke="#5da7ff" opacity="0.24"/><rect x="311.27437941460545" y="108.67082530762286" width="46" height="30" rx="3" fill="none" stroke="#5da7ff" opacity="0.24"/><rect x="377.1289600644789" y="104.08006002719644" width="46" height="30" rx="3" fill="none" stroke="#5da7ff" opacity="0.24"/><rect x="441.94558003753656" y="106.7708510330911" width="46" height="30" rx="3" fill="none" stroke="#5da7ff" opacity="0.24"/><rect x="152.32860580269488" y="162.2692974837058" width="46" height="30" rx="3" fill="none" stroke="#5da7ff" opacity="0.24"/><rect x="229.7646760144086" y="167.68136229320294" width="46" height="30" rx="3" fill="none" stroke="#5da7ff" opacity="0.24"/><rect x="309.2558927897503" y="166.03121803474644" width="46" height="30" rx="3" fill="none" stroke="#5da7ff" opacity="0.24"/><rect x="383.91486597298706" y="158.8359997295311" width="46" height="30" rx="3" fill="none" stroke="#5da7ff" opacity="0.24"/><rect x="451.29694788193405" y="152.7109579049226" width="46" height="30" rx="3" fill="none" stroke="#5da7ff" opacity="0.24"/><circle cx="486.3" cy="164.3" r="1.8" fill="#d79a46" opacity="0.30"/><circle cx="408.4" cy="234.6" r="2.2" fill="#5da7ff" opacity="0.30"/><circle cx="413.8" cy="152.4" r="2.7" fill="#5da7ff" opacity="0.30"/><circle cx="509.9" cy="188.7" r="1.8" fill="#5da7ff" opacity="0.30"/><circle cx="332.5" cy="200.9" r="2.2" fill="#d79a46" opacity="0.30"/><circle cx="447.8" cy="155.9" r="2.7" fill="#5da7ff" opacity="0.30"/><circle cx="450.4" cy="228.0" r="1.8" fill="#5da7ff" opacity="0.30"/><circle cx="335.9" cy="146.9" r="2.2" fill="#5da7ff" opacity="0.30"/><circle cx="504.5" cy="166.2" r="2.7" fill="#d79a46" opacity="0.30"/><circle cx="383.4" cy="222.5" r="1.8" fill="#5da7ff" opacity="0.30"/><circle cx="423.2" cy="159.9" r="2.2" fill="#5da7ff" opacity="0.30"/><circle cx="482.4" cy="208.7" r="2.7" fill="#5da7ff" opacity="0.30"/><circle cx="322.2" cy="178.2" r="1.8" fill="#d79a46" opacity="0.30"/><circle cx="469.4" cy="152.9" r="2.2" fill="#5da7ff" opacity="0.30"/><circle cx="433.3" cy="227.4" r="2.7" fill="#5da7ff" opacity="0.30"/><circle cx="367.7" cy="142.1" r="1.8" fill="#5da7ff" opacity="0.30"/><circle cx="497.7" cy="185.3" r="2.2" fill="#d79a46" opacity="0.30"/><circle cx="350.6" cy="203.4" r="2.7" fill="#5da7ff" opacity="0.30"/><circle cx="445.2" cy="115.9" r="1.8" fill="#5da7ff" opacity="0.30"/><circle cx="464.7" cy="217.5" r="2.2" fill="#5da7ff" opacity="0.30"/><circle cx="340.3" cy="170.6" r="2.7" fill="#d79a46" opacity="0.30"/><circle cx="487.1" cy="166.9" r="1.8" fill="#5da7ff" opacity="0.30"/><circle cx="404.4" cy="215.0" r="2.2" fill="#5da7ff" opacity="0.30"/><circle cx="388.9" cy="124.3" r="2.7" fill="#5da7ff" opacity="0.30"/><circle cx="478.6" cy="199.4" r="1.8" fill="#d79a46" opacity="0.30"/><circle cx="339.6" cy="198.5" r="2.2" fill="#5da7ff" opacity="0.30"/><path d="M 526 182 C 585 166, 620 154, 658 122" fill="none" stroke="#d79a46" stroke-width="1" marker-end="url(#arrow)" opacity="0.36"/></g><g transform="translate(195 760)" opacity="0.34" stroke="#d79a46" fill="none"><path d="M 0 0 L 380 0 L 380 96 L 0 96 Z"/><path d="M 0 32 L 380 32 M 0 64 L 380 64 M 126 0 L 126 96 M 252 0 L 252 96"/><text x="26" y="122" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" stroke="none">retrieval gives context; eval gives boundary</text></g>
+<g id="title">
+  <rect x="105" y="372" width="620" height="235" fill="#08090e" opacity="0.25" filter="url(#blur22)"/>
+  <text x="148" y="428" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="36" fill="#d79a46" letter-spacing="6">第 12 章</text>
+  <text x="148" y="506" font-family="'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC', serif" font-size="62" fill="#f8fafc" font-weight="800">从小模型到大模型</text>
+  <text x="150" y="552" font-family="'Noto Sans CJK SC', 'Source Han Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Inter', sans-serif" font-size="19" fill="#aebcd0" letter-spacing="1.2">检索增强、提示词、评估</text>
+  <line x1="150" y1="584" x2="340" y2="584" stroke="#d79a46" stroke-width="1.4" opacity="0.58"/>
+</g>
+<text x="150" y="1018" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#9fb2c8" opacity="0.58" letter-spacing="1.5">文档 · 向量 · 检索 · eval</text>
+</svg>

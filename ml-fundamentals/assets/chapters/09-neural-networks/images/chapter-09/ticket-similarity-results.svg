@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/></marker>
+<marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d7a64a"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">相似度检索必须看结果是否有用</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">TF-IDF 会抓住共享词，也会被错误码和短词带偏</text>
+<rect x="180" y="245" width="1060" height="455" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="220" y="305" fill="#e9eef4" font-size="27" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">查询：上线 后 接口 大量 502</text>
+<text x="225" y="385" fill="#9aa8b7" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">Top 1</text>
+<text x="335" y="385" fill="#e9eef4" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">T002</text>
+<text x="430" y="385" fill="#e9eef4" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">支付 接口 偶发 返回 502</text>
+<rect x="430" y="409" width="360.0" height="22" rx="4" fill="#e06c75" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="805" y="428" fill="#e06c75" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">0.318</text>
+<text x="910" y="428" fill="#e06c75" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">payment</text>
+<text x="225" y="480" fill="#9aa8b7" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">Top 2</text>
+<text x="335" y="480" fill="#e9eef4" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">T021</text>
+<text x="430" y="480" fill="#e9eef4" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">发布 后 API 返回 502</text>
+<rect x="430" y="504" width="270.21395687220485" height="22" rx="4" fill="#5cc8a7" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="805" y="523" fill="#5cc8a7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">0.239</text>
+<text x="910" y="523" fill="#5cc8a7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">deploy</text>
+<text x="225" y="575" fill="#9aa8b7" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">Top 3</text>
+<text x="335" y="575" fill="#e9eef4" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">T001</text>
+<text x="430" y="575" fill="#e9eef4" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">支付 接口 超时 返回 500</text>
+<rect x="430" y="599" width="158.23098785158075" height="22" rx="4" fill="#e06c75" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="805" y="618" fill="#e06c75" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">0.140</text>
+<text x="910" y="618" fill="#e06c75" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">payment</text>
+<rect x="1290" y="325" width="190" height="170" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="1322" y="372" fill="#e06c75" font-size="26" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">失败原因</text>
+<text x="1322" y="418" fill="#e9eef4" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">502 词面相同</text>
+<text x="1322" y="452" fill="#e9eef4" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">业务模块不同</text>
+<text x="180" y="805" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">检索系统不能只交付相似度分数，还要交付 Top K 结果、人工判断和失败归因。</text>
+</svg>

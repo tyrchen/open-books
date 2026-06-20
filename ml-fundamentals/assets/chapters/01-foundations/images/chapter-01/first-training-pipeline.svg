@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/>
+</marker>
+</defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">第一个模型的最小闭环</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">训练集塑造模型，测试集只负责检查泛化</text>
+<rect x="90" y="300" width="280" height="280" rx="8" fill="#0f1722" stroke="#6ea8fe" stroke-width="3" opacity="1"/>
+<text x="230" y="345" fill="#e9eef4" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">历史样本表</text>
+<line x1="118" y1="372" x2="342" y2="372" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="168" y="412" fill="#6ea8fe" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">特征</text>
+<text x="295" y="412" fill="#d7a64a" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">标签</text>
+<text x="168" y="455" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">55,2,18,1</text>
+<text x="295" y="455" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">1</text>
+<text x="168" y="490" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">42,1,25,0</text>
+<text x="295" y="490" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">0</text>
+<text x="168" y="525" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">88,3,15,1</text>
+<text x="295" y="525" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">1</text>
+<text x="168" y="560" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">130,4,18,1</text>
+<text x="295" y="560" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">0</text>
+<rect x="455" y="390" width="230" height="92" rx="8" fill="#132033" stroke="#b48cff" stroke-width="3" opacity="1"/>
+<text x="570.0" y="436" fill="#e9eef4" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">切分数据</text>
+<text x="570.0" y="472" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">train / test</text>
+<rect x="780" y="250" width="240" height="86" rx="8" fill="#132033" stroke="#5cc8a7" stroke-width="3" opacity="1"/>
+<text x="900.0" y="296" fill="#e9eef4" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">训练集</text>
+<rect x="1105" y="250" width="240" height="86" rx="8" fill="#132033" stroke="#5cc8a7" stroke-width="3" opacity="1"/>
+<text x="1225.0" y="296" fill="#e9eef4" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">训练</text>
+<rect x="1105" y="415" width="240" height="86" rx="8" fill="#132033" stroke="#5cc8a7" stroke-width="3" opacity="1"/>
+<text x="1225.0" y="461" fill="#e9eef4" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">模型</text>
+<rect x="780" y="595" width="240" height="86" rx="8" fill="#132033" stroke="#b48cff" stroke-width="3" opacity="1"/>
+<text x="900.0" y="641" fill="#e9eef4" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">测试集</text>
+<rect x="1105" y="595" width="240" height="86" rx="8" fill="#132033" stroke="#b48cff" stroke-width="3" opacity="1"/>
+<text x="1225.0" y="641" fill="#e9eef4" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">预测</text>
+<rect x="1105" y="735" width="240" height="76" rx="8" fill="#132033" stroke="#5ec8d8" stroke-width="3" opacity="1"/>
+<text x="1225.0" y="781" fill="#e9eef4" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">分数</text>
+<line x1="370" y1="440" x2="447" y2="440" stroke="#6ea8fe" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<polyline points="685.0,435.0 725.0,435.0 725.0,293.0 772.0,293.0" fill="none" stroke="#5cc8a7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-end="url(#arrow)"/>
+<line x1="1020" y1="293" x2="1097" y2="293" stroke="#5cc8a7" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<line x1="1225" y1="336" x2="1225" y2="407" stroke="#5cc8a7" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<polyline points="685.0,445.0 725.0,445.0 725.0,638.0 772.0,638.0" fill="none" stroke="#b48cff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-end="url(#arrow)"/>
+<line x1="1020" y1="638" x2="1097" y2="638" stroke="#b48cff" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<line x1="1225" y1="501" x2="1225" y2="587" stroke="#5cc8a7" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<line x1="1225" y1="681" x2="1225" y2="727" stroke="#5ec8d8" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<text x="1370" y="635" fill="#d7a64a" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">对照真实标签</text>
+<line x1="1345" y1="638" x2="1450" y2="638" stroke="#d7a64a" stroke-width="3" opacity="0.8" stroke-dasharray="7 7"/>
+<text x="190" y="815" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">隔离线的含义：测试集不能回流到训练过程，真实标签只用于评估。</text>
+</svg>

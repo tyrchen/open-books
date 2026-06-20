@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/></marker></defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">逻辑回归：直线先给分，sigmoid 再给概率</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">分类动作仍由阈值决定，0.5 只是默认切点，不是业务真理</text>
+<rect x="95" y="230" width="620" height="500" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="123" y="272" fill="#e9eef4" font-size="26" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">特征空间</text>
+<line x1="170" y1="658" x2="665" y2="658" stroke="#7d8b99" stroke-width="2" opacity="1"/>
+<line x1="170" y1="658" x2="170" y2="302" stroke="#7d8b99" stroke-width="2" opacity="1"/>
+<text x="673" y="692" fill="#9aa8b7" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">x1</text>
+<text x="137" y="306" fill="#9aa8b7" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">x2</text>
+<line x1="250" y1="635" x2="610" y2="335" stroke="#e9eef4" stroke-width="5" opacity="1"/>
+<text x="405" y="488" fill="#e9eef4" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">z = 0</text>
+<text x="487" y="522" fill="#9aa8b7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">p = 0.5</text>
+<circle cx="275" cy="350" r="13" fill="#6ea8fe" stroke="#d8e7ff" stroke-width="2" opacity="1"/>
+<circle cx="340" cy="390" r="13" fill="#6ea8fe" stroke="#d8e7ff" stroke-width="2" opacity="1"/>
+<circle cx="410" cy="348" r="13" fill="#6ea8fe" stroke="#d8e7ff" stroke-width="2" opacity="1"/>
+<circle cx="505" cy="410" r="13" fill="#6ea8fe" stroke="#d8e7ff" stroke-width="2" opacity="1"/>
+<circle cx="610" cy="380" r="13" fill="#6ea8fe" stroke="#d8e7ff" stroke-width="2" opacity="1"/>
+<circle cx="570" cy="475" r="13" fill="#6ea8fe" stroke="#d8e7ff" stroke-width="2" opacity="1"/>
+<circle cx="240" cy="625" r="13" fill="none" stroke="#d7a64a" stroke-width="4" opacity="1"/>
+<circle cx="315" cy="550" r="13" fill="none" stroke="#d7a64a" stroke-width="4" opacity="1"/>
+<circle cx="405" cy="620" r="13" fill="none" stroke="#d7a64a" stroke-width="4" opacity="1"/>
+<circle cx="500" cy="565" r="13" fill="none" stroke="#d7a64a" stroke-width="4" opacity="1"/>
+<circle cx="610" cy="635" r="13" fill="none" stroke="#d7a64a" stroke-width="4" opacity="1"/>
+<circle cx="650" cy="540" r="13" fill="none" stroke="#d7a64a" stroke-width="4" opacity="1"/>
+<text x="235" y="325" fill="#6ea8fe" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">正类一侧</text>
+<text x="530" y="685" fill="#d7a64a" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">负类一侧</text>
+<text x="185" y="708" fill="#9aa8b7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">线性分数 z 决定点在边界哪一侧</text>
+<rect x="800" y="230" width="440" height="500" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="828" y="272" fill="#e9eef4" font-size="26" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">sigmoid</text>
+<line x1="862" y1="652" x2="1187" y2="652" stroke="#7d8b99" stroke-width="2" opacity="1"/>
+<line x1="862" y1="652" x2="862" y2="302" stroke="#7d8b99" stroke-width="2" opacity="1"/>
+<text x="1205" y="658" fill="#9aa8b7" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">z</text>
+<text x="836" y="292" fill="#9aa8b7" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">p</text>
+<polyline points="862.00,651.13 864.71,651.04 867.42,650.94 870.12,650.83 872.83,650.71 875.54,650.58 878.25,650.43 880.96,650.26 883.67,650.08 886.38,649.88 889.08,649.66 891.79,649.41 894.50,649.14 897.21,648.85 899.92,648.52 902.62,648.15 905.33,647.76 908.04,647.31 910.75,646.83 913.46,646.29 916.17,645.70 918.88,645.06 921.58,644.34 924.29,643.56 927.00,642.69 929.71,641.74 932.42,640.70 935.12,639.55 937.83,638.29 940.54,636.91 943.25,635.40 945.96,633.75 948.67,631.94 951.38,629.96 954.08,627.80 956.79,625.45 959.50,622.89 962.21,620.11 964.92,617.09 967.62,613.82 970.33,610.28 973.04,606.46 975.75,602.35 978.46,597.94 981.17,593.21 983.88,588.15 986.58,582.76 989.29,577.04 992.00,570.98 994.71,564.59 997.42,557.87 1000.12,550.83 1002.83,543.49 1005.54,535.87 1008.25,527.98 1010.96,519.86 1013.67,511.54 1016.38,503.05 1019.08,494.44 1021.79,485.74 1024.50,477.00 1027.21,468.26 1029.92,459.56 1032.62,450.95 1035.33,442.46 1038.04,434.14 1040.75,426.02 1043.46,418.13 1046.17,410.51 1048.88,403.17 1051.58,396.13 1054.29,389.41 1057.00,383.02 1059.71,376.96 1062.42,371.24 1065.12,365.85 1067.83,360.79 1070.54,356.06 1073.25,351.65 1075.96,347.54 1078.67,343.72 1081.38,340.18 1084.08,336.91 1086.79,333.89 1089.50,331.11 1092.21,328.55 1094.92,326.20 1097.62,324.04 1100.33,322.06 1103.04,320.25 1105.75,318.60 1108.46,317.09 1111.17,315.71 1113.88,314.45 1116.58,313.30 1119.29,312.26 1122.00,311.31 1124.71,310.44 1127.42,309.66 1130.12,308.94 1132.83,308.30 1135.54,307.71 1138.25,307.17 1140.96,306.69 1143.67,306.24 1146.38,305.85 1149.08,305.48 1151.79,305.15 1154.50,304.86 1157.21,304.59 1159.92,304.34 1162.62,304.12 1165.33,303.92 1168.04,303.74 1170.75,303.57 1173.46,303.42 1176.17,303.29 1178.88,303.17 1181.58,303.06 1184.29,302.96 1187.00,302.87" fill="none" stroke="#5cc8a7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1024.5" y1="652" x2="1024.5" y2="477.0" stroke="#7d8b99" stroke-width="2" opacity="0.8" stroke-dasharray="8 8"/>
+<line x1="862" y1="477.0" x2="1024.5" y2="477.0" stroke="#7d8b99" stroke-width="2" opacity="0.8" stroke-dasharray="8 8"/>
+<circle cx="1024.5" cy="477.0" r="9" fill="#5cc8a7" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<text x="1024.5" y="684" fill="#9aa8b7" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">z=0</text>
+<text x="850" y="483.0" fill="#9aa8b7" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">0.5</text>
+<text x="880" y="668" fill="#e9eef4" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">p = 1 / (1 + e^{-z})</text>
+<rect x="1290" y="260" width="220" height="420" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="1318" y="302" fill="#e9eef4" font-size="26" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">动作</text>
+<rect x="1318" y="342" width="164" height="72" rx="8" fill="#14243a" stroke="#6ea8fe" stroke-width="2" opacity="1"/>
+<text x="1400" y="386" fill="#6ea8fe" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">直接拦截</text>
+<rect x="1318" y="448" width="164" height="72" rx="8" fill="#1f1c13" stroke="#d7a64a" stroke-width="2" opacity="1"/>
+<text x="1400" y="492" fill="#d7a64a" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">人工复核</text>
+<rect x="1318" y="554" width="164" height="72" rx="8" fill="#13251f" stroke="#5cc8a7" stroke-width="2" opacity="1"/>
+<text x="1400" y="598" fill="#5cc8a7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">自动放行</text>
+<line x1="743" y1="590" x2="766" y2="590" stroke="#9aa8b7" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<line x1="1266" y1="590" x2="1256" y2="590" stroke="#9aa8b7" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<text x="740" y="575" fill="#9aa8b7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">z</text>
+<text x="1264" y="575" fill="#9aa8b7" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">p 与阈值</text>
+<text x="100" y="805" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">逻辑回归只把分数映射成概率；业务系统仍要根据误伤、漏检和审核容量选择阈值。</text>
+</svg>

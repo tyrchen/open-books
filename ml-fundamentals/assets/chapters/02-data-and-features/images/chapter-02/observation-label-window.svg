@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/>
+</marker>
+<marker id="red-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#e06c75"/>
+</marker>
+</defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">观察窗口和标签窗口</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">预测时间点把特征和标签分开</text>
+<line x1="170" y1="405" x2="1430" y2="405" stroke="#9aa8b7" stroke-width="5" opacity="1"/>
+<line x1="800" y1="250" x2="800" y2="565" stroke="#e06c75" stroke-width="4" opacity="1" stroke-dasharray="10 8"/>
+<text x="170" y="370" fill="#9aa8b7" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">2026-05-02</text>
+<text x="800" y="225" fill="#e06c75" font-size="25" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">predict_at</text>
+<text x="800" y="370" fill="#e06c75" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">2026-06-01</text>
+<text x="1430" y="370" fill="#9aa8b7" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">2026-07-01</text>
+<rect x="170" y="290" width="630" height="80" rx="8" fill="#132033" stroke="#5cc8a7" stroke-width="3" opacity="1"/>
+<text x="485.0" y="339" fill="#5cc8a7" font-size="25" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">观察窗口：过去 30 天生成特征</text>
+<rect x="800" y="440" width="630" height="80" rx="8" fill="#132033" stroke="#d7a64a" stroke-width="3" opacity="1"/>
+<text x="1115.0" y="490" fill="#d7a64a" font-size="25" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">标签窗口：未来 30 天生成 churned_30d</text>
+<line x1="250" y1="387" x2="250" y2="423" stroke="#5cc8a7" stroke-width="4" opacity="1"/>
+<text x="250" y="467" fill="#5cc8a7" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">U001 login</text>
+<line x1="430" y1="387" x2="430" y2="423" stroke="#5cc8a7" stroke-width="4" opacity="1"/>
+<text x="430" y="467" fill="#5cc8a7" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">U004 ticket</text>
+<line x1="710" y1="387" x2="710" y2="423" stroke="#5cc8a7" stroke-width="4" opacity="1"/>
+<text x="710" y="467" fill="#5cc8a7" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">U006 upgrade</text>
+<line x1="970" y1="387" x2="970" y2="423" stroke="#d7a64a" stroke-width="4" opacity="1"/>
+<text x="970" y="553" fill="#d7a64a" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">U004 cancel</text>
+<line x1="1180" y1="387" x2="1180" y2="423" stroke="#d7a64a" stroke-width="4" opacity="1"/>
+<text x="1180" y="553" fill="#d7a64a" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">U001 cancel</text>
+<line x1="1310" y1="387" x2="1310" y2="423" stroke="#d7a64a" stroke-width="4" opacity="1"/>
+<text x="1310" y="553" fill="#d7a64a" font-size="20" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">U006 login</text>
+<text x="200" y="705" fill="#e9eef4" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">脚本复现：18 条事件 -&gt; 6 行训练样本</text>
+<text x="200" y="755" fill="#9aa8b7" font-size="26" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">cancel 事件只能进入标签窗口；预测后登录不能回流成特征。</text>
+</svg>

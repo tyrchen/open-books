@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.78"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">代理目标可能写偏</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">模型会认真优化我们写下的数字，哪怕数字只是业务价值的影子</text>
+<rect x="145" y="270" width="270" height="135" rx="8" fill="#0f1722" stroke="#5cc8a7" stroke-width="3" opacity="1"/>
+<text x="280" y="325" fill="#e9eef4" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">真实价值</text>
+<text x="280" y="364" fill="#9aa8b7" font-size="18" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">用户满意、长期留存、风险下降</text>
+<rect x="500" y="270" width="270" height="135" rx="8" fill="#0f1722" stroke="#d7a64a" stroke-width="3" opacity="1"/>
+<text x="635" y="325" fill="#e9eef4" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">代理目标</text>
+<text x="635" y="364" fill="#9aa8b7" font-size="18" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">点击率、关闭率、平均损失</text>
+<rect x="855" y="270" width="270" height="135" rx="8" fill="#0f1722" stroke="#6ea8fe" stroke-width="3" opacity="1"/>
+<text x="990" y="325" fill="#e9eef4" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">训练优化</text>
+<text x="990" y="364" fill="#9aa8b7" font-size="18" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">参数朝目标数字下降</text>
+<rect x="1210" y="270" width="270" height="135" rx="8" fill="#0f1722" stroke="#e06c75" stroke-width="3" opacity="1"/>
+<text x="1345" y="325" fill="#e9eef4" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">系统行为</text>
+<text x="1345" y="364" fill="#9aa8b7" font-size="18" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">短期分数上升，长期代价暴露</text>
+<line x1="415" y1="337" x2="485" y2="337" stroke="#9aa8b7" stroke-width="5" opacity="1"/>
+<polyline points="485.0,337.0 469.0,327.0 469.0,347.0 485.0,337.0" fill="none" stroke="#9aa8b7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<line x1="770" y1="337" x2="840" y2="337" stroke="#9aa8b7" stroke-width="5" opacity="1"/>
+<polyline points="840.0,337.0 824.0,327.0 824.0,347.0 840.0,337.0" fill="none" stroke="#9aa8b7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<line x1="1125" y1="337" x2="1195" y2="337" stroke="#9aa8b7" stroke-width="5" opacity="1"/>
+<polyline points="1195.0,337.0 1179.0,327.0 1179.0,347.0 1195.0,337.0" fill="none" stroke="#9aa8b7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<rect x="230" y="540" width="1140" height="150" rx="8" fill="#132033" stroke="#b48cff" stroke-width="3" opacity="1"/>
+<text x="800" y="595" fill="#e9eef4" font-size="30" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">指标一旦成为目标，就会改变被测量的系统。</text>
+<text x="800" y="642" fill="#9aa8b7" font-size="25" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">训练损失要能优化；业务验收要能保护真实价值。</text>
+<text x="260" y="745" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">工程检查：训练目标、评估指标、上线动作和人工兜底必须分开记录。</text>
+</svg>

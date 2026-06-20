@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/>
+</marker>
+</defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">客服工单是否升级为 P1</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">预测表比单个 accuracy 更接近工程审查</text>
+<rect x="55" y="220" width="1075" height="515" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="112.5" y="268" fill="#e9eef4" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">工单</text>
+<text x="250.0" y="268" fill="#e9eef4" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">产品区域</text>
+<text x="415.0" y="268" fill="#e9eef4" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">客户等级</text>
+<text x="552.5" y="268" fill="#e9eef4" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">错误码</text>
+<text x="675.0" y="268" fill="#d7a64a" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">真实标签</text>
+<text x="815.0" y="268" fill="#5cc8a7" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">模型预测</text>
+<text x="955.0" y="268" fill="#6ea8fe" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">最近样本</text>
+<text x="1077.5" y="268" fill="#e9eef4" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">结果</text>
+<line x1="55" y1="292" x2="1130" y2="292" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="112.5" y="337" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">T015</text>
+<text x="250.0" y="337" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">payment</text>
+<text x="415.0" y="337" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">enterprise</text>
+<text x="552.5" y="337" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">有</text>
+<text x="675.0" y="337" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">P1</text>
+<text x="815.0" y="337" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">P1</text>
+<text x="955.0" y="337" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">T001</text>
+<text x="1077.5" y="337" fill="#5cc8a7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">正确</text>
+<line x1="55" y1="363" x2="1130" y2="363" stroke="#34475e" stroke-width="1" opacity="0.55"/>
+<text x="112.5" y="405" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">T016</text>
+<text x="250.0" y="405" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">export</text>
+<text x="415.0" y="405" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">enterprise</text>
+<text x="552.5" y="405" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">无</text>
+<text x="675.0" y="405" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">P1</text>
+<text x="815.0" y="405" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">P1</text>
+<text x="955.0" y="405" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">T008</text>
+<text x="1077.5" y="405" fill="#5cc8a7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">正确</text>
+<line x1="55" y1="431" x2="1130" y2="431" stroke="#34475e" stroke-width="1" opacity="0.55"/>
+<text x="112.5" y="473" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">T017</text>
+<text x="250.0" y="473" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">api</text>
+<text x="415.0" y="473" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">free</text>
+<text x="552.5" y="473" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">有</text>
+<text x="675.0" y="473" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">非 P1</text>
+<text x="815.0" y="473" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">非 P1</text>
+<text x="955.0" y="473" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">T011</text>
+<text x="1077.5" y="473" fill="#5cc8a7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">正确</text>
+<line x1="55" y1="499" x2="1130" y2="499" stroke="#34475e" stroke-width="1" opacity="0.55"/>
+<rect x="63" y="506" width="1059" height="56" rx="5" fill="#3a1f2a" stroke="#e06c75" stroke-width="2" opacity="1"/>
+<text x="112.5" y="541" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">T018</text>
+<text x="250.0" y="541" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">login</text>
+<text x="415.0" y="541" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">enterprise</text>
+<text x="552.5" y="541" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">无</text>
+<text x="675.0" y="541" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">非 P1</text>
+<text x="815.0" y="541" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">P1</text>
+<text x="955.0" y="541" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">T008</text>
+<text x="1077.5" y="541" fill="#e06c75" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">错误</text>
+<line x1="55" y1="567" x2="1130" y2="567" stroke="#34475e" stroke-width="1" opacity="0.55"/>
+<text x="112.5" y="609" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">T019</text>
+<text x="250.0" y="609" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">billing</text>
+<text x="415.0" y="609" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">team</text>
+<text x="552.5" y="609" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">有</text>
+<text x="675.0" y="609" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">P1</text>
+<text x="815.0" y="609" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">P1</text>
+<text x="955.0" y="609" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">T009</text>
+<text x="1077.5" y="609" fill="#5cc8a7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">正确</text>
+<line x1="55" y1="635" x2="1130" y2="635" stroke="#34475e" stroke-width="1" opacity="0.55"/>
+<text x="112.5" y="677" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">T020</text>
+<text x="250.0" y="677" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">payment</text>
+<text x="415.0" y="677" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">team</text>
+<text x="552.5" y="677" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">无</text>
+<text x="675.0" y="677" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">非 P1</text>
+<text x="815.0" y="677" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">非 P1</text>
+<text x="955.0" y="677" fill="#e9eef4" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">T004</text>
+<text x="1077.5" y="677" fill="#5cc8a7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">正确</text>
+<rect x="160" y="790" width="340" height="58" rx="8" fill="#182433" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="330" y="828" fill="#9aa8b7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">模型看不到客户历史</text>
+<rect x="590" y="790" width="340" height="58" rx="8" fill="#182433" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="760" y="828" fill="#9aa8b7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">模型看不到当前故障范围</text>
+<rect x="1020" y="790" width="340" height="58" rx="8" fill="#182433" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="1190" y="828" fill="#9aa8b7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">模型看不到人工升级原因</text>
+</svg>

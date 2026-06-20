@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/>
+</marker>
+</defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.78"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">batch 和 epoch 的训练节奏</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">step 解释一次更新，batch 解释一次看多少数据，epoch 解释完整遍历几遍</text>
+<rect x="120" y="250" width="310" height="360" rx="8" fill="#0f1722" stroke="#6ea8fe" stroke-width="3" opacity="1"/>
+<text x="275" y="305" fill="#e9eef4" font-size="30" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">训练集</text>
+<rect x="165" y="345" width="220" height="28" rx="5" fill="#172437" stroke="#34475e" stroke-width="2" opacity="1"/>
+<rect x="165" y="390" width="220" height="28" rx="5" fill="#172437" stroke="#34475e" stroke-width="2" opacity="1"/>
+<rect x="165" y="435" width="220" height="28" rx="5" fill="#172437" stroke="#34475e" stroke-width="2" opacity="1"/>
+<rect x="165" y="480" width="220" height="28" rx="5" fill="#172437" stroke="#34475e" stroke-width="2" opacity="1"/>
+<rect x="165" y="525" width="220" height="28" rx="5" fill="#172437" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="275" y="585" fill="#9aa8b7" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">10,000 条样本</text>
+<rect x="560" y="285" width="265" height="90" rx="8" fill="#0f1722" stroke="#5cc8a7" stroke-width="3" opacity="1"/>
+<text x="692" y="340" fill="#e9eef4" font-size="27" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">batch 1</text>
+<rect x="560" y="415" width="265" height="90" rx="8" fill="#0f1722" stroke="#5cc8a7" stroke-width="3" opacity="1"/>
+<text x="692" y="470" fill="#e9eef4" font-size="27" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">batch 2</text>
+<rect x="560" y="545" width="265" height="90" rx="8" fill="#0f1722" stroke="#5cc8a7" stroke-width="3" opacity="1"/>
+<text x="692" y="600" fill="#e9eef4" font-size="27" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">batch 3</text>
+<line x1="430" y1="430" x2="545" y2="330" stroke="#9aa8b7" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<line x1="430" y1="430" x2="545" y2="460" stroke="#9aa8b7" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<line x1="430" y1="430" x2="545" y2="590" stroke="#9aa8b7" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<rect x="970" y="350" width="320" height="170" rx="8" fill="#0f1722" stroke="#d7a64a" stroke-width="3" opacity="1"/>
+<text x="1130" y="405" fill="#e9eef4" font-size="30" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">一次 step</text>
+<text x="1130" y="455" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">用一个 batch</text>
+<text x="1130" y="490" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">计算梯度并更新参数</text>
+<line x1="825" y1="330" x2="955" y2="435" stroke="#9aa8b7" stroke-width="4" opacity="0.75" marker-end="url(#arrow)"/>
+<line x1="825" y1="460" x2="955" y2="435" stroke="#9aa8b7" stroke-width="4" opacity="0.75" marker-end="url(#arrow)"/>
+<line x1="825" y1="590" x2="955" y2="435" stroke="#9aa8b7" stroke-width="4" opacity="0.75" marker-end="url(#arrow)"/>
+<rect x="1030" y="620" width="420" height="95" rx="8" fill="#132033" stroke="#b48cff" stroke-width="3" opacity="1"/>
+<text x="1240" y="675" fill="#e9eef4" font-size="27" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">所有 batch 走完 = 1 个 epoch</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/></marker></defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">删除一条异常样本，解释会明显移动</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">小数据上的线性解释必须报告稳定性，而不是只报告一组权重</text>
+<rect x="150" y="230" width="1180" height="520" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<line x1="763.6" y1="285" x2="763.6" y2="710" stroke="#7d8b99" stroke-width="2" opacity="1"/>
+<text x="182" y="321" fill="#9aa8b7" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">area_m2</text>
+<circle cx="1022.6396457334287" cy="303" r="8" fill="#6ea8fe" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<circle cx="1212.0" cy="331" r="8" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<line x1="1022.6396457334287" y1="303" x2="1212.0" y2="331" stroke="#7d8b99" stroke-width="2" opacity="0.75"/>
+<text x="182" y="389" fill="#9aa8b7" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">is_entire</text>
+<circle cx="902.5408862583738" cy="371" r="8" fill="#6ea8fe" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<circle cx="807.1796735931466" cy="399" r="8" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<line x1="902.5408862583738" y1="371" x2="807.1796735931466" y2="399" stroke="#7d8b99" stroke-width="2" opacity="0.75"/>
+<text x="182" y="457" fill="#9aa8b7" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">has_elevator</text>
+<circle cx="858.7078311461156" cy="439" r="8" fill="#6ea8fe" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<circle cx="774.9013494470355" cy="467" r="8" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<line x1="858.7078311461156" y1="439" x2="774.9013494470355" y2="467" stroke="#7d8b99" stroke-width="2" opacity="0.75"/>
+<text x="182" y="525" fill="#9aa8b7" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">age_years</text>
+<circle cx="598.5579650961057" cy="507" r="8" fill="#6ea8fe" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<circle cx="665.7466081225862" cy="535" r="8" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<line x1="598.5579650961057" y1="507" x2="665.7466081225862" y2="535" stroke="#7d8b99" stroke-width="2" opacity="0.75"/>
+<text x="182" y="593" fill="#9aa8b7" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">dist_to_subway_m</text>
+<circle cx="758.186162105465" cy="575" r="8" fill="#6ea8fe" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<circle cx="705.8764195435799" cy="603" r="8" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<line x1="758.186162105465" y1="575" x2="705.8764195435799" y2="603" stroke="#7d8b99" stroke-width="2" opacity="0.75"/>
+<text x="182" y="661" fill="#9aa8b7" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">bedrooms</text>
+<circle cx="801.6332245863102" cy="643" r="8" fill="#6ea8fe" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<circle cx="790.1152588976793" cy="671" r="8" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<line x1="801.6332245863102" y1="643" x2="790.1152588976793" y2="671" stroke="#7d8b99" stroke-width="2" opacity="0.75"/>
+<rect x="1360" y="315" width="150" height="125" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<circle cx="1388" cy="355" r="8" fill="#6ea8fe" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<text x="1410" y="363" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">删除前</text>
+<circle cx="1388" cy="405" r="8" fill="#d7a64a" stroke="#ffffff" stroke-width="2" opacity="1"/>
+<text x="1410" y="413" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">删除后</text>
+<text x="160" y="805" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">如果一条记录能改变多个权重的方向或幅度，解释报告必须承认当前样本不稳定。</text>
+</svg>

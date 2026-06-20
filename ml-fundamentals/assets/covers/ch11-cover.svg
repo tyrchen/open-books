@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0.18" y2="1">
+    <stop offset="0%" stop-color="#080914"/>
+    <stop offset="42%" stop-color="#11161d"/>
+    <stop offset="100%" stop-color="#08090e"/>
+  </linearGradient>
+  <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f6d08a"/>
+    <stop offset="58%" stop-color="#d79a46"/>
+    <stop offset="100%" stop-color="#7c5427"/>
+  </linearGradient>
+  <radialGradient id="horizon" cx="0.62" cy="0.58" r="0.58">
+    <stop offset="0%" stop-color="#d79a46" stop-opacity="0.13"/>
+    <stop offset="48%" stop-color="#334155" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bluehaze" cx="0.26" cy="0.78" r="0.55">
+    <stop offset="0%" stop-color="#5da7ff" stop-opacity="0.11"/>
+    <stop offset="58%" stop-color="#2dd4bf" stop-opacity="0.035"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#334155" stroke-width="0.45" opacity="0.18"/>
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#334155" stroke-width="0.45" opacity="0.18"/>
+  </pattern>
+  <filter id="blur22" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d79a46" opacity="0.58"/></marker>
+</defs>
+<rect width="800" height="1120" fill="url(#bg)"/>
+<rect width="800" height="1120" fill="url(#grid)"/>
+<rect width="800" height="1120" fill="url(#horizon)"/>
+<rect width="800" height="1120" fill="url(#bluehaze)"/>
+<rect x="30" y="30" width="740" height="1060" fill="none" stroke="#2b3545" stroke-width="0.55" opacity="0.48" rx="2"/>
+<g stroke="#d79a46" stroke-width="0.9" opacity="0.45">
+  <path d="M 54 62 L 54 88 M 54 62 L 80 62"/>
+  <path d="M 746 62 L 746 88 M 746 62 L 720 62"/>
+  <path d="M 54 1058 L 54 1032 M 54 1058 L 80 1058"/>
+  <path d="M 746 1058 L 746 1032 M 746 1058 L 720 1058"/>
+</g>
+<rect x="112" y="0" width="3" height="1120" fill="url(#brass)" opacity="0.95"/>
+<text x="150" y="700" font-family="'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC', serif" font-size="30" fill="#d79a46" opacity="0.045" transform="rotate(-12,400,700)">production data keeps moving</text>
+<path d="M 162 150 C 260 135, 370 160, 505 130 C 580 118, 625 120, 662 106" fill="none" stroke="#5da7ff" stroke-width="0.8" opacity="0.22"/><path d="M 162 172 C 260 147, 370 165, 505 148 C 580 130, 625 136, 662 126" fill="none" stroke="#5da7ff" stroke-width="0.8" opacity="0.255"/><path d="M 162 194 C 260 159, 370 170, 505 166 C 580 142, 625 152, 662 146" fill="none" stroke="#d79a46" stroke-width="0.8" opacity="0.29000000000000004"/><path d="M 162 216 C 260 171, 370 175, 505 184 C 580 154, 625 168, 662 166" fill="none" stroke="#d79a46" stroke-width="0.8" opacity="0.325"/><path d="M 162 238 C 260 183, 370 180, 505 202 C 580 166, 625 184, 662 186" fill="none" stroke="#d79a46" stroke-width="0.8" opacity="0.36"/><path d="M 450 92 C 505 142, 548 188, 636 250" fill="none" stroke="#f87171" stroke-width="1.2" stroke-dasharray="5 7" opacity="0.34"/><text x="590" y="238" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#f87171" opacity="0.50">drift</text><g opacity="0.32"><circle cx="240" cy="790" r="34" fill="none" stroke="#5da7ff"/><circle cx="400" cy="790" r="34" fill="none" stroke="#2dd4bf"/><circle cx="560" cy="790" r="34" fill="none" stroke="#d79a46"/><path d="M 274 790 L 366 790 M 434 790 L 526 790" stroke="#d79a46" marker-end="url(#arrow)"/><path d="M 555 824 C 450 895, 315 888, 245 824" fill="none" stroke="#5da7ff" marker-end="url(#arrow)" opacity="0.75"/><text x="324" y="888" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8">feedback changes the next data</text></g>
+<g id="title">
+  <rect x="105" y="372" width="620" height="235" fill="#08090e" opacity="0.25" filter="url(#blur22)"/>
+  <text x="148" y="428" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="36" fill="#d79a46" letter-spacing="6">第 11 章</text>
+  <text x="148" y="506" font-family="'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC', serif" font-size="62" fill="#f8fafc" font-weight="800">上线以后才开始</text>
+  <text x="150" y="552" font-family="'Noto Sans CJK SC', 'Source Han Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Inter', sans-serif" font-size="19" fill="#aebcd0" letter-spacing="1.2">漂移、监控、反馈回路</text>
+  <line x1="150" y1="584" x2="340" y2="584" stroke="#d79a46" stroke-width="1.4" opacity="0.58"/>
+</g>
+<text x="150" y="1018" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#9fb2c8" opacity="0.58" letter-spacing="1.5">部署 · 监控 · 漂移 · 再训练</text>
+</svg>

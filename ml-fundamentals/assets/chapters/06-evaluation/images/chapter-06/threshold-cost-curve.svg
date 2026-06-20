@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">阈值改变系统动作，也改变业务成本</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">准确率最高的点，不一定是成本最低的点</text>
+<rect x="150" y="230" width="930" height="500" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<line x1="230" y1="660" x2="1010" y2="660" stroke="#7d8b99" stroke-width="3" opacity="1"/>
+<line x1="230" y1="660" x2="230" y2="300" stroke="#7d8b99" stroke-width="3" opacity="1"/>
+<text x="1010" y="705" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="end" opacity="1">阈值</text>
+<text x="200" y="282" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="end" opacity="1">总成本</text>
+<line x1="230" y1="660.0" x2="1010" y2="660.0" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<text x="212" y="667.0" fill="#9aa8b7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">0</text>
+<line x1="230" y1="574.2857142857143" x2="1010" y2="574.2857142857143" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<text x="212" y="581.2857142857143" fill="#9aa8b7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">250</text>
+<line x1="230" y1="488.57142857142856" x2="1010" y2="488.57142857142856" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<text x="212" y="495.57142857142856" fill="#9aa8b7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">500</text>
+<line x1="230" y1="402.85714285714283" x2="1010" y2="402.85714285714283" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<text x="212" y="409.85714285714283" fill="#9aa8b7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">750</text>
+<line x1="230" y1="317.14285714285717" x2="1010" y2="317.14285714285717" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<text x="212" y="324.14285714285717" fill="#9aa8b7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">1000</text>
+<polyline points="341.43,330.86 564.29,325.71 898.57,550.29" fill="none" stroke="#d7a64a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<circle cx="341.42857142857156" cy="330.8571428571429" r="12" fill="#6ea8fe" stroke="#e9eef4" stroke-width="2" opacity="1"/>
+<text x="341.42857142857156" y="302.8571428571429" fill="#e9eef4" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">0.7</text>
+<text x="341.42857142857156" y="374.8571428571429" fill="#6ea8fe" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">成本 960</text>
+<circle cx="564.2857142857143" cy="325.7142857142857" r="12" fill="#6ea8fe" stroke="#e9eef4" stroke-width="2" opacity="1"/>
+<text x="564.2857142857143" y="297.7142857142857" fill="#e9eef4" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">0.5</text>
+<text x="564.2857142857143" y="369.7142857142857" fill="#6ea8fe" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">成本 975</text>
+<circle cx="898.5714285714287" cy="550.2857142857142" r="12" fill="#5cc8a7" stroke="#e9eef4" stroke-width="2" opacity="1"/>
+<text x="898.5714285714287" y="522.2857142857142" fill="#e9eef4" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">0.2</text>
+<text x="898.5714285714287" y="594.2857142857142" fill="#5cc8a7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">成本 320</text>
+<text x="341.42857142857156" y="692" fill="#9aa8b7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">0.7</text>
+<text x="564.2857142857143" y="692" fill="#9aa8b7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">0.5</text>
+<text x="898.5714285714287" y="692" fill="#9aa8b7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">0.2</text>
+<rect x="1130" y="280" width="330" height="330" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="1160" y="335" fill="#e9eef4" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">同一模型，三种动作</text>
+<text x="1165" y="390" fill="#e9eef4" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">阈值 0.7</text>
+<text x="1300" y="390" fill="#9aa8b7" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">acc 86.7%</text>
+<text x="1165" y="420" fill="#9aa8b7" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">TP 3  FP 0  FN 2  TN 10</text>
+<text x="1165" y="462" fill="#e9eef4" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">阈值 0.5</text>
+<text x="1300" y="462" fill="#9aa8b7" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">acc 66.7%</text>
+<text x="1165" y="492" fill="#9aa8b7" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">TP 3  FP 3  FN 2  TN 7</text>
+<text x="1165" y="534" fill="#e9eef4" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">阈值 0.2</text>
+<text x="1300" y="534" fill="#9aa8b7" font-size="24" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">acc 53.3%</text>
+<text x="1165" y="564" fill="#9aa8b7" font-size="21" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">TP 4  FP 6  FN 1  TN 4</text>
+<text x="1130" y="670" fill="#d7a64a" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">0.2 准确率最低，</text>
+<text x="1130" y="706" fill="#d7a64a" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">但因拦下 T007 而成本最低。</text>
+</svg>

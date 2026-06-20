@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">树模型重要性是切分贡献，不是因果证明</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">重要性高，只说明这个特征常帮助降低不纯度，仍要检查泄漏和可见性</text>
+<rect x="180" y="230" width="1120" height="520" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="215" y="302.0" fill="#9aa8b7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">最近登录距今天数</text>
+<rect x="545" y="277.0" width="650.0" height="30" rx="4" fill="#e06c75" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="1212.0" y="302.0" fill="#e06c75" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">0.353</text>
+<text x="215" y="355.75" fill="#9aa8b7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">近 30 天活跃天数</text>
+<rect x="545" y="330.75" width="589.4537604646197" height="30" rx="4" fill="#5cc8a7" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="1151.4537604646198" y="355.75" fill="#5cc8a7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">0.320</text>
+<text x="215" y="409.5" fill="#9aa8b7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">使用过核心功能</text>
+<rect x="545" y="384.5" width="178.16360164897955" height="30" rx="4" fill="#5cc8a7" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="740.1636016489796" y="409.5" fill="#5cc8a7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">0.097</text>
+<text x="215" y="463.25" fill="#9aa8b7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">套餐为 free</text>
+<rect x="545" y="438.25" width="135.39400715953025" height="30" rx="4" fill="#5cc8a7" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="697.3940071595302" y="463.25" fill="#5cc8a7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">0.074</text>
+<text x="215" y="517.0" fill="#9aa8b7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">近 30 天工单数</text>
+<rect x="545" y="492.0" width="101.10593330416529" height="30" rx="4" fill="#5cc8a7" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="663.1059333041653" y="517.0" fill="#5cc8a7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">0.055</text>
+<text x="215" y="570.75" fill="#9aa8b7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">套餐为 enterprise</text>
+<rect x="545" y="545.75" width="75.45896770888373" height="30" rx="4" fill="#5cc8a7" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="637.4589677088837" y="570.75" fill="#5cc8a7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">0.041</text>
+<text x="215" y="624.5" fill="#9aa8b7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">支付失败次数</text>
+<rect x="545" y="599.5" width="58.2498827208356" height="30" rx="4" fill="#e06c75" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="620.2498827208356" y="624.5" fill="#e06c75" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">0.032</text>
+<text x="215" y="678.25" fill="#9aa8b7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">套餐为 team</text>
+<rect x="545" y="653.25" width="53.79762312495136" height="30" rx="4" fill="#5cc8a7" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="615.7976231249513" y="678.25" fill="#5cc8a7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">0.029</text>
+<rect x="1330" y="335" width="170" height="155" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="1358" y="380" fill="#e06c75" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">先查</text>
+<text x="1358" y="425" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">预测时点</text>
+<text x="1358" y="462" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">标签窗口</text>
+<text x="180" y="805" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">如果一个字段在预测时还不可见，重要性越高，越可能是模型偷看了答案。</text>
+</svg>

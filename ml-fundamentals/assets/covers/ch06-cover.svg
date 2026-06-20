@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0.18" y2="1">
+    <stop offset="0%" stop-color="#080914"/>
+    <stop offset="42%" stop-color="#11161d"/>
+    <stop offset="100%" stop-color="#08090e"/>
+  </linearGradient>
+  <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f6d08a"/>
+    <stop offset="58%" stop-color="#d79a46"/>
+    <stop offset="100%" stop-color="#7c5427"/>
+  </linearGradient>
+  <radialGradient id="horizon" cx="0.62" cy="0.58" r="0.58">
+    <stop offset="0%" stop-color="#d79a46" stop-opacity="0.13"/>
+    <stop offset="48%" stop-color="#334155" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bluehaze" cx="0.26" cy="0.78" r="0.55">
+    <stop offset="0%" stop-color="#5da7ff" stop-opacity="0.11"/>
+    <stop offset="58%" stop-color="#2dd4bf" stop-opacity="0.035"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#334155" stroke-width="0.45" opacity="0.18"/>
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#334155" stroke-width="0.45" opacity="0.18"/>
+  </pattern>
+  <filter id="blur22" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d79a46" opacity="0.58"/></marker>
+</defs>
+<rect width="800" height="1120" fill="url(#bg)"/>
+<rect width="800" height="1120" fill="url(#grid)"/>
+<rect width="800" height="1120" fill="url(#horizon)"/>
+<rect width="800" height="1120" fill="url(#bluehaze)"/>
+<rect x="30" y="30" width="740" height="1060" fill="none" stroke="#2b3545" stroke-width="0.55" opacity="0.48" rx="2"/>
+<g stroke="#d79a46" stroke-width="0.9" opacity="0.45">
+  <path d="M 54 62 L 54 88 M 54 62 L 80 62"/>
+  <path d="M 746 62 L 746 88 M 746 62 L 720 62"/>
+  <path d="M 54 1058 L 54 1032 M 54 1058 L 80 1058"/>
+  <path d="M 746 1058 L 746 1032 M 746 1058 L 720 1058"/>
+</g>
+<rect x="112" y="0" width="3" height="1120" fill="url(#brass)" opacity="0.95"/>
+<text x="150" y="700" font-family="'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC', serif" font-size="30" fill="#d79a46" opacity="0.045" transform="rotate(-12,400,700)">metrics are values disguised as numbers</text>
+<g transform="translate(210 118)" opacity="0.32"><rect x="0" y="0" width="116" height="116" rx="4" fill="none" stroke="#5da7ff"/><rect x="12" y="16" width="36" height="32" fill="#22c55e" opacity="0.28"/><rect x="58" y="16" width="36" height="32" fill="#f87171" opacity="0.24"/><rect x="12" y="62" width="36" height="32" fill="#f87171" opacity="0.18"/><rect x="58" y="62" width="36" height="32" fill="#5da7ff" opacity="0.25"/></g><g transform="translate(520 160)" opacity="0.40" stroke="#d79a46" fill="none"><path d="M -64 42 A 70 70 0 0 1 64 42"/><line x1="0" y1="42" x2="42" y2="4"/><circle cx="0" cy="42" r="5" fill="#d79a46" opacity="0.65"/><text x="-34" y="72" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="10" fill="#9fb2c8" stroke="none">threshold</text></g><g transform="translate(400 764)" opacity="0.32" stroke="#d79a46" fill="none"><line x1="0" y1="-86" x2="0" y2="76"/><line x1="-150" y1="-18" x2="150" y2="-18"/><path d="M -150 -18 L -198 58 L -102 58 Z" stroke="#5da7ff"/><path d="M 150 -18 L 96 42 L 204 42 Z" stroke="#f87171"/><circle cx="0" cy="-18" r="5" fill="#d79a46"/><text x="-218" y="86" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" stroke="none">false alarm</text><text x="124" y="70" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" stroke="none">miss</text></g>
+<g id="title">
+  <rect x="105" y="372" width="620" height="235" fill="#08090e" opacity="0.25" filter="url(#blur22)"/>
+  <text x="148" y="428" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="36" fill="#d79a46" letter-spacing="6">第 06 章</text>
+  <text x="148" y="506" font-family="'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC', serif" font-size="62" fill="#f8fafc" font-weight="800">指标替谁说话</text>
+  <text x="150" y="552" font-family="'Noto Sans CJK SC', 'Source Han Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Inter', sans-serif" font-size="19" fill="#aebcd0" letter-spacing="1.2">阈值、混淆矩阵、业务代价</text>
+  <line x1="150" y1="584" x2="340" y2="584" stroke="#d79a46" stroke-width="1.4" opacity="0.58"/>
+</g>
+<text x="150" y="1018" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#9fb2c8" opacity="0.58" letter-spacing="1.5">指标 · 阈值 · 成本 · 决策</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.22"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">校准检查分数能否当概率使用</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">排序好不等于概率准；0.70 分数段不一定有 70% 正例</text>
+<rect x="230" y="235" width="1080" height="510" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<line x1="310" y1="675" x2="1240" y2="675" stroke="#7d8b99" stroke-width="3" opacity="1"/>
+<line x1="310" y1="675" x2="310" y2="305" stroke="#7d8b99" stroke-width="3" opacity="1"/>
+<text x="1240" y="720" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="end" opacity="1">预测概率</text>
+<text x="280" y="287" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="end" opacity="1">真实正例频率</text>
+<line x1="310" y1="675" x2="310" y2="305" stroke="#263545" stroke-width="1" opacity="0.4"/>
+<line x1="310" y1="675" x2="1240" y2="675" stroke="#263545" stroke-width="1" opacity="0.4"/>
+<text x="310" y="703" fill="#9aa8b7" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">0</text>
+<text x="294" y="681" fill="#9aa8b7" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">0</text>
+<line x1="542.5" y1="675" x2="542.5" y2="305" stroke="#263545" stroke-width="1" opacity="0.4"/>
+<line x1="310" y1="582.5" x2="1240" y2="582.5" stroke="#263545" stroke-width="1" opacity="0.4"/>
+<text x="542.5" y="703" fill="#9aa8b7" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">0.25</text>
+<text x="294" y="588.5" fill="#9aa8b7" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">0.25</text>
+<line x1="775.0" y1="675" x2="775.0" y2="305" stroke="#263545" stroke-width="1" opacity="0.4"/>
+<line x1="310" y1="490.0" x2="1240" y2="490.0" stroke="#263545" stroke-width="1" opacity="0.4"/>
+<text x="775.0" y="703" fill="#9aa8b7" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">0.5</text>
+<text x="294" y="496.0" fill="#9aa8b7" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">0.5</text>
+<line x1="1007.5" y1="675" x2="1007.5" y2="305" stroke="#263545" stroke-width="1" opacity="0.4"/>
+<line x1="310" y1="397.5" x2="1240" y2="397.5" stroke="#263545" stroke-width="1" opacity="0.4"/>
+<text x="1007.5" y="703" fill="#9aa8b7" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">0.75</text>
+<text x="294" y="403.5" fill="#9aa8b7" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">0.75</text>
+<line x1="1240.0" y1="675" x2="1240.0" y2="305" stroke="#263545" stroke-width="1" opacity="0.4"/>
+<line x1="310" y1="305.0" x2="1240" y2="305.0" stroke="#263545" stroke-width="1" opacity="0.4"/>
+<text x="1240.0" y="703" fill="#9aa8b7" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">1</text>
+<text x="294" y="311.0" fill="#9aa8b7" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">1</text>
+<line x1="310" y1="675" x2="1240" y2="305" stroke="#9aa8b7" stroke-width="4" opacity="0.75" stroke-dasharray="12 8"/>
+<polyline points="384.40,663.90 514.60,630.60 663.40,571.40 821.50,515.90 979.60,486.30 1147.00,393.80" fill="none" stroke="#6ea8fe" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<circle cx="384.4" cy="663.9" r="8" fill="#6ea8fe" stroke="#b8d4ff" stroke-width="2" opacity="1"/>
+<circle cx="514.6" cy="630.6" r="8" fill="#6ea8fe" stroke="#b8d4ff" stroke-width="2" opacity="1"/>
+<circle cx="663.4" cy="571.4" r="8" fill="#6ea8fe" stroke="#b8d4ff" stroke-width="2" opacity="1"/>
+<circle cx="821.5" cy="515.9" r="8" fill="#6ea8fe" stroke="#b8d4ff" stroke-width="2" opacity="1"/>
+<circle cx="979.6" cy="486.29999999999995" r="8" fill="#6ea8fe" stroke="#b8d4ff" stroke-width="2" opacity="1"/>
+<circle cx="1147.0" cy="393.8" r="8" fill="#6ea8fe" stroke="#b8d4ff" stroke-width="2" opacity="1"/>
+<text x="1054.0" y="349.0" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">理想校准线</text>
+<text x="979.6" y="532.3" fill="#d7a64a" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">分数偏乐观</text>
+</svg>

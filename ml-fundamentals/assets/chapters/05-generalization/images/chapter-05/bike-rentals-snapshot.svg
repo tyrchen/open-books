@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">共享单车数据里有清晰的小时节奏</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">早晚高峰、天气和季节共同塑造租借量，随机切分会低估这种时间性</text>
+<rect x="130" y="230" width="1040" height="500" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<line x1="210" y1="660" x2="1100" y2="660" stroke="#7d8b99" stroke-width="3" opacity="1"/>
+<line x1="210" y1="660" x2="210" y2="300" stroke="#7d8b99" stroke-width="3" opacity="1"/>
+<text x="1100" y="705" fill="#9aa8b7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="end" opacity="1">小时</text>
+<text x="182" y="282" fill="#9aa8b7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="end" opacity="1">平均租借量</text>
+<line x1="210" y1="660.0" x2="1100" y2="660.0" stroke="#263545" stroke-width="1" opacity="0.45"/>
+<text x="192" y="667.0" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">0</text>
+<line x1="210" y1="544.9851063230002" x2="1100" y2="544.9851063230002" stroke="#263545" stroke-width="1" opacity="0.45"/>
+<text x="192" y="551.9851063230002" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">50</text>
+<line x1="210" y1="429.9702126460003" x2="1100" y2="429.9702126460003" stroke="#263545" stroke-width="1" opacity="0.45"/>
+<text x="192" y="436.9702126460003" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">100</text>
+<line x1="210" y1="314.9553189690005" x2="1100" y2="314.9553189690005" stroke="#263545" stroke-width="1" opacity="0.45"/>
+<text x="192" y="321.9553189690005" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">150</text>
+<text x="210.0" y="690" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">0</text>
+<text x="442.17391304347825" y="690" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">6</text>
+<text x="519.5652173913043" y="690" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">8</text>
+<text x="674.3478260869565" y="690" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">12</text>
+<text x="867.8260869565217" y="690" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">17</text>
+<text x="1100.0" y="690" fill="#758494" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">23</text>
+<polyline points="210.00,444.84 248.70,450.13 287.39,443.92 326.09,442.57 364.78,439.73 403.48,424.99 442.17,412.65 480.87,393.64 519.57,392.30 558.26,392.67 596.96,406.73 635.65,427.71 674.35,437.42 713.04,438.48 751.74,425.90 790.43,394.69 829.13,368.52 867.83,346.96 906.52,365.86 945.22,400.49 983.91,424.38 1022.61,440.95 1061.30,447.53 1100.00,446.08" fill="none" stroke="#5cc8a7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<polyline points="210.00,591.59 248.70,597.82 287.39,600.62 326.09,606.42 364.78,593.04 403.48,583.67 442.17,560.03 480.87,557.88 519.57,530.28 558.26,550.21 596.96,563.04 635.65,576.18 674.35,590.02 713.04,597.06 751.74,573.81 790.43,571.89 829.13,546.03 867.83,512.43 906.52,543.87 945.22,565.10 983.91,580.88 1022.61,597.30 1061.30,601.87 1100.00,600.33" fill="none" stroke="#d7a64a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<rect x="1230" y="305" width="265" height="170" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<line x1="1260" y1="360" x2="1320" y2="360" stroke="#5cc8a7" stroke-width="6" opacity="1"/>
+<text x="1340" y="370" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">训练窗口</text>
+<line x1="1260" y1="425" x2="1320" y2="425" stroke="#d7a64a" stroke-width="6" opacity="1"/>
+<text x="1340" y="435" fill="#e9eef4" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">测试窗口</text>
+<text x="1225" y="560" fill="#9aa8b7" font-size="25" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">总行数：10512</text>
+<text x="1225" y="605" fill="#9aa8b7" font-size="25" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">粒度：每小时一条</text>
+<text x="130" y="800" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">同一个小时模式在不同月份仍有偏移，时间切分会把这种偏移暴露出来。</text>
+</svg>

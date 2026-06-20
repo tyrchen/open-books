@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0.18" y2="1">
+    <stop offset="0%" stop-color="#080914"/>
+    <stop offset="42%" stop-color="#11161d"/>
+    <stop offset="100%" stop-color="#08090e"/>
+  </linearGradient>
+  <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f6d08a"/>
+    <stop offset="58%" stop-color="#d79a46"/>
+    <stop offset="100%" stop-color="#7c5427"/>
+  </linearGradient>
+  <radialGradient id="horizon" cx="0.62" cy="0.58" r="0.58">
+    <stop offset="0%" stop-color="#d79a46" stop-opacity="0.13"/>
+    <stop offset="48%" stop-color="#334155" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bluehaze" cx="0.26" cy="0.78" r="0.55">
+    <stop offset="0%" stop-color="#5da7ff" stop-opacity="0.11"/>
+    <stop offset="58%" stop-color="#2dd4bf" stop-opacity="0.035"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#334155" stroke-width="0.45" opacity="0.18"/>
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#334155" stroke-width="0.45" opacity="0.18"/>
+  </pattern>
+  <filter id="blur22" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d79a46" opacity="0.58"/></marker>
+</defs>
+<rect width="800" height="1120" fill="url(#bg)"/>
+<rect width="800" height="1120" fill="url(#grid)"/>
+<rect width="800" height="1120" fill="url(#horizon)"/>
+<rect width="800" height="1120" fill="url(#bluehaze)"/>
+<rect x="30" y="30" width="740" height="1060" fill="none" stroke="#2b3545" stroke-width="0.55" opacity="0.48" rx="2"/>
+<g stroke="#d79a46" stroke-width="0.9" opacity="0.45">
+  <path d="M 54 62 L 54 88 M 54 62 L 80 62"/>
+  <path d="M 746 62 L 746 88 M 746 62 L 720 62"/>
+  <path d="M 54 1058 L 54 1032 M 54 1058 L 80 1058"/>
+  <path d="M 746 1058 L 746 1032 M 746 1058 L 720 1058"/>
+</g>
+<rect x="112" y="0" width="3" height="1120" fill="url(#brass)" opacity="0.95"/>
+<circle cx="410" cy="320" r="220" fill="#d79a46" opacity="0.035" filter="url(#blur22)"/>
+<text x="145" y="690" font-family="'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC', serif" font-size="30" fill="#d79a46" opacity="0.045" transform="rotate(-11,400,700)">train set is only the past; generalization belongs to the future.</text>
+<g id="quiet-manifold">
+  <path d="M 145 265 C 250 210, 430 205, 610 280" fill="none" stroke="#d79a46" stroke-width="0.75" opacity="0.200"/><path d="M 157 283 C 260 215, 424 215, 602 299" fill="none" stroke="#d79a46" stroke-width="0.75" opacity="0.178"/><path d="M 169 301 C 270 220, 418 225, 594 318" fill="none" stroke="#d79a46" stroke-width="0.75" opacity="0.156"/><path d="M 181 319 C 280 225, 412 235, 586 337" fill="none" stroke="#d79a46" stroke-width="0.75" opacity="0.134"/><path d="M 193 337 C 290 230, 406 245, 578 356" fill="none" stroke="#d79a46" stroke-width="0.75" opacity="0.112"/><path d="M 205 355 C 300 235, 400 255, 570 375" fill="none" stroke="#d79a46" stroke-width="0.75" opacity="0.090"/><path d="M 217 373 C 310 240, 394 265, 562 394" fill="none" stroke="#d79a46" stroke-width="0.75" opacity="0.068"/>
+  <circle cx="180.0" cy="264.0" r="1.6" fill="#d79a46" opacity="0.16"/><circle cx="270.8" cy="303.4" r="2.1" fill="#5da7ff" opacity="0.21"/><circle cx="321.4" cy="335.8" r="2.5" fill="#5da7ff" opacity="0.25"/><circle cx="382.3" cy="377.2" r="1.6" fill="#5da7ff" opacity="0.30"/><circle cx="480.9" cy="433.7" r="2.1" fill="#d79a46" opacity="0.34"/><circle cx="559.4" cy="304.9" r="2.5" fill="#5da7ff" opacity="0.16"/><circle cx="175.4" cy="355.3" r="1.6" fill="#5da7ff" opacity="0.21"/><circle cx="249.9" cy="391.1" r="2.1" fill="#5da7ff" opacity="0.25"/><circle cx="349.5" cy="424.6" r="2.5" fill="#d79a46" opacity="0.30"/><circle cx="414.1" cy="280.6" r="1.6" fill="#5da7ff" opacity="0.34"/><circle cx="462.7" cy="340.1" r="2.1" fill="#5da7ff" opacity="0.16"/><circle cx="550.3" cy="399.5" r="2.5" fill="#5da7ff" opacity="0.21"/><circle cx="214.0" cy="445.3" r="1.6" fill="#d79a46" opacity="0.25"/><circle cx="267.0" cy="288.7" r="2.1" fill="#5da7ff" opacity="0.30"/><circle cx="324.5" cy="324.7" r="2.5" fill="#5da7ff" opacity="0.34"/><circle cx="421.5" cy="375.2" r="1.6" fill="#5da7ff" opacity="0.16"/><circle cx="503.8" cy="436.4" r="2.1" fill="#d79a46" opacity="0.21"/><circle cx="550.5" cy="302.8" r="2.5" fill="#5da7ff" opacity="0.25"/><circle cx="190.9" cy="344.1" r="1.6" fill="#5da7ff" opacity="0.30"/><circle cx="290.9" cy="376.5" r="2.1" fill="#5da7ff" opacity="0.34"/><circle cx="359.5" cy="416.0" r="2.5" fill="#d79a46" opacity="0.16"/><circle cx="406.6" cy="280.8" r="1.6" fill="#5da7ff" opacity="0.21"/><circle cx="490.7" cy="342.3" r="2.1" fill="#5da7ff" opacity="0.25"/><circle cx="586.7" cy="394.8" r="2.5" fill="#5da7ff" opacity="0.30"/><circle cx="212.7" cy="432.2" r="1.6" fill="#d79a46" opacity="0.34"/><circle cx="267.1" cy="275.0" r="2.1" fill="#5da7ff" opacity="0.16"/><circle cx="361.9" cy="318.7" r="2.5" fill="#5da7ff" opacity="0.21"/><circle cx="447.9" cy="377.0" r="1.6" fill="#5da7ff" opacity="0.25"/><circle cx="495.8" cy="437.4" r="2.1" fill="#d79a46" opacity="0.30"/><circle cx="562.2" cy="295.4" r="2.5" fill="#5da7ff" opacity="0.34"/><circle cx="232.1" cy="329.8" r="1.6" fill="#5da7ff" opacity="0.16"/><circle cx="304.7" cy="364.4" r="2.1" fill="#5da7ff" opacity="0.21"/><circle cx="350.9" cy="412.8" r="2.5" fill="#d79a46" opacity="0.25"/><circle cx="431.2" cy="283.4" r="1.6" fill="#5da7ff" opacity="0.30"/><circle cx="529.1" cy="341.4" r="2.1" fill="#5da7ff" opacity="0.34"/><circle cx="588.4" cy="384.7" r="2.5" fill="#5da7ff" opacity="0.16"/><circle cx="210.0" cy="417.5" r="1.6" fill="#d79a46" opacity="0.21"/><circle cx="302.2" cy="265.1" r="2.1" fill="#5da7ff" opacity="0.25"/><circle cx="391.7" cy="318.0" r="2.5" fill="#5da7ff" opacity="0.30"/><circle cx="441.2" cy="379.6" r="1.6" fill="#5da7ff" opacity="0.34"/><circle cx="503.8" cy="434.0" r="2.1" fill="#d79a46" opacity="0.16"/><circle cx="602.9" cy="283.1" r="2.5" fill="#5da7ff" opacity="0.21"/><circle cx="249.6" cy="315.6" r="1.6" fill="#5da7ff" opacity="0.25"/><circle cx="295.6" cy="357.2" r="2.1" fill="#5da7ff" opacity="0.30"/><circle cx="371.9" cy="413.9" r="2.5" fill="#d79a46" opacity="0.34"/><circle cx="471.1" cy="285.1" r="1.6" fill="#5da7ff" opacity="0.16"/>
+  <path d="M 152 382 C 238 300, 345 308, 440 274 C 520 246, 596 226, 666 170" fill="none" stroke="#f6d08a" stroke-width="1.6" opacity="0.38" filter="url(#soft)"/>
+  <path d="M 628 176 C 646 168, 662 160, 676 146" fill="none" stroke="#d79a46" stroke-width="1" marker-end="url(#arrow)" opacity="0.42"/>
+  <text x="555" y="154" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" opacity="0.52">future samples</text>
+</g>
+<g id="title">
+  <rect x="96" y="398" width="640" height="220" fill="#08090e" opacity="0.28" filter="url(#blur22)"/>
+  <text x="148" y="488" font-family="'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC', serif" font-size="92" fill="#f8fafc" font-weight="800">追逐泛化</text>
+  <text x="151" y="544" font-family="'Noto Sans CJK SC', 'Source Han Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Inter', sans-serif" font-size="25" fill="#f6d08a" letter-spacing="2">写给软件工程师的机器学习入门</text>
+  <line x1="152" y1="582" x2="368" y2="582" stroke="#d79a46" stroke-width="1.5" opacity="0.62"/>
+  <text x="152" y="622" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#aebcd0" opacity="0.76">Generalization is the Carnot limit of machine learning.</text>
+</g>
+<g transform="translate(180 846)" opacity="0.42" stroke="#d79a46" fill="none" stroke-width="1.1">
+      <circle cx="0" cy="0" r="18"/><path d="M -8 -4 L -1 5 L 12 -10"/>
+      <g transform="translate(130 0)"><path d="M -18 -10 L 0 -22 L 18 -10 L 18 12 L 0 24 L -18 12 Z"/><path d="M -18 -10 L 0 2 L 18 -10"/><path d="M 0 2 L 0 24"/></g>
+      <g transform="translate(260 0)"><path d="M -24 12 C -12 -18, 10 -18, 24 12"/><line x1="-24" y1="12" x2="24" y2="12"/><circle cx="0" cy="-6" r="4" fill="#d79a46" opacity="0.7"/></g>
+      <g transform="translate(390 0)"><path d="M -22 -2 C -8 -22, 10 -20, 22 -2 C 10 18, -8 18, -22 -2 Z"/><line x1="-12" y1="0" x2="12" y2="0" stroke="#5da7ff" opacity="0.7"/></g>
+    </g>
+<g opacity="0.34">
+  <path d="M 158 960 C 250 900, 365 910, 450 884 C 520 862, 588 842, 642 800" fill="none" stroke="#5da7ff" stroke-width="1"/>
+  <path d="M 158 980 C 255 934, 356 948, 450 924 C 535 902, 598 888, 654 854" fill="none" stroke="#d79a46" stroke-width="1"/>
+  <line x1="158" y1="996" x2="655" y2="996" stroke="#536174" stroke-width="0.7" opacity="0.5"/>
+  <line x1="158" y1="996" x2="158" y2="820" stroke="#536174" stroke-width="0.7" opacity="0.5"/>
+</g>
+<text x="148" y="1040" font-family="'Noto Sans CJK SC', 'Source Han Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Inter', sans-serif" font-size="22" fill="#e2e8f0" letter-spacing="4" opacity="0.88">陈天</text>
+</svg>

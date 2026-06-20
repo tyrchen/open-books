@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/></marker>
+<marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d7a64a"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">embedding 把对象放进可比较的向量空间</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">距离不是理解本身，但它让文本、商品和工单有了可计算的相似关系</text>
+<rect x="160" y="220" width="1120" height="540" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<circle cx="326" cy="314.0" r="8" fill="#e06c75" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="360" cy="314.0" r="8" fill="#e06c75" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="394" cy="314.0" r="8" fill="#e06c75" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="326" cy="346.0" r="8" fill="#e06c75" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="360" cy="346.0" r="8" fill="#e06c75" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="566" cy="264.0" r="8" fill="#6ea8fe" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="600" cy="264.0" r="8" fill="#6ea8fe" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="634" cy="264.0" r="8" fill="#6ea8fe" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="566" cy="296.0" r="8" fill="#6ea8fe" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="600" cy="296.0" r="8" fill="#6ea8fe" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="796" cy="344.0" r="8" fill="#b48cff" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="830" cy="344.0" r="8" fill="#b48cff" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="864" cy="344.0" r="8" fill="#b48cff" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="796" cy="376.0" r="8" fill="#b48cff" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="830" cy="376.0" r="8" fill="#b48cff" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="506" cy="549.0" r="8" fill="#d7a64a" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="540" cy="549.0" r="8" fill="#d7a64a" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="574" cy="549.0" r="8" fill="#d7a64a" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="506" cy="581.0" r="8" fill="#d7a64a" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="540" cy="581.0" r="8" fill="#d7a64a" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="946" cy="544.0" r="8" fill="#5ec8d8" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="980" cy="544.0" r="8" fill="#5ec8d8" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="1014" cy="544.0" r="8" fill="#5ec8d8" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="946" cy="576.0" r="8" fill="#5ec8d8" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="980" cy="576.0" r="8" fill="#5ec8d8" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="1176" cy="314.0" r="8" fill="#5cc8a7" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="1210" cy="314.0" r="8" fill="#5cc8a7" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="1244" cy="314.0" r="8" fill="#5cc8a7" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="1176" cy="346.0" r="8" fill="#5cc8a7" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="1210" cy="346.0" r="8" fill="#5cc8a7" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="1156" cy="599.0" r="8" fill="#f5a3d7" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="1190" cy="599.0" r="8" fill="#f5a3d7" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="1224" cy="599.0" r="8" fill="#f5a3d7" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="1156" cy="631.0" r="8" fill="#f5a3d7" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="1190" cy="631.0" r="8" fill="#f5a3d7" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="786" cy="664.0" r="8" fill="#8bd17c" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="820" cy="664.0" r="8" fill="#8bd17c" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="854" cy="664.0" r="8" fill="#8bd17c" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="786" cy="696.0" r="8" fill="#8bd17c" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<circle cx="820" cy="696.0" r="8" fill="#8bd17c" stroke="#ffffff" stroke-width="1.2" opacity="0.85"/>
+<text x="360" y="276" fill="#e06c75" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">payment</text>
+<text x="600" y="226" fill="#6ea8fe" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">login</text>
+<text x="830" y="306" fill="#b48cff" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">permission</text>
+<text x="540" y="511" fill="#d7a64a" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">performance</text>
+<text x="980" y="506" fill="#5ec8d8" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">deploy</text>
+<text x="1210" y="276" fill="#5cc8a7" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">billing</text>
+<text x="1190" y="561" fill="#f5a3d7" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">export</text>
+<text x="820" y="626" fill="#8bd17c" font-size="19" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">data</text>
+<circle cx="335" cy="392" r="15" fill="#ffffff" stroke="#e06c75" stroke-width="4" opacity="1"/>
+<text x="360" y="399" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">查询：扣款失败</text>
+<line x1="335" y1="392" x2="360" y2="330" stroke="#e06c75" stroke-width="2" opacity="0.75" stroke-dasharray="8 8"/>
+<rect x="1330" y="315" width="160" height="170" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="1360" y="360" fill="#5cc8a7" font-size="27" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">靠近</text>
+<text x="1360" y="405" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">只是候选</text>
+<text x="1360" y="442" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">仍要评估</text>
+<text x="180" y="815" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">向量空间能把相似对象聚到一起，也会把词面相似但业务不同的对象错误拉近。</text>
+</svg>

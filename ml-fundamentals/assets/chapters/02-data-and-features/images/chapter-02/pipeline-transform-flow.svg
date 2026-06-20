@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/>
+</marker>
+<marker id="red-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#e06c75"/>
+</marker>
+</defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.2"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.16"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">特征流水线的隔离边界</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">训练集学习转换规则；测试集和线上样本只复用规则</text>
+<rect x="105" y="230" width="250" height="95" rx="8" fill="#132033" stroke="#6ea8fe" stroke-width="3" opacity="1"/>
+<text x="230.0" y="272" fill="#e9eef4" font-size="26" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">训练集</text>
+<text x="230.0" y="305" fill="#9aa8b7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">X_train / y_train</text>
+<rect x="440" y="230" width="340" height="95" rx="8" fill="#132033" stroke="#5cc8a7" stroke-width="3" opacity="1"/>
+<text x="610.0" y="272" fill="#e9eef4" font-size="26" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">fit_transform</text>
+<text x="610.0" y="305" fill="#9aa8b7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">学习均值、类别、填充值</text>
+<rect x="875" y="230" width="290" height="95" rx="8" fill="#132033" stroke="#5cc8a7" stroke-width="3" opacity="1"/>
+<text x="1020.0" y="272" fill="#e9eef4" font-size="26" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">模型 fit</text>
+<text x="1020.0" y="305" fill="#9aa8b7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">只接触训练特征</text>
+<rect x="1250" y="230" width="245" height="95" rx="8" fill="#132033" stroke="#5ec8d8" stroke-width="3" opacity="1"/>
+<text x="1372.5" y="272" fill="#e9eef4" font-size="26" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">模型产物</text>
+<text x="1372.5" y="305" fill="#9aa8b7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">预处理 + 模型</text>
+<line x1="355" y1="277" x2="432" y2="277" stroke="#9aa8b7" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<line x1="780" y1="277" x2="867" y2="277" stroke="#9aa8b7" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<line x1="1165" y1="277" x2="1242" y2="277" stroke="#9aa8b7" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<rect x="105" y="590" width="250" height="95" rx="8" fill="#132033" stroke="#d7a64a" stroke-width="3" opacity="1"/>
+<text x="230.0" y="632" fill="#e9eef4" font-size="26" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">测试集</text>
+<text x="230.0" y="665" fill="#9aa8b7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">X_test</text>
+<rect x="440" y="590" width="340" height="95" rx="8" fill="#132033" stroke="#d7a64a" stroke-width="3" opacity="1"/>
+<text x="610.0" y="632" fill="#e9eef4" font-size="26" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">transform</text>
+<text x="610.0" y="665" fill="#9aa8b7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">复用训练期规则</text>
+<rect x="875" y="590" width="290" height="95" rx="8" fill="#132033" stroke="#d7a64a" stroke-width="3" opacity="1"/>
+<text x="1020.0" y="632" fill="#e9eef4" font-size="26" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">predict / score</text>
+<text x="1020.0" y="665" fill="#9aa8b7" font-size="20" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">评估未知样本</text>
+<line x1="355" y1="637" x2="432" y2="637" stroke="#9aa8b7" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<line x1="780" y1="637" x2="867" y2="637" stroke="#9aa8b7" stroke-width="4" opacity="1" marker-end="url(#arrow)"/>
+<polyline points="1390.0,325.0 1390.0,530.0 780.0,530.0 780.0,602.0" fill="none" stroke="#5ec8d8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95" stroke-dasharray="9 7" marker-end="url(#arrow)"/>
+<text x="1115" y="512" fill="#5ec8d8" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">同一个预处理器被带到评估和线上</text>
+<polyline points="610.0,692.0 610.0,800.0 1420.0,800.0 1420.0,692.0" fill="none" stroke="#e06c75" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" stroke-dasharray="10 8"/>
+<text x="1015" y="835" fill="#e06c75" font-size="25" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">禁止在测试集上重新 fit：测试集统计量不能回流训练过程</text>
+</svg>

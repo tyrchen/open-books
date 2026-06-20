@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">早停让验证集决定提升轮次</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">训练分数继续上升时，验证分数可能已经停止改善</text>
+<rect x="210" y="235" width="980" height="480" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<line x1="300" y1="300.0" x2="1110" y2="300.0" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<line x1="300" y1="369.0" x2="1110" y2="369.0" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<line x1="300" y1="438.0" x2="1110" y2="438.0" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<line x1="300" y1="507.0" x2="1110" y2="507.0" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<line x1="300" y1="576.0" x2="1110" y2="576.0" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<line x1="300" y1="645.0" x2="1110" y2="645.0" stroke="#263545" stroke-width="1" opacity="0.55"/>
+<line x1="300" y1="645" x2="1110" y2="645" stroke="#9aa8b7" stroke-width="2" opacity="1"/>
+<line x1="300" y1="300" x2="300" y2="645" stroke="#9aa8b7" stroke-width="2" opacity="1"/>
+<polyline points="300.00,875.00 350.62,455.98 401.25,442.63 451.88,435.51 502.50,404.32 553.12,398.70 603.75,393.21 654.38,388.60 705.00,387.85 755.62,384.23 806.25,381.23 856.88,381.23 907.50,378.99 958.12,375.37 1008.75,374.87 1059.38,375.12 1110.00,373.12" fill="none" stroke="#6ea8fe" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="300.00,875.00 350.62,522.28 401.25,520.06 451.88,528.94 502.50,474.59 553.12,471.26 603.75,464.60 654.38,457.95 705.00,462.38 755.62,467.93 806.25,465.71 856.88,467.93 907.50,472.37 958.12,471.26 1008.75,471.26 1059.38,469.04 1110.00,469.04" fill="none" stroke="#d7a64a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="654.375" y1="300" x2="654.375" y2="645" stroke="#e06c75" stroke-width="3" opacity="0.85" stroke-dasharray="8 8"/>
+<circle cx="654.375" cy="457.9475308641976" r="9" fill="#e06c75" stroke="#ffffff" stroke-width="1.5" opacity="1"/>
+<text x="670.375" y="441.9475308641976" fill="#e06c75" font-size="18" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">最佳验证轮次 35</text>
+<line x1="654.375" y1="703" x2="856.875" y2="703" stroke="#e06c75" stroke-width="3" opacity="1"/>
+<line x1="654.375" y1="693" x2="654.375" y2="713" stroke="#e06c75" stroke-width="3" opacity="1"/>
+<line x1="856.875" y1="693" x2="856.875" y2="713" stroke="#e06c75" stroke-width="3" opacity="1"/>
+<text x="755.625" y="739" fill="#e06c75" font-size="18" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="middle" opacity="1">patience 窗口</text>
+<line x1="300.0" y1="645" x2="300.0" y2="653" stroke="#9aa8b7" stroke-width="2" opacity="1"/>
+<text x="300.0" y="683" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">0</text>
+<line x1="502.5" y1="645" x2="502.5" y2="653" stroke="#9aa8b7" stroke-width="2" opacity="1"/>
+<text x="502.5" y="683" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">20</text>
+<line x1="705.0" y1="645" x2="705.0" y2="653" stroke="#9aa8b7" stroke-width="2" opacity="1"/>
+<text x="705.0" y="683" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">40</text>
+<line x1="907.5" y1="645" x2="907.5" y2="653" stroke="#9aa8b7" stroke-width="2" opacity="1"/>
+<text x="907.5" y="683" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">60</text>
+<line x1="1110.0" y1="645" x2="1110.0" y2="653" stroke="#9aa8b7" stroke-width="2" opacity="1"/>
+<text x="1110.0" y="683" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">80</text>
+<text x="282" y="625.4444444444446" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">0.70</text>
+<text x="282" y="497.66666666666663" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">0.80</text>
+<text x="282" y="369.8888888888888" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="end" opacity="1">0.90</text>
+<text x="705.0" y="695" fill="#9aa8b7" font-size="22" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">boosting round</text>
+<rect x="1240" y="325" width="225" height="132" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<line x1="1270" y1="360" x2="1330" y2="360" stroke="#6ea8fe" stroke-width="5" opacity="1"/>
+<text x="1350" y="368" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">训练 AUC</text>
+<line x1="1270" y1="415" x2="1330" y2="415" stroke="#d7a64a" stroke-width="5" opacity="1"/>
+<text x="1350" y="423" fill="#e9eef4" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">验证 AUC</text>
+<text x="210" y="800" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">早停不是让测试集参与训练，而是把验证集作为复杂度刹车。</text>
+</svg>

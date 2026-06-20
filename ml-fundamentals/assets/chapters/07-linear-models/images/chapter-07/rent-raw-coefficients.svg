@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/></marker></defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">原始尺度权重不能直接比较重要性</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">单位会改变权重数字：1 平方米、1 米和一个 0/1 标记不是同一把尺子</text>
+<rect x="160" y="230" width="1180" height="520" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<line x1="750.0" y1="285" x2="750.0" y2="705" stroke="#7d8b99" stroke-width="2" opacity="0.8"/>
+<text x="188" y="268" fill="#e9eef4" font-size="25" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">原始尺度 OLS 权重</text>
+<rect x="750.0" y="282.0" width="472.0" height="28" rx="3" fill="#5cc8a7" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="186" y="305.0" fill="#9aa8b7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">is_entire</text>
+<text x="1234.0" y="305.0" fill="#5cc8a7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">981.9</text>
+<rect x="750.0" y="351.1666666666667" width="306.5133998718441" height="28" rx="3" fill="#5cc8a7" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="186" y="374.1666666666667" fill="#9aa8b7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">has_elevator</text>
+<text x="1068.513399871844" y="374.1666666666667" fill="#5cc8a7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">637.7</text>
+<rect x="750.0" y="420.33333333333337" width="78.61067425018533" height="28" rx="3" fill="#5cc8a7" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="186" y="443.33333333333337" fill="#9aa8b7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">bedrooms</text>
+<text x="840.6106742501853" y="443.33333333333337" fill="#5cc8a7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">163.5</text>
+<rect x="718.0041895698969" y="489.5" width="31.995810430103116" height="28" rx="3" fill="#e06c75" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="186" y="512.5" fill="#9aa8b7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">age_years</text>
+<text x="706.0041895698969" y="512.5" fill="#e06c75" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="end" opacity="1">-66.6</text>
+<rect x="750.0" y="558.6666666666667" width="16.062179634584187" height="28" rx="3" fill="#5cc8a7" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="186" y="581.6666666666667" fill="#9aa8b7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">area_m2</text>
+<text x="778.0621796345841" y="581.6666666666667" fill="#5cc8a7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">33.4</text>
+<rect x="749.9767975215807" y="627.8333333333334" width="0.02320247841932774" height="28" rx="3" fill="#e06c75" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="186" y="650.8333333333334" fill="#9aa8b7" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">dist_to_subway_m</text>
+<text x="737.9767975215807" y="650.8333333333334" fill="#e06c75" font-size="18" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="end" opacity="1">-0.0</text>
+<text x="165" y="805" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">原始权重适合回答“单位变化带来多少租金变化”，不适合直接做特征重要性排序。</text>
+</svg>

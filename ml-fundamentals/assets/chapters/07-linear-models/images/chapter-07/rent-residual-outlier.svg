@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa8b7"/></marker></defs>
+<rect width="1600" height="900" fill="#101821"/>
+<line x1="80" y1="0" x2="80" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="160" y1="0" x2="160" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="240" y1="0" x2="240" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="320" y1="0" x2="320" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="400" y1="0" x2="400" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="480" y1="0" x2="480" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="560" y1="0" x2="560" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="640" y1="0" x2="640" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="720" y1="0" x2="720" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="800" y1="0" x2="800" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="880" y1="0" x2="880" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="960" y1="0" x2="960" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1040" y1="0" x2="1040" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1120" y1="0" x2="1120" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1200" y1="0" x2="1200" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1280" y1="0" x2="1280" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1360" y1="0" x2="1360" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1440" y1="0" x2="1440" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="1520" y1="0" x2="1520" y2="900" stroke="#263545" stroke-width="1" opacity="0.24"/>
+<line x1="0" y1="60" x2="1600" y2="60" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="120" x2="1600" y2="120" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="240" x2="1600" y2="240" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="300" x2="1600" y2="300" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="360" x2="1600" y2="360" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="420" x2="1600" y2="420" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="480" x2="1600" y2="480" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="540" x2="1600" y2="540" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="600" x2="1600" y2="600" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="660" x2="1600" y2="660" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="720" x2="1600" y2="720" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="780" x2="1600" y2="780" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<line x1="0" y1="840" x2="1600" y2="840" stroke="#263545" stroke-width="1" opacity="0.18"/>
+<rect x="40" y="40" width="1520" height="820" rx="0" fill="none" stroke="#2e4054" stroke-width="2" opacity="0.75"/>
+<text x="90" y="105" fill="#e9eef4" font-size="40" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">残差最大的样本会拉动整条线</text>
+<text x="90" y="150" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">先解释异常，再决定删除、修正或单独建模</text>
+<rect x="180" y="240" width="1060" height="470" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<line x1="270" y1="475.0" x2="1190" y2="475.0" stroke="#7d8b99" stroke-width="2" opacity="1"/>
+<rect x="280.0" y="295.0" width="49.50000000000001" height="180.0" rx="4" fill="#e06c75" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="305.2" y="688" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">26</text>
+<text x="305.2" y="283.0" fill="#e06c75" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">3,710</text>
+<rect x="370.0" y="475.0" width="49.50000000000001" height="60.21619809077901" rx="4" fill="#d7a64a" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="395.2" y="688" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">1</text>
+<text x="395.2" y="559.216198090779" fill="#d7a64a" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">-1,241</text>
+<rect x="460.0" y="428.87454952669754" width="49.50000000000001" height="46.12545047330246" rx="4" fill="#5cc8a7" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="485.2" y="688" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">9</text>
+<text x="485.2" y="416.87454952669754" fill="#5cc8a7" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">951</text>
+<rect x="550.0" y="475.0" width="49.50000000000001" height="43.66406471176599" rx="4" fill="#d7a64a" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="575.2" y="688" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">10</text>
+<text x="575.2" y="542.664064711766" fill="#d7a64a" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">-900</text>
+<rect x="640.0" y="475.0" width="49.50000000000001" height="41.67701551711945" rx="4" fill="#d7a64a" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="665.2" y="688" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">16</text>
+<text x="665.2" y="540.6770155171195" fill="#d7a64a" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">-859</text>
+<rect x="730.0" y="475.0" width="49.50000000000001" height="33.679252370262155" rx="4" fill="#d7a64a" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="755.2" y="688" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">15</text>
+<text x="755.2" y="532.6792523702621" fill="#d7a64a" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">-694</text>
+<rect x="820.0" y="475.0" width="49.50000000000001" height="25.922002752599536" rx="4" fill="#d7a64a" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="845.2" y="688" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">22</text>
+<text x="845.2" y="524.9220027525996" fill="#d7a64a" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">-534</text>
+<rect x="910.0" y="475.0" width="49.50000000000001" height="23.4738359700659" rx="4" fill="#d7a64a" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="935.2" y="688" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">19</text>
+<text x="935.2" y="522.4738359700659" fill="#d7a64a" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">-484</text>
+<rect x="1000.0" y="451.79806735028444" width="49.50000000000001" height="23.20193264971556" rx="4" fill="#5cc8a7" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="1025.2" y="688" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">21</text>
+<text x="1025.2" y="439.79806735028444" fill="#5cc8a7" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">478</text>
+<rect x="1090.0" y="475.0" width="49.50000000000001" height="23.15770122585629" rx="4" fill="#d7a64a" stroke="none" stroke-width="2" opacity="0.88"/>
+<text x="1115.2" y="688" fill="#9aa8b7" font-size="17" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="middle" opacity="1">6</text>
+<text x="1115.2" y="522.1577012258563" fill="#d7a64a" font-size="16" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">-477</text>
+<rect x="1280" y="290" width="230" height="245" rx="8" fill="#0f1722" stroke="#34475e" stroke-width="2" opacity="1"/>
+<text x="1310" y="342" fill="#e06c75" font-size="30" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">第 26 行</text>
+<text x="1310" y="392" fill="#e9eef4" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">面积 32 m2</text>
+<text x="1310" y="432" fill="#e9eef4" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">租金 8800</text>
+<text x="1310" y="472" fill="#e06c75" font-size="22" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="start" opacity="1">残差 3,710</text>
+<text x="180" y="805" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">残差条形图不是删除名单，而是调查清单：录入、商圈、装修、学区都可能藏在表格之外。</text>
+</svg>

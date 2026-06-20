@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0.18" y2="1">
+    <stop offset="0%" stop-color="#080914"/>
+    <stop offset="42%" stop-color="#11161d"/>
+    <stop offset="100%" stop-color="#08090e"/>
+  </linearGradient>
+  <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f6d08a"/>
+    <stop offset="58%" stop-color="#d79a46"/>
+    <stop offset="100%" stop-color="#7c5427"/>
+  </linearGradient>
+  <radialGradient id="horizon" cx="0.62" cy="0.58" r="0.58">
+    <stop offset="0%" stop-color="#d79a46" stop-opacity="0.13"/>
+    <stop offset="48%" stop-color="#334155" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bluehaze" cx="0.26" cy="0.78" r="0.55">
+    <stop offset="0%" stop-color="#5da7ff" stop-opacity="0.11"/>
+    <stop offset="58%" stop-color="#2dd4bf" stop-opacity="0.035"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#334155" stroke-width="0.45" opacity="0.18"/>
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#334155" stroke-width="0.45" opacity="0.18"/>
+  </pattern>
+  <filter id="blur22" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d79a46" opacity="0.58"/></marker>
+</defs>
+<rect width="800" height="1120" fill="url(#bg)"/>
+<rect width="800" height="1120" fill="url(#grid)"/>
+<rect width="800" height="1120" fill="url(#horizon)"/>
+<rect width="800" height="1120" fill="url(#bluehaze)"/>
+<rect x="30" y="30" width="740" height="1060" fill="none" stroke="#2b3545" stroke-width="0.55" opacity="0.48" rx="2"/>
+<g stroke="#d79a46" stroke-width="0.9" opacity="0.45">
+  <path d="M 54 62 L 54 88 M 54 62 L 80 62"/>
+  <path d="M 746 62 L 746 88 M 746 62 L 720 62"/>
+  <path d="M 54 1058 L 54 1032 M 54 1058 L 80 1058"/>
+  <path d="M 746 1058 L 746 1032 M 746 1058 L 720 1058"/>
+</g>
+<rect x="112" y="0" width="3" height="1120" fill="url(#brass)" opacity="0.95"/>
+<text x="150" y="700" font-family="'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC', serif" font-size="30" fill="#d79a46" opacity="0.045" transform="rotate(-12,400,700)">divide the world, then average the cuts</text>
+<g transform="translate(402 82)" opacity="0.34" stroke="#d79a46" fill="none" stroke-width="1"><path d="M 0 0 L 0 70"/><path d="M 0 70 L -86 132 M 0 70 L 90 132"/><path d="M -86 132 L -150 188 M -86 132 L -34 194 M 90 132 L 36 190 M 90 132 L 156 190"/><circle cx="0" cy="70" r="4" fill="#d79a46"/><circle cx="-86" cy="132" r="3" fill="#5da7ff"/><circle cx="90" cy="132" r="3" fill="#5da7ff"/></g><g opacity="1"><rect x="166" y="710" width="50" height="38" fill="#5da7ff" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="166" y="748" width="50" height="38" fill="#d79a46" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="166" y="786" width="50" height="38" fill="#2dd4bf" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="166" y="824" width="50" height="38" fill="#5da7ff" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="216" y="710" width="50" height="38" fill="#2dd4bf" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="216" y="748" width="50" height="38" fill="#5da7ff" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="216" y="786" width="50" height="38" fill="#d79a46" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="216" y="824" width="50" height="38" fill="#2dd4bf" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="266" y="710" width="50" height="38" fill="#d79a46" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="266" y="748" width="50" height="38" fill="#2dd4bf" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="266" y="786" width="50" height="38" fill="#5da7ff" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="266" y="824" width="50" height="38" fill="#d79a46" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="316" y="710" width="50" height="38" fill="#5da7ff" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="316" y="748" width="50" height="38" fill="#d79a46" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="316" y="786" width="50" height="38" fill="#2dd4bf" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="316" y="824" width="50" height="38" fill="#5da7ff" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="366" y="710" width="50" height="38" fill="#2dd4bf" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="366" y="748" width="50" height="38" fill="#5da7ff" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="366" y="786" width="50" height="38" fill="#d79a46" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="366" y="824" width="50" height="38" fill="#2dd4bf" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="416" y="710" width="50" height="38" fill="#d79a46" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="416" y="748" width="50" height="38" fill="#2dd4bf" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="416" y="786" width="50" height="38" fill="#5da7ff" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="416" y="824" width="50" height="38" fill="#d79a46" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="466" y="710" width="50" height="38" fill="#5da7ff" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="466" y="748" width="50" height="38" fill="#d79a46" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="466" y="786" width="50" height="38" fill="#2dd4bf" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="466" y="824" width="50" height="38" fill="#5da7ff" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="516" y="710" width="50" height="38" fill="#2dd4bf" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="516" y="748" width="50" height="38" fill="#5da7ff" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="516" y="786" width="50" height="38" fill="#d79a46" opacity="0.055" stroke="#334155" stroke-width="0.45"/><rect x="516" y="824" width="50" height="38" fill="#2dd4bf" opacity="0.055" stroke="#334155" stroke-width="0.45"/><path d="M 560 810 L 546 846 L 574 846 Z" fill="#2dd4bf" opacity="0.16"/><path d="M 582 810 L 568 846 L 596 846 Z" fill="#2dd4bf" opacity="0.185"/><path d="M 604 810 L 590 846 L 618 846 Z" fill="#2dd4bf" opacity="0.21000000000000002"/><path d="M 626 810 L 612 846 L 640 846 Z" fill="#2dd4bf" opacity="0.23500000000000001"/><path d="M 648 810 L 634 846 L 662 846 Z" fill="#2dd4bf" opacity="0.26"/><path d="M 670 810 L 656 846 L 684 846 Z" fill="#2dd4bf" opacity="0.28500000000000003"/></g><text x="166" y="690" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" opacity="0.45">the world, cut into small regions</text>
+<g id="title">
+  <rect x="105" y="372" width="620" height="235" fill="#08090e" opacity="0.25" filter="url(#blur22)"/>
+  <text x="148" y="428" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="36" fill="#d79a46" letter-spacing="6">第 08 章</text>
+  <text x="148" y="506" font-family="'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC', serif" font-size="58" fill="#f8fafc" font-weight="800">把问题切成小格子</text>
+  <text x="150" y="552" font-family="'Noto Sans CJK SC', 'Source Han Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Inter', sans-serif" font-size="19" fill="#aebcd0" letter-spacing="1.2">决策树、随机森林、提升</text>
+  <line x1="150" y1="584" x2="340" y2="584" stroke="#d79a46" stroke-width="1.4" opacity="0.58"/>
+</g>
+<text x="150" y="1018" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#9fb2c8" opacity="0.58" letter-spacing="1.5">切分 · 规则 · 森林 · 集成</text>
+</svg>

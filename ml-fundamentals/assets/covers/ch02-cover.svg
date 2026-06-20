@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0.18" y2="1">
+    <stop offset="0%" stop-color="#080914"/>
+    <stop offset="42%" stop-color="#11161d"/>
+    <stop offset="100%" stop-color="#08090e"/>
+  </linearGradient>
+  <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f6d08a"/>
+    <stop offset="58%" stop-color="#d79a46"/>
+    <stop offset="100%" stop-color="#7c5427"/>
+  </linearGradient>
+  <radialGradient id="horizon" cx="0.62" cy="0.58" r="0.58">
+    <stop offset="0%" stop-color="#d79a46" stop-opacity="0.13"/>
+    <stop offset="48%" stop-color="#334155" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bluehaze" cx="0.26" cy="0.78" r="0.55">
+    <stop offset="0%" stop-color="#5da7ff" stop-opacity="0.11"/>
+    <stop offset="58%" stop-color="#2dd4bf" stop-opacity="0.035"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#334155" stroke-width="0.45" opacity="0.18"/>
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#334155" stroke-width="0.45" opacity="0.18"/>
+  </pattern>
+  <filter id="blur22" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d79a46" opacity="0.58"/></marker>
+</defs>
+<rect width="800" height="1120" fill="url(#bg)"/>
+<rect width="800" height="1120" fill="url(#grid)"/>
+<rect width="800" height="1120" fill="url(#horizon)"/>
+<rect width="800" height="1120" fill="url(#bluehaze)"/>
+<rect x="30" y="30" width="740" height="1060" fill="none" stroke="#2b3545" stroke-width="0.55" opacity="0.48" rx="2"/>
+<g stroke="#d79a46" stroke-width="0.9" opacity="0.45">
+  <path d="M 54 62 L 54 88 M 54 62 L 80 62"/>
+  <path d="M 746 62 L 746 88 M 746 62 L 720 62"/>
+  <path d="M 54 1058 L 54 1032 M 54 1058 L 80 1058"/>
+  <path d="M 746 1058 L 746 1032 M 746 1058 L 720 1058"/>
+</g>
+<rect x="112" y="0" width="3" height="1120" fill="url(#brass)" opacity="0.95"/>
+<text x="150" y="700" font-family="'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC', serif" font-size="30" fill="#d79a46" opacity="0.045" transform="rotate(-12,400,700)">raw events become a narrow window into the world</text>
+<text x="160" y="110" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" opacity="0.22">{t:00, event}</text><text x="250" y="110" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" opacity="0.26">{t:01, event}</text><text x="340" y="110" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" opacity="0.30">{t:02, event}</text><text x="160" y="138" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" opacity="0.34">{t:03, event}</text><text x="250" y="138" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" opacity="0.22">{t:04, event}</text><text x="340" y="138" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" opacity="0.26">{t:05, event}</text><text x="160" y="166" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" opacity="0.30">{t:06, event}</text><text x="250" y="166" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" opacity="0.34">{t:07, event}</text><text x="340" y="166" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" opacity="0.22">{t:08, event}</text><text x="160" y="194" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" opacity="0.26">{t:09, event}</text><text x="250" y="194" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" opacity="0.30">{t:10, event}</text><text x="340" y="194" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#9fb2c8" opacity="0.34">{t:11, event}</text><g transform="translate(505 118)" opacity="0.32" stroke="#d79a46" fill="none" stroke-width="0.8">
+      <path d="M 0 0 L 126 0 L 126 112 L 0 112 Z"/><path d="M 0 28 L 126 28 M 0 56 L 126 56 M 0 84 L 126 84 M 42 0 L 42 112 M 84 0 L 84 112"/>
+      <circle cx="105" cy="90" r="4" fill="#d79a46" opacity="0.7"/>
+    </g><path d="M 150 680.0 C 260 644.0, 385 665.0, 650 650.0" fill="none" stroke="#d79a46" stroke-width="0.75" opacity="0.18"/><path d="M 176 695.1 C 270 633.0, 390 692.8, 637 640.9" fill="none" stroke="#5da7ff" stroke-width="0.75" opacity="0.18"/><path d="M 202 696.4 C 280 610.0, 395 657.8, 624 619.1" fill="none" stroke="#d79a46" stroke-width="0.75" opacity="0.18"/><path d="M 228 682.5 C 290 596.2, 400 639.1, 611 597.9" fill="none" stroke="#5da7ff" stroke-width="0.75" opacity="0.18"/><path d="M 254 666.4 C 300 604.3, 405 678.8, 598 590.1" fill="none" stroke="#d79a46" stroke-width="0.75" opacity="0.18"/><path d="M 280 662.7 C 310 626.8, 410 687.4, 585 600.4" fill="none" stroke="#5da7ff" stroke-width="0.75" opacity="0.18"/><path d="M 306 675.0 C 320 643.0, 415 645.4, 572 622.6" fill="none" stroke="#d79a46" stroke-width="0.75" opacity="0.18"/><path d="M 332 691.8 C 330 638.1, 420 647.7, 559 643.3" fill="none" stroke="#5da7ff" stroke-width="0.75" opacity="0.18"/><path d="M 358 697.8 C 340 616.5, 425 689.1, 546 649.8" fill="none" stroke="#d79a46" stroke-width="0.75" opacity="0.18"/><path d="M 384 687.4 C 350 598.1, 430 676.1, 533 638.3" fill="none" stroke="#5da7ff" stroke-width="0.75" opacity="0.18"/><path d="M 410 670.2 C 360 599.9, 435 638.1, 520 615.6" fill="none" stroke="#d79a46" stroke-width="0.75" opacity="0.18"/><path d="M 436 662.0 C 370 620.1, 440 660.8, 507 595.7" fill="none" stroke="#5da7ff" stroke-width="0.75" opacity="0.18"/><path d="M 606 736 C 560 665, 502 638, 438 668 C 386 692, 318 714, 252 674" fill="none" stroke="#f87171" stroke-width="1.1" stroke-dasharray="5 7" opacity="0.30"/>
+    <text x="522" y="724" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="11" fill="#f87171" opacity="0.42">future field</text>
+<g id="title">
+  <rect x="105" y="372" width="620" height="235" fill="#08090e" opacity="0.25" filter="url(#blur22)"/>
+  <text x="148" y="428" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="36" fill="#d79a46" letter-spacing="6">第 02 章</text>
+  <text x="148" y="506" font-family="'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC', serif" font-size="62" fill="#f8fafc" font-weight="800">把世界放进表格</text>
+  <text x="150" y="552" font-family="'Noto Sans CJK SC', 'Source Han Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Inter', sans-serif" font-size="19" fill="#aebcd0" letter-spacing="1.2">样本、标签、特征、泄漏</text>
+  <line x1="150" y1="584" x2="340" y2="584" stroke="#d79a46" stroke-width="1.4" opacity="0.58"/>
+</g>
+<text x="150" y="1018" font-family="'SF Mono', 'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#9fb2c8" opacity="0.58" letter-spacing="1.5">日志 · 特征 · 标签 · 泄漏检查</text>
+</svg>
