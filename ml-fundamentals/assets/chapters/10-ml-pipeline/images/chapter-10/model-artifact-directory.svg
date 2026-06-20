@@ -44,31 +44,31 @@
 <text x="205" y="285" fill="#e9eef4" font-size="29" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="start" opacity="1">artifacts/ticket-p1-local/</text>
 <circle cx="220" cy="339" r="7" fill="#6ea8fe" stroke="none" stroke-width="0" opacity="1"/>
 <text x="245" y="345" fill="#e9eef4" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">model.json</text>
-<text x="510" y="345" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">权重与预处理器</text>
+<text x="555" y="345" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">权重与预处理器</text>
 <circle cx="220" cy="385" r="7" fill="#6ea8fe" stroke="none" stroke-width="0" opacity="1"/>
 <text x="245" y="391" fill="#e9eef4" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">data_manifest.json</text>
-<text x="510" y="391" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">数据哈希与切分方式</text>
+<text x="555" y="391" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">数据哈希与切分方式</text>
 <circle cx="220" cy="431" r="7" fill="#d7a64a" stroke="none" stroke-width="0" opacity="1"/>
 <text x="245" y="437" fill="#e9eef4" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">metrics.json</text>
-<text x="510" y="437" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">F1=0.923, Recall=0.857</text>
+<text x="555" y="437" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">F1=0.923, Recall=0.857</text>
 <circle cx="220" cy="477" r="7" fill="#6ea8fe" stroke="none" stroke-width="0" opacity="1"/>
 <text x="245" y="483" fill="#e9eef4" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">decision_config.json</text>
-<text x="510" y="483" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">阈值与路由动作</text>
+<text x="555" y="483" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">阈值与路由动作</text>
 <circle cx="220" cy="523" r="7" fill="#6ea8fe" stroke="none" stroke-width="0" opacity="1"/>
 <text x="245" y="529" fill="#e9eef4" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">threshold_review.json</text>
-<text x="510" y="529" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">候选阈值证据</text>
+<text x="555" y="529" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">候选阈值证据</text>
 <circle cx="220" cy="569" r="7" fill="#6ea8fe" stroke="none" stroke-width="0" opacity="1"/>
 <text x="245" y="575" fill="#e9eef4" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">feature_schema.json</text>
-<text x="510" y="575" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">输入列契约</text>
+<text x="555" y="575" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">输入列契约</text>
 <circle cx="220" cy="615" r="7" fill="#6ea8fe" stroke="none" stroke-width="0" opacity="1"/>
 <text x="245" y="621" fill="#e9eef4" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">sample_input.json</text>
-<text x="510" y="621" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">烟雾测试样本</text>
+<text x="555" y="621" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">烟雾测试样本</text>
 <circle cx="220" cy="661" r="7" fill="#6ea8fe" stroke="none" stroke-width="0" opacity="1"/>
 <text x="245" y="667" fill="#e9eef4" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">run_log.json</text>
-<text x="510" y="667" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">随机种子与训练参数</text>
+<text x="555" y="667" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">随机种子与训练参数</text>
 <circle cx="220" cy="707" r="7" fill="#6ea8fe" stroke="none" stroke-width="0" opacity="1"/>
 <text x="245" y="713" fill="#e9eef4" font-size="23" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="400" text-anchor="start" opacity="1">README.md</text>
-<text x="510" y="713" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">复现、限制、加载方式</text>
+<text x="555" y="713" fill="#9aa8b7" font-size="21" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">复现、限制、加载方式</text>
 <rect x="870" y="285" width="500" height="360" rx="8" fill="#111d2a" stroke="#5cc8a7" stroke-width="2.5" opacity="1"/>
 <text x="1120" y="345" fill="#e9eef4" font-size="27" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="700" text-anchor="middle" opacity="1">一次交付至少回答</text>
 <text x="950" y="395" fill="#9aa8b7" font-size="24" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">1. 哪份数据训练？</text>

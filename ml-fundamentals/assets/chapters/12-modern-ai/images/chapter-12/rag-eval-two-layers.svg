@@ -51,6 +51,6 @@
 <text x="930" y="420" fill="#9aa8b7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">事实、引用、拒答、格式是否合格</text>
 <text x="930" y="475" fill="#9aa8b7" font-size="23" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">定位 prompt、兜底、输出规则问题</text>
 <line x1="735" y1="455" x2="865" y2="455" stroke="#d7a64a" stroke-width="5" marker-end="url(#arrow-amber)"/>
-<text x="800" y="720" fill="#5ec8d8" font-size="27" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">refusal pass: 9/4</text>
+<text x="800" y="720" fill="#5ec8d8" font-size="27" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-weight="700" text-anchor="middle" opacity="1">refusal pass: 9/9</text>
 <text x="190" y="805" fill="#9aa8b7" font-size="28" font-family="'Hiragino Sans GB', 'STHeiti', 'Arial Unicode MS', sans-serif" font-weight="400" text-anchor="start" opacity="1">答案错了不等于模型不行：先查证据有没有回来，再查模型有没有按证据回答。</text>
 </svg>
