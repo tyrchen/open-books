@@ -130,26 +130,31 @@ def sold_fast_by_rules(home):
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 4, y: 0.42),
-    (x: 8, y: 0.31),
-    (x: 12, y: 0.24),
-    (x: 16, y: 0.2),
-    (x: 20, y: 0.19),
+    (x: 4, y: 0.44, series: "留出测试"),
+    (x: 6, y: 0.38, series: "留出测试"),
+    (x: 8, y: 0.33, series: "留出测试"),
+    (x: 10, y: 0.29, series: "留出测试"),
+    (x: 12, y: 0.31, series: "留出测试"),
+    (x: 14, y: 0.25, series: "留出测试"),
+    (x: 16, y: 0.22, series: "留出测试"),
+    (x: 18, y: 0.21, series: "留出测试"),
+    (x: 20, y: 0.19, series: "留出测试"),
+    (x: 22, y: 0.18, series: "留出测试"),
   ),
-  mapping: aes(x: "x", y: "y"),
+  mapping: aes(x: "x", y: "y", colour: "series"),
   layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
+    geom-line(stroke: 1pt, alpha: 0.65),
+    geom-point(size: 2.4pt),
   ),
-  scales: (scale-x-continuous(), scale-y-continuous()),
-  labs: labs(title: "样本增加后测试错误下降", x: "训练样本数", y: "测试错误率"),
+  scales: (scale-x-continuous(), scale-y-continuous(limits: (0, 0.5)), scale-colour-discrete()),
+  labs: labs(title: "样本增加后错误率的下降有波动", x: "训练样本数", y: "测试错误率", colour: "评估口径"),
   theme: theme-minimal(),
 )
 ]
@@ -371,26 +376,27 @@ blind_spots: listing_price,school_district,floor,renovation_quality,seller_urgen
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 0, y: 70, series: "找不到包"),
-    (x: 1, y: 42, series: "找不到包"),
-    (x: 2, y: 20, series: "找不到包"),
-    (x: 3, y: 8, series: "找不到包"),
-    (x: 0, y: 55, series: "版本冲突"),
-    (x: 1, y: 38, series: "版本冲突"),
-    (x: 2, y: 18, series: "版本冲突"),
-    (x: 3, y: 9, series: "版本冲突"),
-    (x: 0, y: 45, series: "解释器错位"),
-    (x: 1, y: 22, series: "解释器错位"),
-    (x: 2, y: 10, series: "解释器错位"),
-    (x: 3, y: 5, series: "解释器错位"),
+    (x: 12, series: "解释器"),
+    (x: 18, series: "解释器"),
+    (x: 22, series: "解释器"),
+    (x: 28, series: "解释器"),
+    (x: 45, series: "依赖"),
+    (x: 52, series: "依赖"),
+    (x: 60, series: "依赖"),
+    (x: 68, series: "依赖"),
+    (x: 15, series: "锁文件"),
+    (x: 20, series: "锁文件"),
+    (x: 25, series: "锁文件"),
+    (x: 32, series: "锁文件"),
+    (x: 70, series: "全缺"),
+    (x: 82, series: "全缺"),
+    (x: 95, series: "全缺"),
+    (x: 110, series: "全缺"),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
-  layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.4pt),
-  ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "环境证据改变排查路径", x: "证据完整度", y: "排查分钟", colour: "故障"),
+  mapping: aes(x: "x", fill: "series"),
+  layers: (geom-histogram(bins: 9, alpha: 0.55, position: "identity"),),
+  scales: (scale-x-continuous(), scale-y-continuous(), scale-fill-discrete()),
+  labs: labs(title: "环境问题的耗时分布", x: "排查分钟", y: "次数", fill: "缺失证据"),
   theme: theme-minimal(),
 )
 ]
@@ -766,26 +772,31 @@ mistake_neighbors: T018
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 0.2, y: 0.92, series: "recall"),
-    (x: 0.4, y: 0.78, series: "recall"),
-    (x: 0.6, y: 0.56, series: "recall"),
-    (x: 0.8, y: 0.31, series: "recall"),
-    (x: 0.2, y: 0.38, series: "precision"),
-    (x: 0.4, y: 0.54, series: "precision"),
-    (x: 0.6, y: 0.69, series: "precision"),
-    (x: 0.8, y: 0.82, series: "precision"),
-    (x: 0.2, y: 0.64, series: "人工队列"),
-    (x: 0.4, y: 0.43, series: "人工队列"),
-    (x: 0.6, y: 0.24, series: "人工队列"),
-    (x: 0.8, y: 0.11, series: "人工队列"),
+    (x: 0.1, y: 0.92, lo: 0.86, hi: 0.97, series: "recall"),
+    (x: 0.2, y: 0.86, lo: 0.8, hi: 0.91, series: "recall"),
+    (x: 0.3, y: 0.76, lo: 0.7, hi: 0.84, series: "recall"),
+    (x: 0.4, y: 0.65, lo: 0.57, hi: 0.73, series: "recall"),
+    (x: 0.5, y: 0.54, lo: 0.46, hi: 0.62, series: "recall"),
+    (x: 0.6, y: 0.42, lo: 0.35, hi: 0.5, series: "recall"),
+    (x: 0.7, y: 0.3, lo: 0.24, hi: 0.37, series: "recall"),
+    (x: 0.8, y: 0.2, lo: 0.15, hi: 0.26, series: "recall"),
+    (x: 0.1, y: 0.72, lo: 0.66, hi: 0.78, series: "人工队列"),
+    (x: 0.2, y: 0.58, lo: 0.52, hi: 0.65, series: "人工队列"),
+    (x: 0.3, y: 0.45, lo: 0.39, hi: 0.51, series: "人工队列"),
+    (x: 0.4, y: 0.34, lo: 0.29, hi: 0.4, series: "人工队列"),
+    (x: 0.5, y: 0.25, lo: 0.21, hi: 0.31, series: "人工队列"),
+    (x: 0.6, y: 0.18, lo: 0.14, hi: 0.23, series: "人工队列"),
+    (x: 0.7, y: 0.12, lo: 0.09, hi: 0.16, series: "人工队列"),
+    (x: 0.8, y: 0.08, lo: 0.05, hi: 0.12, series: "人工队列"),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
+  mapping: aes(x: "x", y: "y", ymin: "lo", ymax: "hi", colour: "series", fill: "series"),
   layers: (
+    geom-ribbon(alpha: 0.22),
     geom-line(stroke: 1pt),
-    geom-point(size: 2.4pt),
+    geom-point(size: 2.2pt),
   ),
-  scales: (scale-x-continuous(limits: (0, 1)), scale-y-continuous(limits: (0, 1)), scale-colour-discrete()),
-  labs: labs(title: "阈值改变工单分级的三种后果", x: "阈值", y: "比例", colour: "指标"),
+  scales: (scale-x-continuous(), scale-y-continuous(limits: (0, 1)), scale-colour-discrete(), scale-fill-discrete()),
+  labs: labs(title: "工单阈值同时改变队列和漏检风险", x: "阈值", y: "比例", colour: "指标", fill: "指标"),
   theme: theme-minimal(),
 )
 ]
@@ -844,26 +855,31 @@ variants:
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 0, y: 5),
-    (x: 6, y: 7),
-    (x: 12, y: 9),
-    (x: 24, y: 12),
-    (x: 48, y: 15),
+    (x: 0, y: 5, series: "业务字段"),
+    (x: 6, y: 6, series: "业务字段"),
+    (x: 12, y: 7, series: "业务字段"),
+    (x: 24, y: 8, series: "业务字段"),
+    (x: 48, y: 8, series: "业务字段"),
+    (x: 0, y: 0, series: "未来字段"),
+    (x: 6, y: 2, series: "未来字段"),
+    (x: 12, y: 4, series: "未来字段"),
+    (x: 24, y: 6, series: "未来字段"),
+    (x: 48, y: 9, series: "未来字段"),
   ),
-  mapping: aes(x: "x", y: "y"),
+  mapping: aes(x: "x", y: "y", colour: "series"),
   layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
+    geom-step(direction: "hv", stroke: 1pt),
+    geom-point(size: 2.2pt),
   ),
-  scales: (scale-x-continuous(), scale-y-continuous()),
-  labs: labs(title: "预测时点改变可用信息", x: "预测后小时", y: "可用字段数"),
+  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
+  labs: labs(title: "预测时点决定字段能否进入样本", x: "预测后小时", y: "可用字段数", colour: "字段来源"),
   theme: theme-minimal(),
 )
 ]
@@ -1059,27 +1075,26 @@ row = {
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.460000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 1, y: 0.72, series: "线上"),
-    (x: 2, y: 0.73, series: "线上"),
-    (x: 3, y: 0.71, series: "线上"),
-    (x: 1, y: 0.74, series: "验证"),
-    (x: 2, y: 0.91, series: "验证"),
-    (x: 3, y: 0.95, series: "验证"),
+    (x: "原始字段", y: "随机切分", value: 0.72),
+    (x: "原始字段", y: "时间切分", value: 0.7),
+    (x: "未来字段", y: "随机切分", value: 0.96),
+    (x: "未来字段", y: "时间切分", value: 0.93),
+    (x: "上线可见", y: "随机切分", value: 0.78),
+    (x: "上线可见", y: "时间切分", value: 0.74),
+    (x: "标签近邻", y: "随机切分", value: 0.99),
+    (x: "标签近邻", y: "时间切分", value: 0.98),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
-  layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
-  ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "泄漏字段造成离线高分", x: "实验轮次", y: "AUC", colour: "数据集"),
+  mapping: aes(x: "x", y: "y", fill: "value"),
+  layers: (geom-tile(stroke: 0.4pt, colour: rgb("#f4f0e8")),),
+  scales: (scale-fill-continuous(),),
+  labs: labs(title: "泄漏检查要沿时间边界逐层排除", x: "实验阶段", y: "数据口径", fill: "AUC"),
   theme: theme-minimal(),
 )
 ]
@@ -1410,29 +1425,32 @@ print(model.predict(pd.DataFrame([{
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 7, y: 0.55, series: "可用信号"),
-    (x: 14, y: 0.7, series: "可用信号"),
-    (x: 30, y: 0.86, series: "可用信号"),
-    (x: 45, y: 0.92, series: "可用信号"),
-    (x: 7, y: 0.9, series: "提前量"),
-    (x: 14, y: 0.77, series: "提前量"),
-    (x: 30, y: 0.52, series: "提前量"),
-    (x: 45, y: 0.34, series: "提前量"),
+    (x: 7, y: 0.55, lo: 0.48, hi: 0.63, series: "信号覆盖"),
+    (x: 14, y: 0.7, lo: 0.62, hi: 0.77, series: "信号覆盖"),
+    (x: 21, y: 0.8, lo: 0.72, hi: 0.86, series: "信号覆盖"),
+    (x: 30, y: 0.86, lo: 0.8, hi: 0.91, series: "信号覆盖"),
+    (x: 45, y: 0.92, lo: 0.87, hi: 0.96, series: "信号覆盖"),
+    (x: 7, y: 0.9, lo: 0.84, hi: 0.96, series: "提前量"),
+    (x: 14, y: 0.77, lo: 0.7, hi: 0.85, series: "提前量"),
+    (x: 21, y: 0.65, lo: 0.58, hi: 0.73, series: "提前量"),
+    (x: 30, y: 0.52, lo: 0.44, hi: 0.6, series: "提前量"),
+    (x: 45, y: 0.34, lo: 0.27, hi: 0.42, series: "提前量"),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
+  mapping: aes(x: "x", y: "y", ymin: "lo", ymax: "hi", colour: "series", fill: "series"),
   layers: (
+    geom-ribbon(alpha: 0.22),
     geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
+    geom-point(size: 2.2pt),
   ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "观察窗口越长，提前量越少", x: "观察天数", y: "比例", colour: "口径"),
+  scales: (scale-x-continuous(), scale-y-continuous(limits: (0, 1)), scale-colour-discrete(), scale-fill-discrete()),
+  labs: labs(title: "观察窗口加长会挤压提前量", x: "观察天数", y: "比例", colour: "口径", fill: "口径"),
   theme: theme-minimal(),
 )
 ]
@@ -1694,27 +1712,31 @@ $ hat(y)=a x+b. $
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 40, y: 0.28, series: "w=0.4"),
-    (x: 70, y: 0.44, series: "w=0.4"),
-    (x: 100, y: 0.6, series: "w=0.4"),
-    (x: 40, y: 0.36, series: "w=0.7"),
-    (x: 70, y: 0.6, series: "w=0.7"),
-    (x: 100, y: 0.84, series: "w=0.7"),
+    (x: 42, y: 0.3, series: "样本"),
+    (x: 50, y: 0.36, series: "样本"),
+    (x: 55, y: 0.42, series: "样本"),
+    (x: 62, y: 0.51, series: "样本"),
+    (x: 70, y: 0.58, series: "样本"),
+    (x: 78, y: 0.63, series: "样本"),
+    (x: 88, y: 0.7, series: "样本"),
+    (x: 96, y: 0.78, series: "样本"),
+    (x: 110, y: 0.66, series: "样本"),
+    (x: 122, y: 0.55, series: "样本"),
   ),
   mapping: aes(x: "x", y: "y", colour: "series"),
   layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
+    geom-line(stroke: 1pt, alpha: 0.65),
+    geom-point(size: 2.4pt),
   ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "参数改变预测直线", x: "面积", y: "预测分数", colour: "参数"),
+  scales: (scale-x-continuous(), scale-y-continuous(limits: (0, 1)), scale-colour-discrete()),
+  labs: labs(title: "参数族不是一条线，而是一组候选假设", x: "面积", y: "预测分数", colour: "观测"),
   theme: theme-minimal(),
 )
 ]
@@ -2285,30 +2307,39 @@ L_"late"=|hat(y)-y|,quad hat(y)gt.eq y.
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.480000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 5, y: 5, series: "MAE"),
-    (x: 15, y: 15, series: "MAE"),
-    (x: 30, y: 30, series: "MAE"),
-    (x: 5, y: 25, series: "MSE"),
-    (x: 15, y: 225, series: "MSE"),
-    (x: 30, y: 900, series: "MSE"),
-    (x: 5, y: 8, series: "Huber"),
-    (x: 15, y: 25, series: "Huber"),
-    (x: 30, y: 48, series: "Huber"),
+    (x: "MAE", y: -18),
+    (x: "MAE", y: -12),
+    (x: "MAE", y: -6),
+    (x: "MAE", y: 4),
+    (x: "MAE", y: 8),
+    (x: "MAE", y: 14),
+    (x: "MAE", y: 22),
+    (x: "MSE", y: -10),
+    (x: "MSE", y: -7),
+    (x: "MSE", y: -3),
+    (x: "MSE", y: 2),
+    (x: "MSE", y: 5),
+    (x: "MSE", y: 8),
+    (x: "MSE", y: 12),
+    (x: "Huber", y: -14),
+    (x: "Huber", y: -8),
+    (x: "Huber", y: -4),
+    (x: "Huber", y: 3),
+    (x: "Huber", y: 7),
+    (x: "Huber", y: 10),
+    (x: "Huber", y: 16),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
-  layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
-  ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "三种损失对大错例的惩罚", x: "误差分钟", y: "惩罚", colour: "损失"),
+  mapping: aes(x: "x", y: "y"),
+  layers: (geom-boxplot(),),
+  scales: (scale-y-continuous(),),
+  labs: labs(title: "三种损失会改变模型偏好的误差分布", x: "损失函数", y: "逐单误差分钟"),
   theme: theme-minimal(),
 )
 ]
@@ -2421,26 +2452,31 @@ totals: abs=82 squared=1670 late_weighted=129 huber_delta10=553 pinball_q80=44.6
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 0, y: 1.4),
-    (x: 1, y: 1.05),
-    (x: 2, y: 0.82),
-    (x: 3, y: 0.7),
-    (x: 4, y: 0.66),
+    (x: 0.2, y: 1.4, series: "梯度下降"),
+    (x: 0.6, y: 1.05, series: "梯度下降"),
+    (x: 0.95, y: 0.82, series: "梯度下降"),
+    (x: 1.2, y: 0.66, series: "梯度下降"),
+    (x: 1.32, y: 0.58, series: "梯度下降"),
+    (x: 0.2, y: 1.4, series: "过大步长"),
+    (x: 1.1, y: 0.75, series: "过大步长"),
+    (x: 0.55, y: 1.15, series: "过大步长"),
+    (x: 1.45, y: 0.52, series: "过大步长"),
+    (x: 0.85, y: 0.95, series: "过大步长"),
   ),
-  mapping: aes(x: "x", y: "y"),
+  mapping: aes(x: "x", y: "y", colour: "series"),
   layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
+    geom-path(stroke: 1pt),
+    geom-point(size: 2.4pt),
   ),
-  scales: (scale-x-continuous(), scale-y-continuous()),
-  labs: labs(title: "沿梯度走向低损失", x: "更新步", y: "loss"),
+  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
+  labs: labs(title: "参数在损失地形上的下坡路径", x: "参数 w1", y: "参数 w2", colour: "更新策略"),
   theme: theme-minimal(),
 )
 ]
@@ -2668,31 +2704,33 @@ for step in range(8):
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 1, y: 1.3, series: "小批量"),
-    (x: 2, y: 1.05, series: "小批量"),
-    (x: 3, y: 1.14, series: "小批量"),
-    (x: 4, y: 0.88, series: "小批量"),
-    (x: 5, y: 0.95, series: "小批量"),
-    (x: 1, y: 1.3, series: "大批量"),
-    (x: 2, y: 1.18, series: "大批量"),
-    (x: 3, y: 1.06, series: "大批量"),
-    (x: 4, y: 0.96, series: "大批量"),
-    (x: 5, y: 0.88, series: "大批量"),
+    (x: 1, y: 1.35, series: "batch=8"),
+    (x: 2, y: 1.1, series: "batch=8"),
+    (x: 3, y: 1.24, series: "batch=8"),
+    (x: 4, y: 0.94, series: "batch=8"),
+    (x: 5, y: 1.02, series: "batch=8"),
+    (x: 6, y: 0.82, series: "batch=8"),
+    (x: 1, y: 1.35, series: "batch=64"),
+    (x: 2, y: 1.23, series: "batch=64"),
+    (x: 3, y: 1.1, series: "batch=64"),
+    (x: 4, y: 0.99, series: "batch=64"),
+    (x: 5, y: 0.91, series: "batch=64"),
+    (x: 6, y: 0.85, series: "batch=64"),
   ),
   mapping: aes(x: "x", y: "y", colour: "series"),
   layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
+    geom-step(direction: "hv", stroke: 1pt),
+    geom-point(size: 2.2pt),
   ),
   scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "batch 大小改变训练波动", x: "step", y: "loss", colour: "批量"),
+  labs: labs(title: "小批量让训练日志呈现台阶和波动", x: "更新步", y: "loss", colour: "批量"),
   theme: theme-minimal(),
 )
 ]
@@ -2830,33 +2868,36 @@ Adam:
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 1, y: 1.2, series: "SGD"),
-    (x: 2, y: 0.98, series: "SGD"),
-    (x: 3, y: 0.86, series: "SGD"),
-    (x: 4, y: 0.78, series: "SGD"),
-    (x: 1, y: 1.2, series: "Momentum"),
-    (x: 2, y: 0.88, series: "Momentum"),
-    (x: 3, y: 0.68, series: "Momentum"),
-    (x: 4, y: 0.58, series: "Momentum"),
-    (x: 1, y: 1.2, series: "Adam"),
-    (x: 2, y: 0.82, series: "Adam"),
-    (x: 3, y: 0.62, series: "Adam"),
-    (x: 4, y: 0.55, series: "Adam"),
+    (x: 0, y: 1.2, series: "SGD"),
+    (x: 0.25, y: 1.0, series: "SGD"),
+    (x: 0.45, y: 0.86, series: "SGD"),
+    (x: 0.62, y: 0.72, series: "SGD"),
+    (x: 0.76, y: 0.63, series: "SGD"),
+    (x: 0, y: 1.2, series: "Momentum"),
+    (x: 0.36, y: 0.92, series: "Momentum"),
+    (x: 0.72, y: 0.6, series: "Momentum"),
+    (x: 1.0, y: 0.42, series: "Momentum"),
+    (x: 1.12, y: 0.38, series: "Momentum"),
+    (x: 0, y: 1.2, series: "Adam"),
+    (x: 0.28, y: 0.78, series: "Adam"),
+    (x: 0.54, y: 0.55, series: "Adam"),
+    (x: 0.76, y: 0.43, series: "Adam"),
+    (x: 0.92, y: 0.39, series: "Adam"),
   ),
   mapping: aes(x: "x", y: "y", colour: "series"),
   layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
+    geom-path(stroke: 1pt),
+    geom-point(size: 2.4pt),
   ),
   scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "同一梯度在不同优化器下的下降", x: "step", y: "loss", colour: "优化器"),
+  labs: labs(title: "优化器改变的是参数路径而不只是速度", x: "参数 w1", y: "参数 w2", colour: "优化器"),
   theme: theme-minimal(),
 )
 ]
@@ -3424,29 +3465,26 @@ for d in degrees:
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 1, y: 0.72, series: "验证"),
-    (x: 5, y: 0.76, series: "验证"),
-    (x: 10, y: 0.8, series: "验证"),
-    (x: 20, y: 0.84, series: "验证"),
-    (x: 1, y: 0.71, series: "测试"),
-    (x: 5, y: 0.72, series: "测试"),
-    (x: 10, y: 0.72, series: "测试"),
-    (x: 20, y: 0.71, series: "测试"),
+    (x: "线性", y: 0.72, lo: 0.68, hi: 0.76),
+    (x: "浅树", y: 0.75, lo: 0.7, hi: 0.8),
+    (x: "森林", y: 0.81, lo: 0.75, hi: 0.86),
+    (x: "提升树", y: 0.83, lo: 0.74, hi: 0.9),
+    (x: "测试集", y: 0.78, lo: 0.78, hi: 0.78),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
+  mapping: aes(x: "x", y: "y", ymin: "lo", ymax: "hi"),
   layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
+    geom-errorbar(width: 0.35, stroke: 0.8pt),
+    geom-point(size: 2.8pt),
   ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "反复调参会抬高验证乐观偏差", x: "尝试次数", y: "分数", colour: "数据集"),
+  scales: (scale-y-continuous(limits: (0.6, 0.95)),),
+  labs: labs(title: "交叉验证看到的是分数和波动", x: "模型", y: "AUC"),
   theme: theme-minimal(),
 )
 ]
@@ -3560,31 +3598,32 @@ print("平均 MSE:", mse_scores.mean())
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 1, y: 0.42, series: "训练"),
-    (x: 2, y: 0.3, series: "训练"),
-    (x: 3, y: 0.22, series: "训练"),
-    (x: 4, y: 0.15, series: "训练"),
-    (x: 5, y: 0.1, series: "训练"),
-    (x: 1, y: 0.45, series: "测试"),
-    (x: 2, y: 0.32, series: "测试"),
-    (x: 3, y: 0.24, series: "测试"),
-    (x: 4, y: 0.29, series: "测试"),
-    (x: 5, y: 0.39, series: "测试"),
+    (x: 1, y: 0.42, lo: 0.38, hi: 0.46, series: "训练"),
+    (x: 2, y: 0.31, lo: 0.28, hi: 0.34, series: "训练"),
+    (x: 3, y: 0.22, lo: 0.2, hi: 0.25, series: "训练"),
+    (x: 4, y: 0.15, lo: 0.13, hi: 0.18, series: "训练"),
+    (x: 5, y: 0.09, lo: 0.07, hi: 0.12, series: "训练"),
+    (x: 1, y: 0.44, lo: 0.39, hi: 0.5, series: "测试"),
+    (x: 2, y: 0.32, lo: 0.27, hi: 0.38, series: "测试"),
+    (x: 3, y: 0.24, lo: 0.2, hi: 0.31, series: "测试"),
+    (x: 4, y: 0.3, lo: 0.24, hi: 0.4, series: "测试"),
+    (x: 5, y: 0.4, lo: 0.3, hi: 0.55, series: "测试"),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
+  mapping: aes(x: "x", y: "y", ymin: "lo", ymax: "hi", colour: "series", fill: "series"),
   layers: (
+    geom-ribbon(alpha: 0.22),
     geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
+    geom-point(size: 2.2pt),
   ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "复杂度带来的泛化缺口", x: "复杂度", y: "误差", colour: "数据集"),
+  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete(), scale-fill-discrete()),
+  labs: labs(title: "复杂度升高后泛化缺口张开", x: "复杂度", y: "误差", colour: "数据集", fill: "数据集"),
   theme: theme-minimal(),
 )
 ]
@@ -4075,27 +4114,34 @@ df = pd.read_csv("bike-rentals-hourly.csv", parse_dates=["datetime"])
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 0, y: 22),
-    (x: 4, y: 12),
-    (x: 8, y: 88),
-    (x: 12, y: 74),
-    (x: 17, y: 118),
-    (x: 21, y: 46),
+    (x: 0, y: 18, series: "工作日"),
+    (x: 3, y: 10, series: "工作日"),
+    (x: 6, y: 42, series: "工作日"),
+    (x: 8, y: 120, series: "工作日"),
+    (x: 12, y: 70, series: "工作日"),
+    (x: 17, y: 132, series: "工作日"),
+    (x: 20, y: 60, series: "工作日"),
+    (x: 23, y: 24, series: "工作日"),
+    (x: 0, y: 22, series: "周末"),
+    (x: 3, y: 12, series: "周末"),
+    (x: 6, y: 24, series: "周末"),
+    (x: 8, y: 48, series: "周末"),
+    (x: 12, y: 92, series: "周末"),
+    (x: 17, y: 118, series: "周末"),
+    (x: 20, y: 78, series: "周末"),
+    (x: 23, y: 38, series: "周末"),
   ),
-  mapping: aes(x: "x", y: "y"),
-  layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
-  ),
-  scales: (scale-x-continuous(), scale-y-continuous()),
-  labs: labs(title: "共享单车需求的小时节奏", x: "小时", y: "租借量"),
+  mapping: aes(x: "x", y: "y", fill: "series"),
+  layers: (geom-area(alpha: 0.55),),
+  scales: (scale-x-continuous(), scale-y-continuous(), scale-fill-discrete()),
+  labs: labs(title: "一天里的需求由通勤和闲暇叠加", x: "小时", y: "租借量", fill: "日期类型"),
   theme: theme-minimal(),
 )
 ]
@@ -4309,33 +4355,22 @@ for name, model in models.items():
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.460000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 0.2, y: 180, series: "FP 成本"),
-    (x: 0.4, y: 110, series: "FP 成本"),
-    (x: 0.6, y: 58, series: "FP 成本"),
-    (x: 0.8, y: 25, series: "FP 成本"),
-    (x: 0.2, y: 60, series: "FN 成本"),
-    (x: 0.4, y: 95, series: "FN 成本"),
-    (x: 0.6, y: 170, series: "FN 成本"),
-    (x: 0.8, y: 310, series: "FN 成本"),
-    (x: 0.2, y: 240, series: "总成本"),
-    (x: 0.4, y: 205, series: "总成本"),
-    (x: 0.6, y: 228, series: "总成本"),
-    (x: 0.8, y: 335, series: "总成本"),
+    (x: "拦截", y: "欺诈", value: 0),
+    (x: "放行", y: "正常", value: 0),
+    (x: "拦截", y: "正常", value: 25),
+    (x: "放行", y: "欺诈", value: 160),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
-  layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.4pt),
-  ),
-  scales: (scale-x-continuous(limits: (0, 1)), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "阈值移动时四格代价重新分配", x: "阈值", y: "成本", colour: "成本"),
+  mapping: aes(x: "x", y: "y", fill: "value"),
+  layers: (geom-tile(stroke: 0.4pt, colour: rgb("#f4f0e8")),),
+  scales: (scale-fill-continuous(),),
+  labs: labs(title: "四格表里的错误不是同一种代价", x: "预测", y: "真实", fill: "单次代价"),
   theme: theme-minimal(),
 )
 ]
@@ -5057,23 +5092,39 @@ print("Max:  ", max_error(y_true, y_pred))
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (item: "MAE", value: 10.25),
-    (item: "RMSE", value: 14.45),
-    (item: "R²×10", value: 4.4),
-    (item: "P90", value: 24.0),
+    (x: "A", y: 4),
+    (x: "A", y: 7),
+    (x: "A", y: 8),
+    (x: "A", y: 9),
+    (x: "A", y: 11),
+    (x: "A", y: 18),
+    (x: "A", y: 34),
+    (x: "B", y: 6),
+    (x: "B", y: 8),
+    (x: "B", y: 9),
+    (x: "B", y: 10),
+    (x: "B", y: 12),
+    (x: "B", y: 13),
+    (x: "B", y: 16),
+    (x: "C", y: 3),
+    (x: "C", y: 5),
+    (x: "C", y: 6),
+    (x: "C", y: 12),
+    (x: "C", y: 18),
+    (x: "C", y: 24),
+    (x: "C", y: 40),
   ),
-  mapping: aes(x: "item", y: "value", fill: "item"),
-  layers: (geom-col(),),
-  scales: (scale-y-continuous(), scale-fill-discrete()),
-  guides: guides(fill: none),
-  labs: labs(title: "同一批误差的三种读法", x: "指标", y: "数值"),
+  mapping: aes(x: "x", y: "y"),
+  layers: (geom-boxplot(),),
+  scales: (scale-y-continuous(),),
+  labs: labs(title: "回归误差要看分布而不是只看均值", x: "模型", y: "绝对误差"),
   theme: theme-minimal(),
 )
 ]
@@ -5505,23 +5556,25 @@ print("截距:", model.intercept_)
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (item: "面积", value: 82),
-    (item: "地铁", value: -35),
-    (item: "楼龄", value: -18),
-    (item: "楼层", value: 6),
+    (x: "面积", y: 82, lo: 75, hi: 90),
+    (x: "地铁距离", y: -35, lo: -48, hi: -22),
+    (x: "楼龄", y: -18, lo: -25, hi: -10),
+    (x: "楼层", y: 6, lo: 1, hi: 12),
   ),
-  mapping: aes(x: "item", y: "value", fill: "item"),
-  layers: (geom-col(),),
-  scales: (scale-y-continuous(), scale-fill-discrete()),
-  guides: guides(fill: none),
-  labs: labs(title: "原始尺度权重不可直接比较", x: "特征", y: "权重"),
+  mapping: aes(x: "x", y: "y", ymin: "lo", ymax: "hi"),
+  layers: (
+    geom-errorbar(width: 0.35, stroke: 0.8pt),
+    geom-point(size: 2.8pt),
+  ),
+  scales: (scale-y-continuous(limits: (-60, 100)),),
+  labs: labs(title: "原始尺度上的权重带着单位", x: "特征", y: "权重估计"),
   theme: theme-minimal(),
 )
 ]
@@ -5596,28 +5649,26 @@ z=w_1x_1+w_2x_2+b.
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: -3, y: 0.05),
-    (x: -2, y: 0.12),
-    (x: -1, y: 0.27),
-    (x: 0, y: 0.5),
-    (x: 1, y: 0.73),
-    (x: 2, y: 0.88),
-    (x: 3, y: 0.95),
+    (x: -3, y: 0.05, series: "样本"),
+    (x: -1, y: 0.27, series: "样本"),
+    (x: 0, y: 0.5, series: "样本"),
+    (x: 1, y: 0.73, series: "样本"),
+    (x: 3, y: 0.95, series: "样本"),
   ),
   mapping: aes(x: "x", y: "y"),
   layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
+    geom-function(fun: x => 1 / (1 + calc.exp(-x)), xlim: (-5, 5), n: 101, stroke: 1pt, colour: rgb("#4f7ecb")),
+    geom-point(size: 2.4pt, colour: rgb("#c44e52")),
   ),
-  scales: (scale-x-continuous(), scale-y-continuous()),
-  labs: labs(title: "线性分数经过 sigmoid 变成概率", x: "线性分数", y: "概率"),
+  scales: (scale-x-continuous(limits: (-5, 5)), scale-y-continuous(limits: (0, 1))),
+  labs: labs(title: "sigmoid 把线性分数压进概率区间", x: "线性分数", y: "概率"),
   theme: theme-minimal(),
 )
 ]
@@ -5759,23 +5810,25 @@ z="log"frac(p, 1-p).
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (item: "面积", value: 0.62),
-    (item: "地铁", value: -0.41),
-    (item: "楼龄", value: -0.28),
-    (item: "楼层", value: 0.12),
+    (x: "面积", y: 0.62, lo: 0.48, hi: 0.76),
+    (x: "地铁距离", y: -0.41, lo: -0.55, hi: -0.28),
+    (x: "楼龄", y: -0.28, lo: -0.42, hi: -0.12),
+    (x: "楼层", y: 0.12, lo: -0.03, hi: 0.26),
   ),
-  mapping: aes(x: "item", y: "value", fill: "item"),
-  layers: (geom-col(),),
-  scales: (scale-y-continuous(), scale-fill-discrete()),
-  guides: guides(fill: none),
-  labs: labs(title: "标准化后权重才适合横向比较", x: "特征", y: "标准化权重"),
+  mapping: aes(x: "x", y: "y", ymin: "lo", ymax: "hi"),
+  layers: (
+    geom-errorbar(width: 0.35, stroke: 0.8pt),
+    geom-point(size: 2.8pt),
+  ),
+  scales: (scale-y-continuous(limits: (-0.7, 0.9)),),
+  labs: labs(title: "标准化权重仍要带着不确定性读", x: "特征", y: "标准化权重"),
   theme: theme-minimal(),
 )
 ]
@@ -6214,23 +6267,31 @@ Largest residual
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (item: "A", value: 8),
-    (item: "B", value: -11),
-    (item: "C", value: 6),
-    (item: "异常", value: 34),
+    (x: 1800, y: 80, series: "普通"),
+    (x: 2200, y: -120, series: "普通"),
+    (x: 2600, y: 60, series: "普通"),
+    (x: 3000, y: -90, series: "普通"),
+    (x: 3400, y: 110, series: "普通"),
+    (x: 3800, y: -140, series: "普通"),
+    (x: 4200, y: 170, series: "普通"),
+    (x: 4600, y: -80, series: "普通"),
+    (x: 5000, y: 90, series: "普通"),
+    (x: 5400, y: 820, series: "异常"),
   ),
-  mapping: aes(x: "item", y: "value", fill: "item"),
-  layers: (geom-col(),),
-  scales: (scale-y-continuous(), scale-fill-discrete()),
-  guides: guides(fill: none),
-  labs: labs(title: "残差最大的样本最值得复核", x: "样本", y: "残差"),
+  mapping: aes(x: "x", y: "y", colour: "series"),
+  layers: (
+    geom-line(stroke: 1pt, alpha: 0.65),
+    geom-point(size: 2.4pt),
+  ),
+  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
+  labs: labs(title: "残差图暴露异常样本如何拉动直线", x: "预测房租", y: "残差", colour: "样本"),
   theme: theme-minimal(),
 )
 ]
@@ -6269,7 +6330,7 @@ Standardized coefficients after removing largest-residual row
   ),
   mapping: aes(x: "item", y: "value", fill: "item"),
   layers: (geom-col(),),
-  scales: (scale-y-continuous(), scale-fill-discrete()),
+  scales: (scale-y-continuous(),),
   guides: guides(fill: none),
   labs: labs(title: "异常样本会移动解释权重", x: "特征", y: "权重变化"),
   theme: theme-minimal(),
@@ -6389,33 +6450,27 @@ Interpretation report draft
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.460000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 1, y: 0.42, series: "父节点"),
-    (x: 2, y: 0.42, series: "父节点"),
-    (x: 3, y: 0.42, series: "父节点"),
-    (x: 4, y: 0.42, series: "父节点"),
-    (x: 1, y: 0.35, series: "切分后"),
-    (x: 2, y: 0.24, series: "切分后"),
-    (x: 3, y: 0.31, series: "切分后"),
-    (x: 4, y: 0.27, series: "切分后"),
-    (x: 1, y: 0.07, series: "下降量"),
-    (x: 2, y: 0.18, series: "下降量"),
-    (x: 3, y: 0.11, series: "下降量"),
-    (x: 4, y: 0.15, series: "下降量"),
+    (x: "投诉数", y: "低", value: 0.32),
+    (x: "投诉数", y: "中", value: 0.18),
+    (x: "投诉数", y: "高", value: 0.26),
+    (x: "最近登录", y: "低", value: 0.35),
+    (x: "最近登录", y: "中", value: 0.24),
+    (x: "最近登录", y: "高", value: 0.16),
+    (x: "价格档", y: "低", value: 0.4),
+    (x: "价格档", y: "中", value: 0.31),
+    (x: "价格档", y: "高", value: 0.22),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
-  layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.4pt),
-  ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "候选切分点同时改变左右叶纯度", x: "候选切分", y: "Gini", colour: "口径"),
+  mapping: aes(x: "x", y: "y", fill: "value"),
+  layers: (geom-tile(stroke: 0.4pt, colour: rgb("#f4f0e8")),),
+  scales: (scale-fill-continuous(),),
+  labs: labs(title: "切分点搜索是在比较局部纯度", x: "特征", y: "候选切分", fill: "切分后 Gini"),
   theme: theme-minimal(),
 )
 ]
@@ -6782,22 +6837,24 @@ print("验证分数:", gb.score(X_val, y_val))
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (item: "浅树", value: 0.72),
-    (item: "随机森林", value: 0.82),
-    (item: "提升树", value: 0.86),
+    (x: "浅树", y: 0.72, lo: 0.69, hi: 0.75),
+    (x: "随机森林", y: 0.82, lo: 0.78, hi: 0.85),
+    (x: "提升树", y: 0.86, lo: 0.8, hi: 0.88),
   ),
-  mapping: aes(x: "item", y: "value", fill: "item"),
-  layers: (geom-col(),),
-  scales: (scale-y-continuous(), scale-fill-discrete()),
-  guides: guides(fill: none),
-  labs: labs(title: "三类树模型的验证分数", x: "模型", y: "AUC"),
+  mapping: aes(x: "x", y: "y", ymin: "lo", ymax: "hi"),
+  layers: (
+    geom-errorbar(width: 0.35, stroke: 0.8pt),
+    geom-point(size: 2.8pt),
+  ),
+  scales: (scale-y-continuous(limits: (0.65, 0.9)),),
+  labs: labs(title: "模型分数要和验证波动一起读", x: "模型", y: "AUC"),
   theme: theme-minimal(),
 )
 ]
@@ -6832,23 +6889,28 @@ print("验证分数:", gb.score(X_val, y_val))
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (item: "最近登录", value: 0.35),
-    (item: "活跃天数", value: 0.32),
-    (item: "取消点击", value: 0.18),
-    (item: "套餐", value: 0.08),
+    (x: 0.35, y: 0.2, series: "活跃"),
+    (x: 0.32, y: 0.18, series: "活跃"),
+    (x: 0.18, y: 0.78, series: "行为后验"),
+    (x: 0.08, y: 0.12, series: "账号"),
+    (x: 0.22, y: 0.4, series: "客服"),
+    (x: 0.28, y: 0.52, series: "账单"),
+    (x: 0.12, y: 0.16, series: "产品"),
   ),
-  mapping: aes(x: "item", y: "value", fill: "item"),
-  layers: (geom-col(),),
-  scales: (scale-y-continuous(), scale-fill-discrete()),
-  guides: guides(fill: none),
-  labs: labs(title: "特征重要性仍需泄漏检查", x: "特征", y: "重要性"),
+  mapping: aes(x: "x", y: "y", colour: "series"),
+  layers: (
+    geom-line(stroke: 1pt, alpha: 0.65),
+    geom-point(size: 2.4pt),
+  ),
+  scales: (scale-x-continuous(limits: (0, 0.4)), scale-y-continuous(limits: (0, 1)), scale-colour-discrete()),
+  labs: labs(title: "重要性越高越要检查时间边界", x: "特征重要性", y: "泄漏风险", colour: "特征组"),
   theme: theme-minimal(),
 )
 ]
@@ -7428,29 +7490,30 @@ print(importances.sort_values(ascending=False).head(10))
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 4, y: 0.34, series: "训练"),
-    (x: 16, y: 0.18, series: "训练"),
-    (x: 64, y: 0.08, series: "训练"),
-    (x: 128, y: 0.03, series: "训练"),
-    (x: 4, y: 0.36, series: "验证"),
-    (x: 16, y: 0.23, series: "验证"),
-    (x: 64, y: 0.22, series: "验证"),
-    (x: 128, y: 0.31, series: "验证"),
+    (x: 4, y: 0.34, lo: 0.31, hi: 0.38, series: "训练"),
+    (x: 16, y: 0.18, lo: 0.15, hi: 0.22, series: "训练"),
+    (x: 64, y: 0.08, lo: 0.06, hi: 0.11, series: "训练"),
+    (x: 128, y: 0.03, lo: 0.02, hi: 0.05, series: "训练"),
+    (x: 4, y: 0.36, lo: 0.32, hi: 0.41, series: "验证"),
+    (x: 16, y: 0.23, lo: 0.19, hi: 0.28, series: "验证"),
+    (x: 64, y: 0.22, lo: 0.17, hi: 0.31, series: "验证"),
+    (x: 128, y: 0.31, lo: 0.22, hi: 0.45, series: "验证"),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
+  mapping: aes(x: "x", y: "y", ymin: "lo", ymax: "hi", colour: "series", fill: "series"),
   layers: (
+    geom-ribbon(alpha: 0.22),
     geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
+    geom-point(size: 2.2pt),
   ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "容量增加后验证误差先降后升", x: "隐藏单元", y: "错误率", colour: "数据集"),
+  scales: (scale-x-continuous(), scale-y-continuous(limits: (0, 0.5)), scale-colour-discrete(), scale-fill-discrete()),
+  labs: labs(title: "容量增加后验证误差的不确定性扩大", x: "隐藏单元", y: "错误率", colour: "数据集", fill: "数据集"),
   theme: theme-minimal(),
 )
 ]
@@ -7572,29 +7635,32 @@ print("最终损失:", mlp.loss_)
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 1, y: 1.0, series: "稳定"),
-    (x: 2, y: 0.82, series: "稳定"),
-    (x: 3, y: 0.7, series: "稳定"),
-    (x: 4, y: 0.61, series: "稳定"),
-    (x: 1, y: 1.0, series: "消失"),
-    (x: 2, y: 0.35, series: "消失"),
-    (x: 3, y: 0.12, series: "消失"),
-    (x: 4, y: 0.04, series: "消失"),
+    (x: 1, y: 1.0, lo: 0.85, hi: 1.15, series: "稳定"),
+    (x: 2, y: 0.82, lo: 0.68, hi: 0.95, series: "稳定"),
+    (x: 3, y: 0.7, lo: 0.55, hi: 0.86, series: "稳定"),
+    (x: 4, y: 0.61, lo: 0.46, hi: 0.75, series: "稳定"),
+    (x: 5, y: 0.56, lo: 0.42, hi: 0.7, series: "稳定"),
+    (x: 1, y: 1.0, lo: 0.8, hi: 1.2, series: "消失"),
+    (x: 2, y: 0.35, lo: 0.26, hi: 0.46, series: "消失"),
+    (x: 3, y: 0.12, lo: 0.08, hi: 0.18, series: "消失"),
+    (x: 4, y: 0.04, lo: 0.02, hi: 0.07, series: "消失"),
+    (x: 5, y: 0.015, lo: 0.006, hi: 0.03, series: "消失"),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
+  mapping: aes(x: "x", y: "y", ymin: "lo", ymax: "hi", colour: "series", fill: "series"),
   layers: (
+    geom-ribbon(alpha: 0.22),
     geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
+    geom-point(size: 2.2pt),
   ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "梯度在层间传回时可能衰减", x: "反传层数", y: "梯度范数", colour: "路径"),
+  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete(), scale-fill-discrete()),
+  labs: labs(title: "梯度范数沿层传播会收缩或放大", x: "反传层数", y: "梯度范数", colour: "路径", fill: "路径"),
   theme: theme-minimal(),
 )
 ]
@@ -8771,33 +8837,30 @@ python scripts/train.py \
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.460000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 0, y: 0, series: "直接报错"),
-    (x: 0.05, y: 14, series: "直接报错"),
-    (x: 0.1, y: 29, series: "直接报错"),
-    (x: 0.2, y: 58, series: "直接报错"),
-    (x: 0, y: 0, series: "丢弃字段"),
-    (x: 0.05, y: 7, series: "丢弃字段"),
-    (x: 0.1, y: 18, series: "丢弃字段"),
-    (x: 0.2, y: 40, series: "丢弃字段"),
-    (x: 0, y: 0, series: "unknown 桶"),
-    (x: 0.05, y: 2, series: "unknown 桶"),
-    (x: 0.1, y: 5, series: "unknown 桶"),
-    (x: 0.2, y: 12, series: "unknown 桶"),
+    (x: "0%", y: "报错", value: 0),
+    (x: "5%", y: "报错", value: 14),
+    (x: "10%", y: "报错", value: 29),
+    (x: "20%", y: "报错", value: 58),
+    (x: "0%", y: "丢弃", value: 0),
+    (x: "5%", y: "丢弃", value: 7),
+    (x: "10%", y: "丢弃", value: 18),
+    (x: "20%", y: "丢弃", value: 40),
+    (x: "0%", y: "unknown", value: 0),
+    (x: "5%", y: "unknown", value: 2),
+    (x: "10%", y: "unknown", value: 5),
+    (x: "20%", y: "unknown", value: 12),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
-  layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.4pt),
-  ),
-  scales: (scale-x-continuous(limits: (0, 0.2)), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "未知类别比例上升时处理策略分叉", x: "未知类别比例", y: "失败请求", colour: "策略"),
+  mapping: aes(x: "x", y: "y", fill: "value"),
+  layers: (geom-tile(stroke: 0.4pt, colour: rgb("#f4f0e8")),),
+  scales: (scale-fill-continuous(),),
+  labs: labs(title: "未知类别会沿接口策略放大成请求失败", x: "未知比例", y: "处理策略", fill: "失败请求"),
   theme: theme-minimal(),
 )
 ]
@@ -9188,26 +9251,26 @@ MLflow Tracking 是常见的开源工具。官方文档把它描述为用于记�
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 1, y: 0.71, series: "baseline"),
-    (x: 2, y: 0.76, series: "特征"),
-    (x: 3, y: 0.78, series: "调参"),
-    (x: 4, y: 0.77, series: "正则"),
-    (x: 5, y: 0.79, series: "候选"),
+    (x: "baseline", y: 0.71, lo: 0.69, hi: 0.73),
+    (x: "特征", y: 0.76, lo: 0.72, hi: 0.79),
+    (x: "调参", y: 0.78, lo: 0.73, hi: 0.83),
+    (x: "正则", y: 0.77, lo: 0.74, hi: 0.8),
+    (x: "候选", y: 0.79, lo: 0.72, hi: 0.84),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
+  mapping: aes(x: "x", y: "y", ymin: "lo", ymax: "hi"),
   layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
+    geom-errorbar(width: 0.35, stroke: 0.8pt),
+    geom-point(size: 2.8pt),
   ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "实验记录让模型取舍可追踪", x: "run", y: "验证分数", colour: "run 类型"),
+  scales: (scale-y-continuous(limits: (0.65, 0.88)),),
+  labs: labs(title: "实验记录要显示分数和波动", x: "run", y: "验证分数"),
   theme: theme-minimal(),
 )
 ]
@@ -9752,29 +9815,32 @@ python3 books/ml-fundamentals/tools/evaluate_ch10_sklearn_pipeline.py \
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 1, y: 0.05, series: "漂移"),
-    (x: 2, y: 0.06, series: "漂移"),
-    (x: 3, y: 0.11, series: "漂移"),
-    (x: 4, y: 0.22, series: "漂移"),
-    (x: 1, y: 0.82, series: "F1"),
-    (x: 2, y: 0.81, series: "F1"),
-    (x: 3, y: 0.78, series: "F1"),
-    (x: 4, y: 0.7, series: "F1"),
+    (x: 1, y: 0.05, lo: 0.03, hi: 0.07, series: "漂移"),
+    (x: 2, y: 0.06, lo: 0.04, hi: 0.08, series: "漂移"),
+    (x: 3, y: 0.11, lo: 0.08, hi: 0.15, series: "漂移"),
+    (x: 4, y: 0.22, lo: 0.16, hi: 0.3, series: "漂移"),
+    (x: 5, y: 0.3, lo: 0.22, hi: 0.4, series: "漂移"),
+    (x: 1, y: 0.82, lo: 0.78, hi: 0.86, series: "F1"),
+    (x: 2, y: 0.81, lo: 0.77, hi: 0.85, series: "F1"),
+    (x: 3, y: 0.78, lo: 0.73, hi: 0.83, series: "F1"),
+    (x: 4, y: 0.7, lo: 0.62, hi: 0.78, series: "F1"),
+    (x: 5, y: 0.64, lo: 0.55, hi: 0.73, series: "F1"),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
+  mapping: aes(x: "x", y: "y", ymin: "lo", ymax: "hi", colour: "series", fill: "series"),
   layers: (
+    geom-ribbon(alpha: 0.22),
     geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
+    geom-point(size: 2.2pt),
   ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "输入漂移先于质量下降出现", x: "周", y: "指标", colour: "信号"),
+  scales: (scale-x-continuous(), scale-y-continuous(limits: (0, 1)), scale-colour-discrete(), scale-fill-discrete()),
+  labs: labs(title: "漂移信号通常早于质量信号恶化", x: "周", y: "指标", colour: "信号", fill: "信号"),
   theme: theme-minimal(),
 )
 ]
@@ -10141,7 +10207,7 @@ Google Rules of Machine Learning 建议先设计和实现指标，并要求监�
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
@@ -10152,18 +10218,17 @@ Google Rules of Machine Learning 建议先设计和实现指标，并要求监�
     (x: 2, y: 0.27, series: "自然流量"),
     (x: 3, y: 0.27, series: "自然流量"),
     (x: 4, y: 0.26, series: "自然流量"),
-    (x: 1, y: 0.28, series: "只看模型命中"),
-    (x: 2, y: 0.34, series: "只看模型命中"),
-    (x: 3, y: 0.41, series: "只看模型命中"),
-    (x: 4, y: 0.49, series: "只看模型命中"),
+    (x: 5, y: 0.26, series: "自然流量"),
+    (x: 1, y: 0.28, series: "模型命中"),
+    (x: 2, y: 0.34, series: "模型命中"),
+    (x: 3, y: 0.41, series: "模型命中"),
+    (x: 4, y: 0.49, series: "模型命中"),
+    (x: 5, y: 0.58, series: "模型命中"),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
-  layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
-  ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "反馈回路会改变可见样本", x: "轮次", y: "可见正例率", colour: "日志口径"),
+  mapping: aes(x: "x", y: "y", fill: "series"),
+  layers: (geom-area(alpha: 0.55),),
+  scales: (scale-x-continuous(), scale-y-continuous(limits: (0, 1)), scale-fill-discrete()),
+  labs: labs(title: "只记录模型动作会改变训练集来源", x: "轮次", y: "可见正例率", fill: "日志来源"),
   theme: theme-minimal(),
 )
 ]
@@ -10329,29 +10394,39 @@ A/B 测试只是测量方法，不是行动许可。一个实验是否可以进�
 #block(width: 100%)[
 #let _bukit-gribouille-base-width = bukit-gribouille-content-width
 #let _bukit-gribouille-width = _bukit-gribouille-base-width * 1.000000
-#let _bukit-gribouille-height = _bukit-gribouille-width * 0.400000
+#let _bukit-gribouille-height = _bukit-gribouille-width * 0.440000
 #let _bukit-gribouille-plot = plot
 #let _bukit-gribouille-compose = compose
 #let plot = _bukit-gribouille-plot.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 1, y: 0, series: "shadow"),
-    (x: 2, y: 0.05, series: "canary"),
-    (x: 3, y: 0.25, series: "canary"),
-    (x: 4, y: 0.5, series: "canary"),
-    (x: 1, y: 0.1, series: "错误率阈值"),
-    (x: 2, y: 0.1, series: "错误率阈值"),
-    (x: 3, y: 0.1, series: "错误率阈值"),
-    (x: 4, y: 0.1, series: "错误率阈值"),
+    (x: 0, y: 0, series: "真实流量"),
+    (x: 1, y: 0.05, series: "真实流量"),
+    (x: 2, y: 0.1, series: "真实流量"),
+    (x: 3, y: 0.25, series: "真实流量"),
+    (x: 4, y: 0.5, series: "真实流量"),
+    (x: 5, y: 1.0, series: "真实流量"),
+    (x: 0, y: 0.1, series: "错误率上限"),
+    (x: 1, y: 0.1, series: "错误率上限"),
+    (x: 2, y: 0.1, series: "错误率上限"),
+    (x: 3, y: 0.1, series: "错误率上限"),
+    (x: 4, y: 0.1, series: "错误率上限"),
+    (x: 5, y: 0.1, series: "错误率上限"),
+    (x: 0, y: 0.02, series: "观察错误率"),
+    (x: 1, y: 0.03, series: "观察错误率"),
+    (x: 2, y: 0.05, series: "观察错误率"),
+    (x: 3, y: 0.08, series: "观察错误率"),
+    (x: 4, y: 0.12, series: "观察错误率"),
+    (x: 5, y: 0.18, series: "观察错误率"),
   ),
   mapping: aes(x: "x", y: "y", colour: "series"),
   layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.5pt),
+    geom-step(direction: "hv", stroke: 1pt),
+    geom-point(size: 2.2pt),
   ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "灰度放量必须绑定停止条件", x: "阶段", y: "流量比例", colour: "信号"),
+  scales: (scale-x-continuous(), scale-y-continuous(limits: (0, 1)), scale-colour-discrete()),
+  labs: labs(title: "灰度发布是阶梯，不是一次性切换", x: "发布阶段", y: "比例", colour: "信号"),
   theme: theme-minimal(),
 )
 ]
@@ -11085,13 +11160,10 @@ RAG，Retrieval-Augmented Generation，通常译作检索增强生成。它的�
     (x: 2, y: 0.2, series: "生成错误"),
     (x: 3, y: 0.17, series: "生成错误"),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
-  layers: (
-    geom-line(stroke: 1pt),
-    geom-point(size: 2.4pt),
-  ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "RAG 修复要先定位失败层级", x: "迭代轮次", y: "失败率", colour: "失败类型"),
+  mapping: aes(x: "x", y: "y", fill: "series"),
+  layers: (geom-area(alpha: 0.55),),
+  scales: (scale-x-continuous(), scale-y-continuous(limits: (0, 1)), scale-fill-discrete()),
+  labs: labs(title: "RAG 失败占比会随修复路径迁移", x: "迭代轮次", y: "失败占比", fill: "失败类型"),
   theme: theme-minimal(),
 )
 ]
@@ -11619,26 +11691,27 @@ RAG 和微调解决的是不同层面的适配。RAG 不改变模型权重，它
 #let compose = _bukit-gribouille-compose.with(width: _bukit-gribouille-width, height: _bukit-gribouille-height)
 #plot(
   data: (
-    (x: 10, y: 0.6, series: "补文档"),
-    (x: 30, y: 0.32, series: "补文档"),
-    (x: 60, y: 0.2, series: "补文档"),
-    (x: 100, y: 0.18, series: "补文档"),
-    (x: 10, y: 0.55, series: "改 schema"),
-    (x: 30, y: 0.34, series: "改 schema"),
-    (x: 60, y: 0.28, series: "改 schema"),
-    (x: 100, y: 0.27, series: "改 schema"),
-    (x: 10, y: 0.68, series: "微调"),
-    (x: 30, y: 0.48, series: "微调"),
-    (x: 60, y: 0.3, series: "微调"),
-    (x: 100, y: 0.22, series: "微调"),
+    (x: 10, y: 0.6, lo: 0.52, hi: 0.68, series: "补文档"),
+    (x: 30, y: 0.32, lo: 0.26, hi: 0.39, series: "补文档"),
+    (x: 60, y: 0.2, lo: 0.16, hi: 0.25, series: "补文档"),
+    (x: 100, y: 0.18, lo: 0.14, hi: 0.23, series: "补文档"),
+    (x: 10, y: 0.55, lo: 0.48, hi: 0.64, series: "改 schema"),
+    (x: 30, y: 0.34, lo: 0.28, hi: 0.41, series: "改 schema"),
+    (x: 60, y: 0.28, lo: 0.23, hi: 0.34, series: "改 schema"),
+    (x: 100, y: 0.27, lo: 0.22, hi: 0.33, series: "改 schema"),
+    (x: 10, y: 0.68, lo: 0.58, hi: 0.78, series: "微调"),
+    (x: 30, y: 0.48, lo: 0.39, hi: 0.58, series: "微调"),
+    (x: 60, y: 0.3, lo: 0.24, hi: 0.38, series: "微调"),
+    (x: 100, y: 0.22, lo: 0.17, hi: 0.29, series: "微调"),
   ),
-  mapping: aes(x: "x", y: "y", colour: "series"),
+  mapping: aes(x: "x", y: "y", ymin: "lo", ymax: "hi", colour: "series", fill: "series"),
   layers: (
+    geom-ribbon(alpha: 0.22),
     geom-line(stroke: 1pt),
-    geom-point(size: 2.4pt),
+    geom-point(size: 2.2pt),
   ),
-  scales: (scale-x-continuous(), scale-y-continuous(), scale-colour-discrete()),
-  labs: labs(title: "不同修复路径改善不同失败", x: "失败样例数", y: "剩余失败率", colour: "路径"),
+  scales: (scale-x-continuous(), scale-y-continuous(limits: (0, 1)), scale-colour-discrete(), scale-fill-discrete()),
+  labs: labs(title: "修复路径的收益取决于失败样例数量", x: "失败样例数", y: "剩余失败率", colour: "路径", fill: "路径"),
   theme: theme-minimal(),
 )
 ]
