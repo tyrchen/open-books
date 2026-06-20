@@ -114,6 +114,12 @@ git push origin chasing-carnot-v0.1.0
 
 GitHub Actions 会只构建对应的书，并把 `<book-name>-v<version>.pdf` 发布到该 tag 的 GitHub Release。
 
+发布完成后，可以执行下面的命令，把“书目”表格中的 PDF 下载链接更新到每本书最新的 Release：
+
+```sh
+make update-readme-links
+```
+
 ## 许可协议
 
 除非文件中另有明确说明，本仓库中的全部书稿、代码、排版模板、图片资产与其他资料均由陈天以 [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/)（CC BY-NC-ND 4.0）许可协议发布。

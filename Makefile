@@ -2,11 +2,12 @@
 
 BOOK ?= chasing-carnot
 DIST ?= dist
+REPO ?= tyrchen/open-books
 PDF := $(DIST)/$(BOOK).pdf
 BUILD_DIR := $(DIST)/.build
 WRAPPER := $(BUILD_DIR)/$(BOOK)-with-license.typ
 
-.PHONY: pdf clean list
+.PHONY: pdf clean list update-readme-links
 
 pdf:
 	@test -f "$(BOOK)/book.typ" || (echo "missing $(BOOK)/book.typ" >&2; exit 1)
@@ -40,3 +41,22 @@ clean:
 
 list:
 	@find . -mindepth 2 -maxdepth 2 -name book.typ -print | sed 's#^\./##; s#/book.typ##' | sort
+
+update-readme-links:
+	@command -v gh >/dev/null || (echo "gh is required" >&2; exit 1)
+	@command -v perl >/dev/null || (echo "perl is required" >&2; exit 1)
+	@for book in $$(find . -mindepth 2 -maxdepth 2 -name book.typ -print | sed 's#^\./##; s#/book.typ##' | sort); do \
+		tag=$$(gh release list --repo "$(REPO)" --limit 100 --json tagName --jq '.[] | select(.tagName | startswith("'"$$book"'-v")) | .tagName' | head -n 1); \
+		if [ -z "$$tag" ]; then \
+			echo "No release found for $$book" >&2; \
+			exit 1; \
+		fi; \
+		url=$$(gh release view "$$tag" --repo "$(REPO)" --json assets --jq '.assets[] | select(.name == "'"$$tag"'.pdf") | .url' | head -n 1); \
+		if [ -z "$$url" ]; then \
+			echo "No $$tag.pdf release asset found for $$book" >&2; \
+			exit 1; \
+		fi; \
+		perl -0pi -e 's#https://github\.com/\Q$(REPO)\E/releases/download/\Q'"$$book"'-v\E[^)\s]+/[^)\s]+\.pdf#'"$$url"'#g' README.md; \
+		grep -F "$$url" README.md >/dev/null || (echo "Failed to update README link for $$book" >&2; exit 1); \
+		echo "Updated $$book -> $$tag"; \
+	done
