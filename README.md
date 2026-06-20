@@ -1,7 +1,7 @@
 # Open Books
 
 <p align="center">
-  <strong>用 Typst 写作、排版、发布的中文开放书库。</strong>
+  <strong>我个人使用自己构建的 bukit 系统，用 AI 写作、Typst 排版、github 发布的中文开放书库。</strong>
 </p>
 
 <p align="center">
@@ -30,10 +30,10 @@
 
 ## 书目
 
-| 书名 | 主题 | 入口 |
+| 书名 | 主题 | 最新 PDF |
 | --- | --- | --- |
-| **《追赶卡诺》**<br>给青少年的物理与工程文明史 | 从伽利略的斜面、托里拆利的真空、瓦特的蒸汽机一路讲到内燃机、电网、核能、光伏与火箭，把工业文明背后的能量转换逻辑重新串成一条可计算的线。 | [`chasing-carnot/book.typ`](chasing-carnot/book.typ) |
-| **《追逐泛化》**<br>写给软件工程师的机器学习入门 | 以软件工程师的视角进入机器学习：从样本、特征、损失、优化和评估出发，走向线性模型、树模型、神经网络、RAG 与生产反馈闭环。 | [`ml-fundamentals/book.typ`](ml-fundamentals/book.typ) |
+| **《追赶卡诺》**<br>给青少年的物理与工程文明史 | 从伽利略的斜面、托里拆利的真空、瓦特的蒸汽机一路讲到内燃机、电网、核能、光伏与火箭，把工业文明背后的能量转换逻辑重新串成一条可计算的线。 | [下载 PDF](https://github.com/tyrchen/open-books/releases/download/chasing-carnot-v0.1.0/chasing-carnot.pdf) |
+| **《追逐泛化》**<br>写给软件工程师的机器学习入门 | 以软件工程师的视角进入机器学习：从样本、特征、损失、优化和评估出发，走向线性模型、树模型、神经网络、RAG 与生产反馈闭环。 | [下载 PDF](https://github.com/tyrchen/open-books/releases/download/ml-fundamentals-v0.4.0/ml-fundamentals-v0.4.0.pdf) |
 
 ## 为什么是这个仓库
 
@@ -96,8 +96,6 @@ make clean
     └── assets/
 ```
 
-新增一本书时，请保持同样的目录约定：在新目录中提供 `book.typ`，并把编译所需的封面、插图和模板资源一并放入该目录。
-
 ## 发布
 
 发布通过 Git tag 触发。Tag 格式为：
@@ -115,8 +113,9 @@ git push origin chasing-carnot-v0.1.0
 
 GitHub Actions 会只构建对应的书，并把 `<book-name>-v<version>.pdf` 发布到该 tag 的 GitHub Release。
 
-## 写作原则
+## 构建方法
 
-这个仓库里的书都追求同一件事：把复杂主题写得严谨、漂亮、可读，并且可被重新构建。故事负责打开问题，图表负责建立直觉，公式与代码负责把判断钉牢。
+这个仓库里的书都追求同一件事：把复杂主题写得严谨、漂亮、可读，并且可被重新构建。在我的私人仓库里，bukit 负责处理 DSL，生成图片，把书籍编译成 typst 格式，最终生成 pdf；Codex 负责构建 plan / 每一章的内容的撰写 / 润色；我负责审稿，校对。目前一本书 400-500 页的书需要 agent 工作至少 25 小时，花费 40-50% 的 codex pro 周额度。同时还需要花费我个人大概 5-10 小时粗略审校和优化 skills。
 
-内容会继续演进。每一次提交都应尽量让书稿更清晰，让构建更稳定，让读者离那个问题的核心更近一步。
+目前 bukit 工具还是闭源，还有大量的功能有待开发，大量的优化工作需要处理。它还不适合作为一个工具对外发布。所以我采用了用 bukit 生成所有 assets / typst 文档的方式开源这两本书。
+
