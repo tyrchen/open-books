@@ -37,4 +37,4 @@ git tag chasing-carnot-v0.1.0
 git push origin chasing-carnot-v0.1.0
 ```
 
-GitHub Actions builds only that book and publishes `dist/<book-name>.pdf` to the tag's GitHub Release.
+GitHub Actions builds only that book and publishes `<book-name>-v<version>.pdf` to the tag's GitHub Release.

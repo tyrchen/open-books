@@ -54,6 +54,10 @@ jobs:
       - name: Build PDF
         run: make pdf BOOK="${{ steps.book.outputs.book }}"
 
+      - name: Prepare release asset
+        if: startsWith(github.ref, 'refs/tags/')
+        run: cp "dist/${{ steps.book.outputs.book }}.pdf" "dist/${{ github.ref_name }}.pdf"
+
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.book.outputs.book }}-pdf
@@ -63,4 +67,4 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
-          files: dist/${{ steps.book.outputs.book }}.pdf
+          files: dist/${{ github.ref_name }}.pdf
