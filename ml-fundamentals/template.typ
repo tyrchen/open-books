@@ -410,6 +410,11 @@
     "8.5x11": (w: 8.5in, h: 11in, mt: 0.75in, mb: 0.75in, mi: 0.875in, mo: 0.625in),
 )
 
+#let book-content-width(paper: "a4") = {
+    let pg = _paper-presets.at(paper, default: _paper-presets.at("a4"))
+    pg.w - pg.mi - pg.mo
+}
+
 // ===== Template function =====
 // Accepts lang, title, and paper as parameters from the Rust preamble.
 #let book-template(lang: "zh", title: "", paper: "a4", font-size: none, code-font-size: none, body) = {
